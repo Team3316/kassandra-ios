@@ -1,0 +1,534 @@
+Full Name,Team Number,Match ID,Crossed Auto Line?,Auto Installed in the Exchange?,Successful Auto Switch Installs,Failed Auto Switch Installs,Successful Auto Scale Installs,Failed Auto Scale Installs,Collects Cubes From,Succcessful Switch Installs,Failed Switch Installs,Successful Scale Installs,Failed Scale Installs,Successful Exchange Installs,Failed Exchange Installs,Drove on the Platform,Climbing,Let other robots climb on it,Tech Foul?,Defense comments,Comments,Submitted At,Token
+ענב בר ניר,1574,QM 12,TRUE,FALSE,1,0,0,0,"Pyramid, Ground",1,1,3,1,0,0,TRUE,Failed,Failed,FALSE,לא הגן,אין,2018-03-05 13:17:59,7f4465b02ceaf9551de5201c1bde7921
+יעל אמיתי,1574,QM 29,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,3,0,6,0,TRUE,Successful,Didn't Try,FALSE,,הרובוט לא זז,2018-03-05 16:10:17,45b1af8c573eaaa16d2ded4b62740e2e
+Stav Eyal,1574,QM15,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",1,0,4,1,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 14:09:04,45f86e2b9db1b3c243df5aa1ee903a59
+Saar Zelevski ,1574,QM21,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,0,0,8,8,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 14:43:16,4efbd4a111df4799e28c0071957fe8ce
+רני מלצר ,1574,QM27,TRUE,FALSE,1,0,0,0,Ground,1,0,4,0,1,0,TRUE,Successful,Failed,FALSE,לא הגן,"פאול רגיל אחד
+
+פתח מוט לטפס נוסף, אף רובוט לא טיפס ",2018-03-05 16:16:28,7568eedfb371dfc3d45fdba2e149e6a7
+רני מלצר,1574,QM6,TRUE,FALSE,0,0,0,1,Ground,0,0,5,1,0,0,TRUE,Successful,Failed,FALSE,מנעו מרובוט יריב לעבור אל הסוויטץ' שלו,,2018-03-05 12:20:38,66228825ce9bb2f46a7917c3afa338eb
+רני מלצר,1574,QM6,TRUE,FALSE,0,0,0,1,Ground,0,0,5,1,0,0,TRUE,Successful,Failed,FALSE,מנעו מרובוט יריב לעבור אל הסוויטץ' שלו,,2018-03-05 12:20:38,66228825ce9bb2f46a7917c3afa338eb
+סהר כספי,1574,QM39,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,3,0,3,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 6:47:25,3cc43d8eb241b96b0f5b11432b3bb045
+Saar Zelevski ,1574,QM44,TRUE,FALSE,0,0,0,0,Ground,0,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-06 7:30:16,47264bf9372c037dc707a91e7ccd1558
+ענב בר ניר,1574,QM 49,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,1,0,5,0,TRUE,Successful,Successful,FALSE,לא הגן,דיבאג טיפסו עליו!!!!,2018-03-06 8:15:38,7896b7f9b2d314b95ca95b06ae1669fd
+יובל ויינשטיין,1574,QM52,TRUE,FALSE,1,0,0,0,Ground,1,1,5,0,0,0,TRUE,Successful,Failed,FALSE,אין,"התקין קוביה בסוויץ' יריב
+לא ניסו לטפס עליו",2018-03-06 8:38:09,634071eae54caf71c27803184aca82ac
+טל שמר,1574,QM58,TRUE,FALSE,1,1,0,0,Ground,2,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,הדף שני רובוטים בו זמנית,,2018-03-06 9:28:30,4fa5b2727f4cecb45c11f59c453cb54e
+רני מלצר,1574,QM29,TRUE,FALSE,1,1,0,0,"Ground, Pyramid",4,1,2,0,3,1,TRUE,Failed,Didn't Try,FALSE,לא הגן,הרובוט לא טיפס מספיק,2018-03-06 10:25:28,46a1bdcafb8cd9c39420a3239005b305
+סהר כספי,1574,QF1,TRUE,FALSE,1,0,0,0,"Ground, Pyramid, Portal",3,0,1,0,3,0,TRUE,Successful,Successful,FALSE,,וואו! ,2018-03-06 12:22:26,fc931c901ede6010da1389f0a1cca506
+סהר כספי,1574,QF5,TRUE,FALSE,1,1,0,0,"Ground, Pyramid",1,0,0,0,7,0,TRUE,Successful,Failed,FALSE,,,2018-03-06 12:56:32,aba7351d0d29a92a96e46e3206699d71
+ענב בר ניר,1576,Pm 4,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,רובוט לא זז,2018-03-05 9:48:34,ed591b1f7c7e14b576c8704d3f01110b
+מאיה לוי,1576,Pm6,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,זז קצת בתחילת המשחק בלי לעשות כלום ואז הפסיק,2018-03-05 10:27:10,b61c7937bbf79903ebcd73efdd2513c3
+רני מלצר,1576,QM10,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"עשה פאול רגיל אחד
+הפסיק לזוז לקראת endgame",2018-03-05 12:57:19,70999708c5ec71b3c60ab5dc142003c4
+Stav Eyal,1576,QM17,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,עמדו בbull territory לא שלהם,2018-03-05 14:25:32,c97634cece593c1475eb4b4bd8a1ecba
+Saar Zelevski ,1576,QM2,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הבריזו לנו,2018-03-05 11:28:51,1a673c12108d0a9e04dc350df9e52568
+סהר כספי,1576,QM21,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז אחרי הauto,2018-03-05 14:48:40,464f4db6df4760e77fb6234ba5c5489d
+יובל ויינשטיין,1576,QM25,TRUE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא זז רוב המשחק
+מנגנון איסוף לא מקובע וזז בכל תנועה של הרובוט",2018-03-05 15:16:41,bf184a262d882bbd6a78393112ed761e
+Saar Zelevski ,1576,QM31,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט נכה בן 90,2018-03-05 16:26:53,919864de496c836507e1ddc8756d7a08
+Saar Zelevski ,1576,QM36,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,1,0,0,1,0,TRUE,Successful,Didn't Try,FALSE,,עלוב,2018-03-05 17:13:34,bd6b7c90268960fea2ab48635bfc4954
+ניר,1576,QM41,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,,התחילו בלי קובייה,2018-03-06 7:04:12,eff23999781ab11a02637821bbf8708b
+Stav Eyal,1576,QM50,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Touched an opponent robot in their platform in the end game,2018-03-06 8:27:42,6de2a63b05a19217ff02114b3ee5d05c
+מאיה לוי,1576,QM54,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,1,1,TRUE,Failed,Didn't Try,FALSE,,נשבר גלגל בתחילת המשחק אז דחף קוביות ולא הרים,2018-03-06 8:53:12,00afc8cef0e0ae4679c3bc3de993060b
+Nir,1576,QM58,TRUE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:26:22,ce6d7b25bdabc8c1d601fa2182915258
+Stav Eyal,1577,PM3,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,The robot fell down,2018-03-05 9:34:13,dab618a1170369cc3cade6e28e62212c
+Saar Zelevski ,1577,PM6,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,2,1,0,0,TRUE,Failed,Didn't Try,TRUE,,"כמעט נפלו, אבל במקום נפתחה להם הרמפה, איזנה אותם והם קיבלו עבירה.",2018-03-05 10:27:42,add6bba3a80615900ec9fac7c7243dc5
+יעל אמיתי,1577,QM 14,FALSE,FALSE,0,0,0,0,Ground,3,0,4,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,הפילו קוביה מהscale של הברית שלהם,2018-03-05 13:39:54,58615749d4dc131769bd806aea60cbf7
+יעל אמיתי,1577,QM 31,TRUE,FALSE,1,0,0,0,Ground,1,0,4,0,0,0,TRUE,Successful,Failed,FALSE,,,2018-03-05 16:28:01,aa0dd3309aa8dd75cc2e060b4f6c18c9
+Stav Eyal,1577,QM1,FALSE,FALSE,0,0,0,0,Ground,1,0,3,1,0,0,TRUE,Successful,Failed,FALSE,,מתקשים להתקין על הקומה השנייה של קוביות בscales,2018-03-05 11:41:45,25a5462314537d49b1d92049d0c67983
+מאיה לוי,1577,QM18,FALSE,FALSE,0,0,0,0,Ground,1,0,6,1,0,0,TRUE,Failed,Didn't Try,FALSE,,הפריעו לו בטיפוס ,2018-03-05 14:15:54,94c345972dae74c1fbb9b0cb7c4a4ffe
+Stav Eyal,1577,QM24,TRUE,FALSE,0,0,0,0,Ground,1,0,2,1,1,0,FALSE,Didn't Try,Didn't Try,TRUE,,כמעט התהפך מהcable protector,2018-03-05 15:24:35,bc11faa40b4d2400fe4a80eb038caf82
+Stav Eyal,1577,QM24,TRUE,FALSE,0,0,0,0,Ground,1,0,2,1,1,0,TRUE,Failed,Didn't Try,TRUE,,כמעט התהפכו מהcable protector,2018-03-05 15:33:16,ee05885acb56ada19f22b5673cefd105
+סהר כספי,1577,QM7,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,4,3,0,0,TRUE,Successful,Failed,FALSE,,"לא זז באוטונומי.
+מאוד מהיר",2018-03-05 12:27:26,44f4b1a0122ceba4dbe25ec7d434601d
+יובל ויינשטיין,1577,QM38,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,5,3,0,0,TRUE,Successful,Didn't Try,FALSE,לא הגן,"אגרסיבי
+לא מנסה שום דבר חוץ מהסקייל",2018-03-06 6:36:21,967744b395c0d05f3b082ae016d1ebc7
+Saar Zelevski ,1577,QM43,TRUE,FALSE,0,0,0,1,Ground,0,0,4,2,0,0,TRUE,Successful,Successful,FALSE,,שברו את המגרש באוטו,2018-03-06 7:21:58,2d1f9367c0dc1e84f3deb9ff0f497281
+יובל ויינשטיין,1577,QM51,TRUE,FALSE,1,0,0,0,Ground,0,0,7,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,אין,2018-03-06 8:26:51,4144a48d2ec7326c73908bc943ac16ba
+מאיה לוי,1577,QM53,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",1,0,3,1,3,0,TRUE,Successful,Failed,FALSE,,"נתקע בדברים, פתח כזה שמאפשר לטפס עליו מאוחר מדי",2018-03-06 8:46:58,89f9e38bafdfc418af3203222cf78d12
+יובל ויינשטיין,1577,QF1,TRUE,FALSE,0,0,1,0,"Ground, Pyramid",3,0,3,0,3,0,TRUE,Successful,Didn't Try,FALSE,לא הגן,אין,2018-03-06 12:22:34,ed5dc9a03fd49b0a4114e0d364cdbece
+יובל ויינשטיין,1577,QF4,TRUE,FALSE,1,0,1,0,Ground,3,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,התקין קוביה בסוויץ' יריב,2018-03-06 12:56:28,113d1bc2bb6366a10c97ce67bffd26e6
+Saar Zelevski ,1657,PM4,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,1,0,2,2,0,TRUE,Failed,Didn't Try,TRUE,,"מתנדנד למוות, התנתקה מערכת הטיפוס, ירו קוביה למקום לא חוקי",2018-03-05 9:48:36,10f2e6da9f9916a2c2bf5dc657bcea97
+טל שמר,1657,QM16,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,0,0,2,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:59:01,daa3a9874930e99fcaf6f4b4f7253e67
+סהר כספי,1657,QM20,FALSE,FALSE,0,1,0,0,"Ground, Pyramid",1,0,0,0,8,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 14:35:04,3fc7e07a94ecddda844d9a97754ed34a
+יובל ויינשטיין,1657,QM28,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",5,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,הגן 5 שניות,התקין קוביות בסוויץ' יריב,2018-03-05 15:48:50,bf9931032aa8657c193fedf3fee74aea
+Stav Eyal,1657,QM3,TRUE,FALSE,0,0,0,0,Pyramid,0,0,4,1,1,0,FALSE,Didn't Try,Didn't Try,TRUE,,"באוטונומי חצו לצד השני של המגרש
+",2018-03-05 11:56:44,2f00681c66a21f3a2a2ff29e3f02fb1a
+סהר כספי,1657,QM30,TRUE,FALSE,0,0,0,0,Pyramid,0,0,1,0,9,1,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 16:17:35,0e5209f07fb4a8b30c2894594214de12
+יובל ויינשטיין,1657,QM35,TRUE,FALSE,1,0,0,0,Ground,3,0,1,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,התקין קוביה בסוויץ' יריב,2018-03-05 17:02:43,9c126c44805808ba5b01c4a377a995bc
+Dor Shenav,1657,QM6,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",3,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,הוציאו קוביות לאקסגנג וניסו לטפס על משגב,2018-03-05 12:17:53,e158916bf5073b999a1a630e98e9a78c
+רני מלצר,1657,QM43,TRUE,FALSE,0,0,0,1,Ground,1,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,תפסו רובוט בנול,נכשלו באוטו בגלל סיטמפאנק,2018-03-06 7:28:50,e633273ddac564af2053a406307d0470
+ניר,1657,QM47,TRUE,FALSE,1,0,0,0,Ground,1,0,0,0,6,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:52:10,b21cbe102f038ac142ca912885a8f319
+Stav Eyal,1657,QM53,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,בעיות תקשורת,2018-03-06 8:50:33,dd2667ab7a827b5e1cfe01157ed7dde3
+Saar Zelevski ,1657,QM59,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,1,3,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:35:30,80a456a0575e4f021c979ae3374ae273
+סהר כספי,1657,QF4,TRUE,FALSE,0,0,0,0,Ground,2,1,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:47:12,de874e72ec8e3b871316f8a3ef1720ef
+סהר כספי,1657,QF8,TRUE,FALSE,0,1,0,0,"Pyramid, Portal",5,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:20:50,fe8717e8d648a7d5218188444935ee88
+יובל ויינשטיין,1690,PM5,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,לא זז,2018-03-05 10:08:19,86afecb77348df027a4784a2a67e3163
+ניר כהן,1690,QM33,TRUE,FALSE,1,0,0,0,Ground,2,0,2,0,0,0,TRUE,Failed,Failed,FALSE,,עמדו לטפס בסוף אבל נגמר הזמן,2018-03-05 16:48:24,0579fff7113fdca559acc259db824d84
+Stav Eyal,1690,QM11,TRUE,FALSE,1,0,0,0,Ground,0,0,2,1,1,0,TRUE,Failed,Didn't Try,FALSE,,מתקשים עם exchange,2018-03-05 13:38:49,e00bc25f32210f10894ef44b6fb53a7e
+מאיה לוי,1690,QM13,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הרובוט לא זז ולא עבד כל המשחק,2018-03-05 13:27:32,e88d71b33beaf61b87f54d998c5f3b06
+Stav Eyal,1690,QM20,TRUE,FALSE,1,0,0,0,Ground,0,0,5,0,0,0,TRUE,Failed,Failed,FALSE,,קשה לעלות על הרמפה,2018-03-05 15:02:01,e97f7d9486308f55ad58e7fb0c3a0101
+Saar Zelevski ,1690,QM23,TRUE,FALSE,1,0,0,0,Ground,0,0,3,1,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 14:58:09,76301ffc359179b7acbffdfec67816f7
+טל שמר,1690,QM5,TRUE,FALSE,1,0,0,0,Ground,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הפסיק לזוז לפרקי זמן מאוד ארוכים במהלך המשחק,2018-03-05 12:05:08,c806b594ad64f14aa7353f3ab0324290
+nir,1690,QM39,TRUE,FALSE,0,0,0,1,Ground,0,0,6,2,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"באוטונומי כמעט התקינו לברית היריבה בסקייל.
+פאול על זה שנתקעו מתחת לסקייל לרגע.",2018-03-06 6:47:23,ced0ae68f2e9126b6cb73edabb44b249
+יובל ויינשטיין,1690,QM45,TRUE,FALSE,1,0,0,0,Ground,0,0,3,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,התעכב על איסוף קוביות,2018-03-06 7:40:06,0eab40632e2587cae691bac897459f07
+מאיה לוי,1690,QM50,TRUE,FALSE,1,0,0,0,Ground,1,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,השתחררו מהגנה אגרסיבית,לא פתחו רמפה שמאפשרת לטפס עליהם,2018-03-06 8:19:12,595209b3199f7e6176b77e62dffb7406
+nir,1690,QM56,TRUE,FALSE,1,0,0,0,Ground,6,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:14:10,125e86010223a6355b786ea4677d0252
+סהר כספי,1690,QM59,TRUE,FALSE,0,1,0,0,Ground,1,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 9:36:05,4f4ff0d80e1a8f7a8f1129661de4247a
+יובל ויינשטיין,1690,QF3,TRUE,FALSE,0,0,0,1,Ground,2,1,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,הצמיד רובוט ליותר מ5 שניות וקיבל עבירה,עבירה - קוביה בסוויץ' לא על הפלטה,2018-03-06 12:39:44,367526fce3f5aa97b7c37333a3d09de9
+יובל ויינשטיין,1690,QF7,TRUE,FALSE,0,0,1,0,Ground,3,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,"התקין קוביה בסוויץ' של ברית שניה
+התקין קוביה בסוויץ' יריב",2018-03-06 13:11:21,92aa51b0de80ed1508f1575fed2b687f
+יובל ויינשטיין,1690,Sf4,TRUE,FALSE,0,0,1,0,Ground,3,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,נתקע בקיר באגרסיביות,2018-03-06 14:37:54,a9afa2f9ed10c8714839baf884984187
+ענב בר ניר,1937,Pm 3,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,חסם רובוט בול רובוט שנפל לכמה שניות,ניסו הרבה פעמים להרים קוביות מהרצפה ולא הצליחו,2018-03-05 9:32:22,62aaae4539f67e5a1707e7e7193c7680
+טל שמר,1937,QM10,FALSE,FALSE,0,0,0,0,Pyramid,0,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,להר הצליח להמשיך להחזיק את הקוביה כשנתקלו בו,,2018-03-05 12:56:42,eb017e31c4281ac5fbd49c64361c1818
+טל שמר,1937,QM14,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,3,1,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:38:22,42128a780d12a49de3654a404c4dc5cb
+יובל ויינשטיין,1937,QM20,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"מפיל קוביות
+לא יציב",2018-03-05 14:35:05,a92f9e43d7c7e4cb5b57d877ac97f925
+סהר כספי,1937,QM33,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,1,0,FALSE,Failed,Didn't Try,FALSE,,לא זז בauto,2018-03-05 16:45:43,5315cc47e85811fcafa8e105b74f2d7c
+Saar Zelevski ,1937,QM4,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,לקראת הסוף עשו הגנה סבירה על 2230,"לא הצליחו לפרוק בכלל, מזעזע. הרובוט לא נוסע חלק.",2018-03-05 11:54:01,89ac9a8229e3f6d2ed07c598a1e7ab0b
+יובל ויינשטיין,1937,QM39,TRUE,FALSE,0,0,0,0,"Ground, Portal",0,0,4,2,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 6:48:17,c7d4c2e469d076ffe0928b0c4cdd4a58
+טל שמר,1937,QM41,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,מנע גישה לscale לזמן מסויים,גרוטאה,2018-03-06 7:07:05,e90875349a0091fa91636955bcd0ae29
+ניר,1937,QM51,TRUE,FALSE,0,0,0,0,Ground,0,0,1,3,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:26:14,684b4e7acbc5fad842c18577596d1ae9
+Nir,1937,QM55,TRUE,FALSE,0,0,0,0,Ground,1,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:03:01,c0531d379b4e4aa91c2b16512a9556d0
+רני מלצר,1937,QM58,TRUE,FALSE,0,1,0,0,Pyramid,0,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,עשה הגנה על משגב ל15 שניות לקראת האנדגיים,אין,2018-03-06 9:27:48,5b1bb3efb9b2c733c08ef53998c9c810
+Saar Zelevski ,1937,Qf2,TRUE,FALSE,1,0,0,0,Ground,0,0,1,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:31:43,4f5a0d7b796bcc215cd44ce3b78fc220
+Saar Zelevski ,1937,Qf6,TRUE,FALSE,1,0,0,0,Ground,1,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:03:50,e4a4e529e165145efc1a64209f71df32
+Saar Zelevski ,1937,Qf10,TRUE,FALSE,1,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:27:15,69f81b690a4033f290679f6f28a871ee
+יובל ויינשטיין,1943,QM54,TRUE,FALSE,0,0,0,0,Ground,0,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,לא הצליח לאסוף קוביות,2018-03-06 8:53:05,a6434074a1555de04ddec4754fa69fca
+Saar Zelevski ,1943,Pm2,FALSE,FALSE,0,0,0,0,Ground,1,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"ירו קוביה באוטו על הנהגים, תקעו קוביה במקום לא חוקי על הסקייל. מזעזע.",2018-03-05 9:16:18,b408c4e7d754221e67adb1777318c474
+ענב,1943,QM 14,FALSE,FALSE,0,0,0,0,Ground,0,0,0,1,0,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא הצליחו להרים קופסאות, לא זזו באוטונומי",2018-03-05 13:39:32,f17272adf1438efdfe9c305d65cb8dba
+יעל אמיתי,1943,QM 18,TRUE,FALSE,0,0,0,0,Pyramid,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:17:52,899a230554799e18e2d9846e74255238
+Saar Zelevski ,1943,QM14,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,1,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:37:34,7656c576dd1f8519600e479772f087a9
+Stav Eyal,1943,QM27,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיעו,2018-03-05 15:50:00,a3bd772c9baeda1cf44d64cc383e1ef3
+סהר כספי,1943,QM32,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא היו במקצה,2018-03-05 16:38:19,4f3166da6d0fb73d32191f0afc933976
+יעל אמיתי,1943,QM36,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הרובוט לא הגיע,2018-03-05 17:11:41,b639473435ddd9888f1678f200137d42
+Stav Eyal,1943,QM4,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"רובוט לא זז
+ניסו להתחבר אליו במהלך כל המשחק וקיבלו כרטיס צהוב",2018-03-05 12:08:34,1b609e4b8ae21ad1f5c04d7ecc6116a2
+Stav Eyal,1943,QM8,FALSE,FALSE,0,0,0,0,Ground,0,1,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נהג נורא ואיום,2018-03-05 12:56:43,7018c8371710ce519ab98cf7465b16ca
+ניר,1943,QM44,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,Foul על מעבר לחצי של המגרש של הקבוצה היריבה,2018-03-06 7:30:11,8d3c4e132c5f4a18e3883553ed98e4b8
+יובל ויינשטיין,1943,QM48,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,אין,2018-03-06 8:02:29,ecc23bb716242ab3a7ea09694ce9a53c
+Enav,1943,QM59,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:36:55,2fb4f211e641e4359d2e9caf5075541c
+Saar Zelevski ,1943,Qf4,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,בוצעה עליהם הגנה,יכול להיות שהם עשו 4,2018-03-06 12:47:47,3bf638a24942b22f007ec1eb39e28244
+Saar Zelevski ,1943,Qf8,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,סבלו מהגנה,2018-03-06 13:21:02,78c673bf8bc4955cf7ae729403113594
+Saar Zelevski ,1943,Qf12,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:34:41,0ee021258550d99b10a56f6d426f505e
+מאיה לוי,2212,Pm2,TRUE,FALSE,1,0,0,0,Ground,0,0,1,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 9:15:32,8b9373d3facea847b6c9b25bf6ebaa48
+ענב בר ניר,2212,QM23,TRUE,FALSE,1,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא הצליח לתפוס קוביות, נתקע ל30 שניות בזמן המשחק",2018-03-05 15:00:25,0afb880125f5a0cc6b75de8a49714868
+יובל ויינשטיין,2212,QM27,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,5,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,מתקשה לאסוף קוביות בלי קיר,2018-03-05 15:37:14,8a0ebd833ab2a06a37a0fa73314f580d
+מאיה לוי,2212,QM35,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,3,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,איסוף איטי,2018-03-05 17:03:08,71bacab0e978c21cb4aaaf2802737cb4
+יעל אמיתי,2212,QM5,TRUE,FALSE,0,0,0,0,Ground,0,2,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,בקושי הצליח לאסוף קוביות (ניסה הרבה פעמים),2018-03-05 12:06:24,de94034d0c9dc648c30d31f1df481db7
+יעל אמיתי,2212,QM7,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,ניסו הרבה והצליחו רק פעמיים להרים קוביה,2018-03-05 12:27:33,a4a40839752c8d3ce869ba40700c3f89
+רני מלצר,2212,QM41,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,3,1,1,1,FALSE,Didn't Try,Didn't Try,FALSE, אין,קצת מתקשים באיסוף,2018-03-06 7:06:36,3c2c6b84ef62b1a228eea5da5bc2408d
+ענב,2212,QM 47,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,לא הגן,העלה את המאזניים עם המעלית קיבל TF,2018-03-06 7:54:12,d003fa1aaa99cb0de8d5b67f3bb1bb94
+סהר כספי,2212,QM55,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,2,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:02:53,d57d9680c58b428fe1e4d3b4e4a129e3
+Saar Zelevski ,2212,QM57,TRUE,FALSE,1,0,0,0,"Pyramid, Ground",0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:18:32,58961e7a743d2f23f2bc82d482dd97cc
+סהר כספי,2212,QM29,TRUE,FALSE,0,0,0,0,"Ground, Portal",0,0,4,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 10:23:35,1d37b8fab71d5afeb7205f7492b43903
+Stav Eyal,2212,QF4,TRUE,FALSE,0,0,0,0,Ground,0,0,2,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:50:57,3716c13e54f7aa4efaed45f5f28945d1
+יעל אמיתי,2230,QM 34,FALSE,FALSE,0,0,0,0,Ground,0,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,פגעו הקבוצה הייתה. באזור המוגן לקבל פאול,אין,2018-03-05 16:56:46,6b254c62e0525d523e2f82ba5d73472f
+Saar Zelevski ,2230,QM17,FALSE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,אני רוצה את 1944 בחזרה...,2018-03-05 14:07:14,80d03258752cc80af7be4a66fa39bef9
+יובל ויינשטיין,2230,QM22,TRUE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"חצה את החצי בשלב האוטונומי
+",2018-03-05 14:50:10,8ce2f7eb93a46c8eeed4b75f97e1ef58
+מאיה לוי,2230,QM35,FALSE,FALSE,0,0,0,0,"Ground, Portal",1,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,איסוף איטי,2018-03-05 17:15:54,2d525fc89ad6e8ed2c2989754a38aa59
+טל שמר,2230,QM4,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",2,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,ניסה להרים קוביות פעמיםרבות לפני שהצליח,2018-03-05 11:54:32,15dc414702f7ba392b800b62502fb917
+רני מלצר,2230,QM7,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,לא הצליח לתפוס אף פאוור קיוב,2018-03-05 12:30:09,3fd7b773472e7b8c788f6e47922b3032
+סהר כספי,2230,QM45,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא עשה אוטונומי,2018-03-06 7:38:55,180e869b2d1d8676000a1ffe065dc4df
+מאיה לוי,2230,QM47,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז באוטו,2018-03-06 7:54:06,0882f6470e0f1282bf46eae7ade97cb2
+טל שמר,2230,QM45,FALSE,FALSE,0,0,0,0,Pyramid,0,1,0,0,1,2,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:01:42,a296c5f25dd86232b95ce0a53338758f
+Stav Eyal,2230,QM56,TRUE,FALSE,0,0,0,0,Ground,3,1,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,שמו קוביות על הswitch של הקבוצה השנייה,,2018-03-06 9:17:27,a6a8d3d2a536c1decdd391c599edd738
+Nir,2230,QM29r,TRUE,FALSE,0,0,0,0,Ground,4,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 10:23:54,068f3d399390a1c50a2120dff79679fb
+מאיה לוי,2230,Qf 3,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",3,1,1,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,לא זזו באוטונומי,2018-03-06 12:52:34,ed9880a524688473f34aab678b8ac102
+יעל אמיתי,2630,QM11,TRUE,FALSE,0,0,0,0,Ground,0,0,1,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,"חסם קבוצות במשך כל המשחק
+ (גם בendgame(",לא הצליח לאסוף קוביות ,2018-03-05 13:03:16,8462a2726c32695776430f9ef78d504e
+רני מלצר,2630,Pm5,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,הרובוט נסע קדימה ואחורה כמה פעמים ואז הפסיק לזוז לחלוטין,2018-03-05 10:09:46,cd1688449ac1c947fa8a49c8edf688a7
+ענב,2630,QM 13,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,"התקלקל כשנשארו 60 שניות למגרש, נתקע על הרמפה ומעלית הפסיקה לעבוד",2018-03-05 13:30:23,f9324892f96150455c51b3b0643a2ec0
+יובל ויינשטיין,2630,QM1,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,4,1,0,TRUE,Failed,Didn't Try,FALSE,לא עשה הגנה,"לא טיפס כי לא נשאר זמן
+אגרסיבי
+הרבה קוביות נפלו",2018-03-05 11:24:04,518e49041d6898683a260a271dfb60bc
+Saar Zelevski ,2630,QM13,TRUE,FALSE,0,0,0,0,Ground,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נפל להם המעלית/מנגנון איסוף/טיפוס (הכל ביחד/לא ברור) והושבת להם הרובוט,2018-03-05 13:28:40,33d4832dd6fec956ec9cfbb6e5e1899f
+יובל ויינשטיין,2630,QM21,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:44:47,555c55ab6e1a8c549a46df70d68debc7
+ענב,2630,QM28,TRUE,FALSE,0,0,0,0,Ground,0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,נתקע ב30 השניות האחרונות,2018-03-05 15:52:44,be1ca7790b336662060eec1de340ccdb
+מאיה לוי,2630,QM31,TRUE,FALSE,0,0,0,0,Ground,0,0,5,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 16:28:15,4827cc215c2dbe71188f0012502573e4
+סהר כספי,2630,QM38,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,3,1,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 6:37:07,805b5bf2f4eb9936a26a3082c15f0965
+טל שמר,2630,QM44,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,8,0,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 7:31:12,495e33fc337e862175008ae1b95c78da
+Saar Zelevski ,2630,QM47,TRUE,FALSE,0,0,0,0,Ground,0,0,6,0,0,0,TRUE,Failed,Didn't Try,TRUE,,קיבלו 2 טק פאולס על כך שנתקעו בסקייל זמן מה. נשבר להם הטיפוס,2018-03-06 7:54:19,e3fa80b8950acd8c0db8920283b01633
+טל שמר,2630,QM56,TRUE,FALSE,0,0,0,0,Ground,0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 9:13:53,36e31ff46fc01910d555b0d79b7ce4be
+Saar Zelevski ,2630,QM58,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",3,0,4,1,0,0,TRUE,Failed,Didn't Try,FALSE,,טיפוס גרוע במיוחד,2018-03-06 9:25:59,6f5b2dd3f059dd302a156cb742df3146
+סהר כספי,2630,QF3,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 12:39:08,8ca2ad0768166b3e6da214f523b04098
+סהר כספי,2630,QF7,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",3,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,דחף רובוט יריב,,2018-03-06 13:10:56,22c81d5c7369db7131b811023949c0f7
+סהר כספי,2679,QM56,FALSE,FALSE,0,1,0,0,Pyramid,0,0,0,0,5,2,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:12:21,ee9f393c663a7a28cbba60a1e38e8660
+Stav Eyal,2679,PM5,TRUE,FALSE,0,1,0,0,Pyramid,2,1,0,0,2,0,TRUE,Failed,Didn't Try,FALSE,,Installed auto cube on the wrong side of the switch,2018-03-05 10:14:33,aa80292013f18a639fcc710dd9de5a54
+יעל אמיתי,2679,QM 12,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",1,0,0,0,6,0,FALSE,Failed,Didn't Try,FALSE,,מנעו מקבוצה הברית שלהם לטפס,2018-03-05 13:16:04,fbb63090824f1848baf59f7694283e7e
+טל שמר,2679,QM19,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,1,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,,השתחרר חבל טיפוס,2018-03-05 14:26:23,18c8993c31fb5e5f5d87cd5aa6246012
+סהר כספי,2679,QM27,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,7,1,TRUE,Failed,Didn't Try,FALSE,,שבר חלק במגרש,2018-03-05 15:37:38,09a8d70f2f19714946249fa92d3813cc
+מאיה לוי,2679,QM3,TRUE,FALSE,1,0,0,0,Pyramid,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,רובוט התנגש בו וגרם לו להפיל קובייה ,הכניס לסוויץ' של הברית השנייה באוטונומי,2018-03-05 11:46:14,c9e966e4fd60a96e24fc9c1021021d37
+Saar Zelevski ,2679,QM33,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,1,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,איסוף גרוע ומתפרק,2018-03-05 16:45:00,ef84a0c00c29f9c2679e0aa453e10b09
+Saar Zelevski ,2679,QM7,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",0,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,הרבה עץ על הרובוט... נראה קצת כמו פרוטו,2018-03-05 12:26:13,ffe8f64a95dc5f8a471a584ef5f511eb
+רני מלצר,2679,QM37,FALSE,FALSE,0,1,0,0,"Ground, Pyramid",0,1,0,0,9,3,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,שמט הרבה פאוור קיובס,2018-03-06 6:26:23,f4c9714ec54a576be3f802dbb9635d5a
+יובל ויינשטיין,2679,QM42,TRUE,FALSE,0,0,0,0,Ground,4,0,0,0,5,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 7:12:25,834cce4045e08ab4f36a3c383aea6715
+יובל ויינשטיין,2679,QM50,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,התחמק מהגנה ,2018-03-06 8:18:26,1ec4910e34377923446f6211f1e50664
+יעל אמיתי,2679,QF 8,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",1,1,0,0,6,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:22:51,a80595055cdf2e5e6faf7ba5782fd25c
+ענב בר-ניר,3034,Pm 1,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",2,1,0,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לקראת סוף המשחק נתקל ברובוטים בדרך לפלטפורמה,ניסה לעלות לסקייל קוביות אך הן תמיד נפלו,2018-03-05 8:51:32,73503d0ba8fe70b1ab838622829c903e
+ענב בר ניר,3034,QM 1,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,1,0,3,0,FALSE,Failed,Didn't Try,FALSE,הגנה ליד הפורטל,לא,2018-03-05 11:24:57,d441e6b6d7cd71babd45b858df8b7fb1
+Stav Eyal,3034,QM14,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:58:47,a30c80386f0fb100667f2064f6126bfa
+ענב בר ניר,3034,QM18,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,,2018-03-05 14:17:18,9f004a76ca8177e54d63f036002954a3
+רני מלצר,3034,QM26,FALSE,FALSE,0,0,0,0,Ground,0,0,1,3,1,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגנו ,המשיכו לנסות scale למרות שלא עבד במקום לנסות דברים אחרים ,2018-03-05 15:27:04,3f8d02de61505157d9b53be84ca1755b
+יובל ויינשטיין,3034,QM30,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,1,1,TRUE,Didn't Try,Didn't Try,FALSE,התמקד בעיקר בהגנה כל המשחק,"הזיז פירמידה יריבה
+לא אסף שום קוביה",2018-03-05 16:25:03,1ac0ba9ccf691f169f5454e6eb77d380
+טל שמר,3034,QM9,TRUE,FALSE,0,0,0,8,Ground,0,0,4,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,עבירה טכנית שהשופט לא ראה,2018-03-05 12:46:59,d578b6c601cc894e9964310aba6afc72
+סהר כספי,3034,QM37,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,2,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 6:26:15,1a7d2a7a0c27c6628dfd4c0bd2aac2b4
+ענב,3034,QM 50,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,5,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,פנלטי 5 נקודות,2018-03-06 8:18:11,894a621fcefa35802ec606aadf6ca822
+Saar Zelevski ,3034,QM55,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",5,0,1,1,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:02:50,f24f0fc1f9f682ca643ff81c29765aca
+ענב ,3034,QM 58,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",1,0,3,1,1,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 9:27:53,c4506903433a421234ebe035620f5b75
+Stav Eyal,3034,QF2,TRUE,FALSE,0,0,0,0,Ground,1,0,4,2,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:38:03,0d22cd0f7d8ffc96196533ee13064265
+Stav Eyal,3034,QF6,TRUE,FALSE,0,0,0,0,Ground,0,1,1,3,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:05:01,63ecefa02961bd8bfc48684aa923c262
+רני מלצר,3211,Pm6,TRUE,FALSE,0,1,0,0,Ground,0,0,1,2,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,"קיבל פאול על דחיפת קוביות
+
+מתקשה מאוד לאסוף קוביות בלי קיר מאחוריהן",2018-03-05 10:28:47,035210835974910cdd4956b887acbeda
+ניר,3211,QM31,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,1,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,הפסיקו לעבוד ב45 השניות האחרונות של המשחק.,2018-03-05 17:22:28,1fee77a2085188f43f24f454adc330fd
+Saar Zelevski ,3211,QM16,TRUE,FALSE,0,0,0,0,Ground,3,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"נגעו ברובוט מושבת, רובוט מביך",2018-03-05 13:56:12,545354e33b420195cba0cda5e6134305
+סהר כספי,3211,QM19,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז,2018-03-05 14:26:09,3d6249cd087d71536567e92c494158f5
+Stav Eyal,3211,QM2,TRUE,FALSE,0,1,0,0,Pyramid,0,0,0,1,3,0,FALSE,Didn't Try,Didn't Try,TRUE,,הרמפה נפתחה באמצע המשחק והם קיבלו disable,2018-03-05 11:51:02,58dc9265ef862c07f090f014c4d4daf3
+Saar Zelevski ,3211,QM9,FALSE,FALSE,0,0,0,0,Ground,0,0,1,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"הפילו את הקוביה באוטו לתוך הרובוט, והיא נתקעה שם לזמן קצר. נפלה להם הרמפה באמצע ולאחר מכן לא תפקדו.",2018-03-05 12:44:59,7c0d9db22d04c833f4aabe8a4eb421a5
+Saar Zelevski ,3211,QM39,TRUE,FALSE,1,0,0,0,Ground,0,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 6:48:32,7b29372d9f70d730dfb6df112d0b5e29
+ניר,3211,QM43,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:21:28,44043e5d3342801d5434654efa3d6bb8
+Saar Zelevski ,3211,QM48,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,1,2,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נהג גרוע,2018-03-06 8:02:55,b9691bd0c7447cd87b89bebef02bb8f8
+Nir,3211,QM52,TRUE,FALSE,1,0,0,0,Ground,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:35:49,a2e6d93a615c674da63c01145ce6e8c1
+רני מלצר,3211,Qf2,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,2,0,4,0,FALSE,Didn't Try,Didn't Try,TRUE,לא הגן,"אוטונומי לא עבד
+
+פאול רגיל אחד 
+
+Null zone TF",2018-03-06 12:32:01,241306d92db4deef9b208475bd843961
+רני מלצר,3211,Qf6,TRUE,FALSE,0,0,1,1,"Ground, Pyramid",2,1,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,מתקשים באיסוף פאוור קיובס,2018-03-06 13:04:35,ac16610b000021395c0a0095016fe0ee
+רני מלצר,3211,Qf10,TRUE,FALSE,0,0,2,0,"Ground, Pyramid",3,0,1,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגנו,"שיפרו את האיסוף מאז המשחק הקודם
+
+אוטונומי מדהים",2018-03-06 13:28:27,ec95c1932c61e6f0ab13cd8780ae1ff7
+יובל ויינשטיין,3316,PM3,TRUE,FALSE,0,1,0,0,Ground,2,1,2,0,2,1,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,"בצע עבירה - קוביה לא בפלטה של הסקייל
+מהיר
+נתקע בדברים
+התקנת אקסצ'יינג' מסורבלת כשהקוביה לא ישרה",2018-03-05 9:34:57,b04a01c7f259cb8ee5cf9108e7747eed
+יעל אמיתי,3316,QM 13,TRUE,FALSE,0,1,0,0,Ground,0,0,3,3,0,0,TRUE,Successful,Didn't Try,FALSE,,D bug!,2018-03-05 13:28:53,b744691baf824d9f3b5acce022df3401
+ענב בר ניר,3316,QM 2,TRUE,FALSE,1,0,0,0,"Pyramid, Ground",0,0,5,2,0,0,FALSE,Failed,Didn't Try,FALSE,לא,יאללה דיבאג!!!,2018-03-05 11:32:44,69c9a5b426faf9ca69a2bd955a9a7020
+סהר כספי,3316,QM10,FALSE,FALSE,1,0,0,0,Ground,2,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,מדהימים 🧡🖤,,2018-03-05 12:55:36,2bbe78842725e98196510010171afc7b
+טל שמר,3316,QM18,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,5,1,0,1,TRUE,Didn't Try,Didn't Try,FALSE,,Dbug אלופים !!!,2018-03-05 14:16:14,30ebabcadb72a10b030b25343ae05e8a
+Stav Eyal,3316,QM26,TRUE,FALSE,1,0,0,0,Ground,1,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,בעיות תקשורת,2018-03-05 15:39:53,0737940aafefedda0772969253b62e99
+Saar Zelevski ,3316,QM35,TRUE,FALSE,0,1,0,0,"Pyramid, Ground",1,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,מעבר מסוכן קרוב לנול של היריב,2018-03-05 17:01:40,3075a938b4b3ac71a7638328d5b737b8
+טל שמר,3316,QM43,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",1,1,2,1,0,0,TRUE,Successful,Didn't Try,FALSE,,נתקעה פאור קיוב ברובוט רב המשחק,2018-03-06 7:22:28,4a11c27c171ea6f4a23350b6354eea06
+יובל ויינשטיין,3316,QM49,TRUE,FALSE,1,0,0,0,Ground,3,1,0,0,0,0,TRUE,Successful,Didn't Try,TRUE,לא הגן,Dbug!!!,2018-03-06 8:14:45,3ced4820367e2acf1838e0802e7c4598
+Saar Zelevski ,3316,QM56,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",5,0,0,0,0,0,FALSE,Failed,Didn't Try,FALSE,,,2018-03-06 9:12:20,ed77bf5a7a53b82fde0cba4536124401
+יובל ויינשטיין,3316,QF4,FALSE,FALSE,0,0,0,0,Ground,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,לא הגן,עבירה - בשליטה על 2 קוביות בו זמנית,2018-03-06 12:48:17,e52f6d1fe50f91af8443969888880a3d
+יובל ויינשטיין,3316,QF8,TRUE,FALSE,1,0,0,0,Ground,4,1,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,אין,התקין קוביה בסוויץ' יריב,2018-03-06 13:26:07,2cfad70665076dafdb821678c7348917
+יובל ויינשטיין,3316,QF12,TRUE,FALSE,0,0,0,0,Ground,0,0,6,1,0,0,TRUE,Successful,Didn't Try,FALSE,אין,עבירה - שליטה בשתי קוביות בו זמנית,2018-03-06 13:36:15,58a3b3bce1738a1fef0c872a22b7666f
+יובל ויינשטיין,4319,PM2,TRUE,FALSE,0,0,0,0,Portal,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,ניסה לאסוף מהרצפה כמה פעמים ולא הצליח באף אחת,2018-03-05 9:16:40,826a635d47604512798c3f7c8830c435
+רני מלצר,4319,QM1,FALSE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגנו,"לא הצליח לקלוט קוביות מהפורטל ולא לאסוף מהרצפה
+
+הפריע לרובוט מאותה הברית בזמן התקנה על סקייל",2018-03-05 11:25:06,87b6cc812710bd5e20cadf4448c531c9
+Saar Zelevski ,4319,QM12,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט נכה,2018-03-05 13:13:54,7693a3288c7672cedc5af76508cdc263
+Stav Eyal,4319,QM12,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"רובוט בשקל תשעים
+לא מצליח לאסוף בכלל",2018-03-05 13:42:28,6a56b398a58fc2f8a1a554c584eeb4b1
+ענב בר ניר,4319,QM20,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,הגן קצת מול הסוויץ',"נתקעו כשנשארה דקה למשחק, לא הצליחו לאסוף מהפורטל",2018-03-05 14:38:25,fb8f475c11c4124e0c62421c54c1f087
+רני מלצר,4319,QM24,TRUE,FALSE,0,0,0,0,Portal,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,ניסו למנוע מרובוט יריב להגיע לפלטפורמה,"נהגת אגרסיבית
+Tf 1",2018-03-05 15:10:29,28bd1e9698d0da4f58eb2677aba06a20
+סהר כספי,4319,QM40,TRUE,FALSE,0,0,0,0,Portal,0,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,קיבלו כרטיס צהוב,מפיל קוביות בקלות,2018-03-06 6:55:59,d4a5942d1b0dff8bfc6b8e91c528dfa4
+סהר כספי,4319,QM42,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:12:54,e60118a11b920302de3fd0553a765f0b
+Stav Eyal,4319,QM47,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"נהג כפתורים מתבלבל בכפתורים
+נוגעים ברובוטים בnull zone",2018-03-06 7:54:49,49016b795583cab651693c98b435dd42
+Saar Zelevski ,4319,QM52,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,אני לא יכול לנשום,2018-03-06 8:36:02,a1cbb9c4229fd7f8ce29459bb4dfdfb7
+Saar Zelevski ,4319,QM29r,TRUE,FALSE,0,0,0,0,Portal,0,3,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 10:23:15,92fd90d575687d60ad0b2a9bf9161c67
+טל שמר,4319,QM8,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,ניסה לקחת מהפורטל ולא הצליח,2018-03-05 12:38:20,cd817919feade30d5007cf5b96385300
+Saar Zelevski ,4338,Qf7,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",1,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:10:55,04295cfcbb6ddbfa23ce248e5e5d3582
+ענב,4338,Pm 5,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,לא זז,2018-03-05 10:08:27,57855cdfa8a08958c45996f0cdc8dbbc
+ניר,4338,QM34,TRUE,FALSE,0,1,0,0,Ground,0,0,0,0,0,2,TRUE,Failed,Didn't Try,FALSE,,התקינו קובייה בצד הלא נכון של הסוויטצ׳.,2018-03-05 16:53:11,797fe0fda933f1c33570ccf3030a96b1
+Stav Eyal,4338,QM10,TRUE,FALSE,0,1,0,0,Ground,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,שיחקו הגנה,"התפרק להם גלגל ממערכת האיסוף וההתקנה
+קובייה נפלה להם לתוך הרובוט
+נפלה המעלית (המעלית עצמה לא השלבים שלה)",2018-03-05 13:30:11,775ce0dec93ecfb5f5a618dfcfd29578
+מאיה לוי,4338,QM12,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,"הרבה פאולים לא טכניים, דוחף קוביות ולא מרים לפחות 4 פעמים",2018-03-05 13:17:38,5e34554b1b0c0c25a5145563f6dceaf2
+רני מלצר,4338,QM2,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,1,1,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 11:31:57,037d2270868b2f75b25f431177d49457
+רני מלצר,4338,QM23,FALSE,FALSE,0,0,0,0,Ground,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,הפסיק לזוז 45 שניות לסוף,2018-03-05 14:59:50,d84bb6f6d712dfc246d83aada82477b4
+יובל ויינשטיין,4338,QM26,TRUE,FALSE,0,0,0,0,Ground,1,0,1,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,"עבירה - הזיז את הקוביות שצמודות לסוויץ' מהצד של הפלטפורמה
+לא יציב בכללי אך בעיקר כשמרים את המנגנון כדי לשים קוביה בסקייל",2018-03-05 15:26:19,eaddf16213583731e066d857f6e03313
+טל שמר,4338,QM39,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 6:49:26,c006c650819aba60bbb46c14a53f6573
+סהר כספי,4338,QM44,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,"חסמו רובוט בצורה בלתי חוקית
+קיבלו tf",,2018-03-06 7:32:20,5e02e7cd5c92bebe2353dc6a90cfd34f
+ניר,4338,QM46,TRUE,FALSE,0,0,0,0,Ground,0,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:45:15,2dd4387257ff74840193636bab4b37df
+יובל ויינשטיין,4338,QM53,TRUE,FALSE,0,0,0,0,Ground,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"חלק התפרק
+לא אסף קוביות",2018-03-06 8:46:06,1305b61f99a8ad8b0f23810d78490d70
+Saar Zelevski ,4338,QM60,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,1,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:43:22,9550cd7dab04b8066bd9be0163fa03ec
+Saar Zelevski ,4338,Qf3,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",2,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:39:19,5b53f9fb4b69f52565dd3b26dfc74966
+רני מלצר,4586,Pm3,FALSE,FALSE,0,0,0,0,Ground,1,1,0,1,0,0,TRUE,Failed,Didn't Try,FALSE,לא הגן,"ניסה לטפס על רובוט אחר, הרובוט האחר לא הצליח לטפס",2018-03-05 9:32:23,51980b1f40962f67a5fc3353a0786946
+יעל אמיתי,4586,QM 32,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,4,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-05 16:47:12,671e8e4a12305e2c7b07c391c77d8433
+רני מלצר,4586,QM11,TRUE,FALSE,0,0,0,0,Ground,1,0,3,2,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:09:29,ae2dbe82699dd3bb3b5f91d950b584e3
+מאיה לוי,4586,QM16,TRUE,FALSE,0,0,0,0,Ground,0,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-05 13:56:28,240c7af836722938cd29a463f7824ffa
+Saar Zelevski ,4586,QM18,FALSE,FALSE,0,0,0,0,Ground,0,0,3,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"פרימו ממש טובים!
+פרימו ממש טובים!
+פרימו ממש טובים!",2018-03-05 14:15:48,1103a4ef5e39e1bc001001122aca594e
+יובל ויינשטיין,4586,QM29,TRUE,FALSE,1,0,0,0,Ground,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,הגן 5 שניות,"משך שני tf לטובתו
+התקין קוביה בסוויץ' יריב",2018-03-05 16:11:04,f330dea10414a65d65c119a5d8bd8e4b
+רני מלצר,4586,QM3,TRUE,FALSE,0,0,0,0,Ground,0,0,5,0,0,0,TRUE,Failed,Didn't Try,FALSE,לא הגן,"הפילו קוביות כמה פעמים
+
+לא תפסו רובוט יריב ב - null area למרות ששהה שם הרבה זמן",2018-03-05 11:42:50,ce8f461e3b4c01c9845fa5ffe130bd4d
+Saar Zelevski ,4586,QM38,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",2,0,8,0,0,0,TRUE,Successful,Didn't Try,FALSE,,"הרובוט הפסיק לעבוד אחרי האוטו ונפלה הרמפה. לקראת הסוף
+חזרו לעבוד ",2018-03-06 6:37:35,c1c82e8126c454ba785e4e8c3da957c7
+ניר,4586,QM42,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",0,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,איבדו תקשורת מ80 שניות לסיום עד 40 שניות לסיום,2018-03-06 7:13:07,572bf495f146ed57cf5775861b1a893f
+ענב ,4586,QM 46,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגנו,הפסיקו לעבוד לשליש משחק,2018-03-06 7:47:58,4684c96a8fe5f58a842866d3c3a3a411
+Stav Eyal,4586,QM54,TRUE,FALSE,0,1,0,0,Ground,2,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,שמו קוביות על הswitch של הקבוצה השנייה,הפסיקו לזוז למשך זמן ממושך,2018-03-06 8:54:48,c1879922c3f3622ef3ca6d50154ae1b3
+טל שמר,4586,QM57,FALSE,FALSE,0,0,0,0,Ground,3,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,הרובוט השתגע בשלב האוטונומי,2018-03-06 9:21:52,8f1892b4865cb4ea7d3dd8270b491271
+Stav Eyal,4586,QM29,TRUE,FALSE,0,0,0,0,Ground,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 10:25:27,7f493bc472f81eaab87617dc7f2106d9
+Stav Eyal,4586,QF3,TRUE,FALSE,0,1,0,0,Ground,2,3,1,1,0,0,TRUE,Failed,Didn't Try,FALSE,,אחרי שלא הצליחו עם הscales עברו לswitch של הקבוצה השנייה,2018-03-06 12:46:49,a0a6ee712717759e97e565fcc8b2b8f0
+Stav Eyal,4586,QF7,TRUE,FALSE,0,1,0,0,Ground,3,1,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-06 13:22:56,fa19f95b0f78a14176156145303f824f
+רני מלצר,4590,PM1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,הרובוט לא זז במשך  כל המשחק,2018-03-05 8:55:07,dc541e16b65a028fb39094465418b2e1
+ יעל אמיתי,4590,QM 16,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",0,0,0,0,2,1,TRUE,Didn't Try,Didn't Try,FALSE,חסמו רובוט ל5 שניות,,2018-03-05 13:58:22,9d88eb4d757d1073d5bba2d88f18ce53
+Saar Zelevski ,4590,QM22,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,0,0,2,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 14:49:02,289d80816fd0f96ecfe97073f34936e3
+ענב בר ניר,4590,QM25,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,2,0,TRUE,Failed,Didn't Try,TRUE,לא הגנו,כמעט נתקעו מתחת לסקייל,2018-03-05 15:17:36,b463bb2b282ccc7c2ad99a94ac7cbb52
+יובל ויינשטיין,4590,QM33,TRUE,FALSE,0,0,0,0,Ground,1,2,0,0,2,0,TRUE,Didn't Try,Didn't Try,TRUE,,"אגרסיבי
+עבירה טכנית-נתפס בנאל טריטורי",2018-03-05 16:45:29,f10773913ada259c84b83af1ff1c6b89
+טל שמר,4590,QM37,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,"מגן טוב מאוד, חסם לשני רובוטים בו זמנית גישה לswitch ולscale",,2018-03-06 6:25:25,0086fd7a5b6ae2fc4ce148c87b967687
+Stav Eyal,4590,QM5,TRUE,FALSE,0,0,0,0,Ground,3,2,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"באמפר מתפרק
+נפלה פינה ממנו באמצע המשחק ",2018-03-05 12:15:44,c17bf206894c777d1afcea41b11a9503
+סהר כספי,4590,QM43,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,1,0,TRUE,Failed,Didn't Try,FALSE,,השתגע באמצע המשחק,2018-03-06 7:21:22,389223e2a6b88df2e56a9f51cb91f393
+מאיה לוי,4590,QM48,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,השקיעו את כל המשחק בהגנה ומנעו התקנות בסקייל,באמפר נפל בהתנגשות עם רובוט וקיבלו טק פאול,2018-03-06 8:04:19,fc089ba7df4cd845da430c5536df1b6f
+Nir,4590,QM53,TRUE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Opponent null zone techfoul,2018-03-06 8:44:47,ce3b5789ef3816e3988857c8216761f0
+טל שמר,4590,QM59,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"TF- נגע ברובוט מהברית השנייה באזור המוגן שלו.
+דקה וארבעים וחמש שניות לתוך המשחק התנתק ונפל מצבר והרובוט הפסיק לזוז.",2018-03-06 9:38:39,7708872d5d276e447410446304a8efbe
+מאיה לוי,4590,QF 2,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,ניסיונות איסוף כושלים,2018-03-06 12:36:49,35b4967b42fc08243b7418bc2571b44e
+יובל ויינשטיין,4649,PM1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,"ביצע הגנה ל5 שניות
+נשאר ליד הנאל טריטורי של היריב כדי לחסום","רובוט מהיר
+עבר בנאל טריטורי של היריב פעמיים
+אגרסיבי ונתקע בדברים
+כמעט ביצע עבירה טכנית כשכמעט נתפס בנאל של 
+היריב
+לא נסה לאסוף קוביות",2018-03-05 8:53:50,15b6783dd538259fa7a3eab1f11832ae
+סהר כספי,4649,QM11,FALSE,FALSE,0,1,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"בקושי זז, לא לקח קוביות
+קיבל 2 TF",2018-03-05 13:03:38,5c3609ceb0d2ce0209aed8d8aecfd209
+מאיה לוי,4649,QM15,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,ניסה לקחת קוביות מהפורטלס הרבה מאוד זמן אבל לא הצליח ,2018-03-05 13:50:10,170cb9e7f1a534076345e991f7bab359
+Stav Eyal,4649,QM21,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז אחרי אוטונומי,2018-03-05 15:08:58,73d9b5ba7021aed25b0455ecba490303
+Saar Zelevski ,4649,QM27,FALSE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,"הגנה כושלת על הסוויץ של היריב, אפילו לא הצליחו לדחוף את הרובוטים האחרים",מה זה היצור הזה?,2018-03-05 15:39:09,b032a798687cf380a9ed15faac437ee6
+מאיה לוי,4649,QM34,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,קיבלו טק פאול,2018-03-05 16:53:40,1496d275428ff9df7f6042dce449ac3a
+רני מלצר,4649,QM4,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,"נהג לא מנוסה- בזבז זמן בנסיעות ללא מטרה הלוך חזור, לא הצליח להתמקם לקליטה מהפורטל",2018-03-05 11:56:03,e3b3acbaaaabd02260af22e8c52d9996
+רני מלצר,4649,QM40,FALSE,FALSE,0,0,0,0,Portal,0,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,"לא מצליחים לאסוף קוביות
+
+מנעו מרובוט מאותה הברית לעלות לפלטפורמה, והרובוט השני לא הספיק לטפס",2018-03-06 6:57:44,3bdc6283c21e235e98302e8cc10ddcde
+Saar ,4649,QM50,TRUE,FALSE,0,0,0,0,Portal,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,מי נתן לנהג רישיון?,2018-03-06 8:17:43,826ab539d560b2fdb56cdb0152bb0c04
+Saar Zelevski ,4649,QM53,TRUE,FALSE,0,0,0,0,Portal,0,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:45:43,e1c726498c2e2ba5080a4796f742e1e7
+ענב בר ניר,4757,Pm 2,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגיע למשחק,רובוט לא הגיע למשחק,2018-03-05 9:17:20,07687de25cf4846b85ca2f5831f6e985
+סתיו,4757,QM36,FALSE,FALSE,0,0,0,0,Portal,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"מתקשים באיסוף.
+התנתקה שרשרת כי נתקעה בה קובייה",2018-03-05 17:16:56,0610bd550f99ac0023906dcda7fc60ff
+יעל אמיתי,4757,QM 10,FALSE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הצליחו לאסוף קוביות,2018-03-05 12:56:05,db5ec2e14d41a241763377033ef3a47b
+מאיה לוי,4757,QM1,FALSE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הרובוט לא הגיע,2018-03-05 11:22:36,25249b81e1c11254ddd907ee5fc660af
+Stav Eyal,4757,QM16,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט לא זז,2018-03-05 14:17:14,2fe6503a4c60232a4555eed1d0dc69bb
+מאיה לוי,4757,QM19,FALSE,FALSE,0,0,0,0,Portal,3,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:25:40,179aae4ba19c05862fca207a6335959c
+ענב בר ניר,4757,QM24,FALSE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,הגנו ליד הפירמידה של היריבים,"לא זזו באוטונומי
+לקח זמן לשים קוביות מהפורטל והפילו כשקיבלו",2018-03-05 15:14:39,8e2cb2ea9088c869ab805a65876c8cb0
+סהר כספי,4757,QM34,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"לא זז בauto
+בקושי זז גם אחרי",2018-03-05 16:53:24,85ad8680552b46346e2c6d65d596d5b7
+Saar Zelevski ,4757,QM41,FALSE,FALSE,0,0,0,0,Ground,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,גרוטאה,2018-03-06 7:05:07,b217a341c5975349e4cae1072a946bcb
+Saar Zelevski ,4757,QM49,FALSE,FALSE,0,0,0,0,Portal,2,2,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:11:07,fbf190ff7d7d4a7f2260a271f387895e
+Tal Shemer,4757,QM52,FALSE,FALSE,0,0,0,0,Pyramid,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הפסיק לתפקד באמצע המשחק,2018-03-06 8:43:46,2808ddc86db0c86c04dca87d20c38bc3
+רני מלצר,4757,QM59,FALSE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"הפסיק לזוז למשך 40 שניות
+נסע לשניה
+הפסיק לזוז עד לסוף המשחק",2018-03-06 9:37:15,919ad8219e1466a66ca0a7900b4de91a
+Saar Zelevski ,5038,PM1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"הרובוט לא עבד רוב המשחק, ושכן עבד הוא דחף קוביה שיש עליו אחת זמן לא סביר",2018-03-05 8:50:46,3b07926497c2a998bce7243c7ebc43af
+ניר,5038,QM30,TRUE,FALSE,0,0,0,0,Ground,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,לא זזו ברבע הראשון של המשחק,2018-03-05 17:19:21,9c84d7f6d9b2c48b91351cd3839ddd92
+ניר,5038,QM40,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,לא זזו משבעים השניות לסיום עד 10 שניות לסיום,2018-03-06 6:54:37,055397071fbc2dcd63dc46763f44b8ac
+ענב,5038,QM 48,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זזו,לא זזו,2018-03-06 8:01:58,a719ad338a9c3eac549e06ab030908be
+Stav Eyal,5038,QM13,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,1,1,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:48:44,0cf514838227faf152233b226c63e1e6
+Saar Zelevski ,5038,QM20,TRUE,FALSE,0,0,0,0,Ground,0,0,3,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,מזעזע,2018-03-05 14:35:06,e8a3db35973c885339079306062713b5
+Stav Eyal,5038,QM23,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"באמפר נופל
+מתנגש ברובוטים בnull territory",2018-03-05 15:29:44,6cdff24055852b4718270fcb8a5742a1
+Stav Eyal,5038,QM25,TRUE,FALSE,0,0,0,0,Ground,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,מתקשים באיסוף,2018-03-05 15:36:45,746fd5551572d72eca4650c4a512deb9
+יובל ויינשטיין,5038,QM3,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",0,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,לא הגיב ב20 השניות האחרונות,2018-03-05 11:40:13,979a3372ffb824242b7d39efe7eb1879
+מאיה לוי,5038,QM46,FALSE,FALSE,0,1,0,0,"Ground, Pyramid",2,0,1,1,0,0,TRUE,Failed,Didn't Try,FALSE,,בתחילת המשחק לא כל כך שלט בקוביות,2018-03-06 7:47:24,5866ed971c1d0c82a728a2a665a85803
+מאיה לוי,5038,QM52,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,בעיות איסוף ,2018-03-06 8:37:19,1174ffc5374a3b393ee30e3645954867
+סהר כספי,5038,QM58,TRUE,FALSE,0,0,0,0,Pyramid,0,0,1,0,2,1,FALSE,Didn't Try,Didn't Try,FALSE,,הפסיק לעבוד ב40 שניות האחרונות,2018-03-06 9:27:35,c1799e2dfd6e6784a2b8ce310be91cb4
+טל שמר,5038,QM7,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,1,1,FALSE,Didn't Try,Didn't Try,FALSE,,עבירה אחת (לא TF( על הפלת הפירמידה.,2018-03-05 12:27:34,89571d1ad800922111233f118010aa46
+Stav Eyal,5038,QF1,FALSE,FALSE,0,0,0,0,Ground,2,0,2,1,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,,2018-03-06 12:27:54,eae87280f0b9dd30d5c19ce40608e483
+Stav Eyal,5038,QF5,TRUE,FALSE,1,0,0,0,Ground,0,0,0,2,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 12:57:05,14c0557c8c87d569a661f2a436195f83
+רני מלצר,5291,Pm4,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,לא הגן,"עשה הרבה פאולים בדחיפת קוביות
+
+לקח לנהגים המון זמן להתמקם בשביל הטיפוס
+
+לא הפיל אף קוביה ",2018-03-05 9:51:35,770f79884605bdb9364fc202d947fa49
+יעל אמיתי,5291,QM 15,TRUE,FALSE,0,1,0,0,"Pyramid, Ground",1,0,2,2,0,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-05 13:48:57,1bce1d0e075836485118713dec8c0890
+יובל ויינשטיין,5291,QM2,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,4,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,התעכב על נסיונות כושלים לאסוף קוביות,2018-03-05 11:33:00,cd2c5695b46a072087281e6e53d95f4d
+Ofir Shmuel,5291,QM22,TRUE,FALSE,0,1,0,0,Ground,3,0,4,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,מתקשה באיסוף לפעמים,2018-03-05 15:14:31,17d3de84c90e69bec029496806f94394
+ענב בר ניר,5291,QM27,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,1,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,צריך קיר כדי לאסוף קוביות ,2018-03-05 15:39:33,737cb25c7da62d1d88dfe119127fc9ce
+מאיה לוי,5291,QM30,TRUE,FALSE,1,0,0,0,Pyramid,1,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,נגעו בסקייל פעמיים 2 פאולים ,2018-03-05 16:19:35,d59462295c683b3ad3fc84e7f9230a02
+Stav Eyal,5291,QM6,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הפסיקו לזוז אחרי אוטונומי,2018-03-05 12:20:15,7987c4ce6ef03f46ca2ac5e8931d07af
+Stav Eyal,5291,QM7,TRUE,FALSE,0,0,0,0,Pyramid,4,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,אחרי שניסו לכבוש את הscales שיחקו הגנה ,,2018-03-05 12:29:21,84947e048ebb0a4149fd0ce1a62656d4
+טל שמר,5291,QM38,TRUE,FALSE,0,0,0,1,"Ground, Pyramid",2,1,1,0,5,1,TRUE,Didn't Try,Didn't Try,FALSE,,עשה הרבה מאמץ להטות את הswitch של הברית השנייה לצד השני,2018-03-06 6:37:43,bd2cc0310162fd872aa6f72d11c0f6e8
+Saar Zelevski ,5291,QM42,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",3,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,התנתק להם הטיפוס ואז הרובוט מת,2018-03-06 7:12:37,8f42480e728155d0f092da49a3be34e1
+Saar Zelevski ,5291,QM51,TRUE,FALSE,0,0,0,1,Ground,0,0,3,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:26:25,f8d89ed9e929cea35154f43db375dbc8
+Nir,5291,QM59,TRUE,FALSE,0,0,0,1,Ground,0,0,0,0,4,1,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 9:35:26,f81fc958bb8bcbb7891006afcd927163
+יובל ויינשטיין,5291,QF2,TRUE,FALSE,0,0,0,0,Ground,0,0,1,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,"הפיל קוביה מחוץ למגרש באוטונומי
+בקושי הצליח לאסוף קוביות",2018-03-06 12:34:09,35d55eda0319f8843cd6285f6f00dd61
+סהר כספי,5291,QF6,TRUE,FALSE,0,0,1,0,"Ground, Pyramid",0,0,4,2,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 13:04:47,0e47117f5510f3309c04c25cb325c54d
+יובל ויינשטיין,5291,QF6,TRUE,FALSE,0,0,1,0,Ground,0,0,3,2,1,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,הפיל קוביות מהסקייל כשהתקין קוביות נוספות,2018-03-06 13:04:56,cfc52db6ef06ca976938d684de203355
+יובל ויינשטיין,5291,QF10,TRUE,FALSE,0,0,0,1,Ground,0,0,1,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,אין,התעכב מעל 10 שניות על להכניס קוביה לכספת (אקסצ'יינג') ,2018-03-06 13:28:49,c2ff86e9bca3ec8b7436e428058033ba
+מאיה לוי,5636,Pm1,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,1,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,היתקלות עם רובוט ,השתחרר חבל טיפוס בזמן משחק כשנתקל ברובוט,2018-03-05 8:52:44,0cd8aac83d77a47a947f0b0b1c4bc2ee
+טל שמר,5636,QM15,FALSE,FALSE,0,0,0,0,Pyramid,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 13:51:23,0a5166abdd868a3007b295d31da1c73f
+Stav Eyal,5636,QM18,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,2,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:38:16,ba945a22d0d75d167e6daf00218c1e1b
+Saar Zelevski ,5636,QM25,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,4,0,FALSE,Failed,Didn't Try,FALSE,,"נשבר להם האיסוף, מערכת הטיפוס הגרועה ביותר עד כה",2018-03-05 15:14:46,b78b9bf0ba64a0b61bfd00cabbdf25d2
+Saar Zelevski ,5636,QM34,TRUE,FALSE,0,0,0,8,"Ground, Pyramid",1,0,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,,הרובוט לא מסוגל לעשות סוויץ טוב,2018-03-05 16:53:17,b47c77a32fb5e0b8fca52f9f47c4ed34
+רני מלצר,5636,QM5,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,מנע מאורביט להגיע לסקייל,עשה 3 TF תוך 10 שניות בערך,2018-03-05 12:08:33,5fdffd6b3ca5b8d6c556e64696ac64df
+יעל אמתי,5636,QM9,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,1,0,TRUE,Failed,Didn't Try,FALSE,חסם רובוט ל15 שניות,,2018-03-05 12:45:51,1536db07d4186dd86c0e332db5ea07a0
+רני מלצר,5636,QM39,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,ניסו להגן וקיבלו עבירות על ימין ועל שמאל,"2 פאולים רגילים
+
+3 tf
+
+לא ניסו אפילו לקחת קוביה משום מקום",2018-03-06 6:55:18,3f31fdb4e4c506136368164f2ccad8ec
+יובל ויינשטיין,5636,QM44,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,5,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא אוסף קוביות, רק גורר",2018-03-06 7:31:41,563e720bcb296c55a12407b27eb34057
+יובל ויינשטיין,5636,QM47,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 7:53:08,824ed742365dd292a18df71f72ce69dc
+Nir,5636,QM57,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,1,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:18:55,531ce0374f865416889ccd86ef8a891e
+מאיה לוי ,5928,Pm4,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"רובוט לא בא, כתוב שאוסף קוביות כי אחרת לא נותן לשלוח",2018-03-05 9:46:23,cb87acb32a6968f9824aa5e402f2071c
+Saar Zelevski ,5928,QM1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיעו,2018-03-05 11:19:36,6f1ad9cf3f3a31ecdec9447663d32481
+טל שמר,5928,QM13,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",1,1,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,עבירה על זה שעבר לצד של הברית השנייה בזמן האוטונומי,2018-03-05 13:27:45,5157ab89f13f5d193be4f95234e2a111
+רני מלצר,5928,QM22,TRUE,FALSE,0,0,0,0,Ground,0,0,3,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-05 14:50:41,b502e8c80614a5a0a25bc601fab96701
+Saar Zelevski ,5928,QM24,TRUE,FALSE,0,0,0,0,Ground,1,0,0,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"כמעט התהפך
+עלוב",2018-03-05 15:07:08,8f05840eb0d06bc70f9d92ddc7faffa8
+Saar Zelevski ,5928,QM32,TRUE,FALSE,0,0,0,0,Ground,2,1,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,אוספים ממש גרוע,2018-03-05 16:37:17,948fdc0b02f1a85ced5b2d081b21e645
+יעל אמתי,5928,QM6,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",3,0,0,0,1,1,FALSE,Didn't Try,Didn't Try,FALSE,,לא זזו באוטונומי,2018-03-05 12:17:23,944d63ce084eef9bcaa7e1839634a2c5
+סהר כספי,5928,QM41,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,3,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:05:31,df1fd73f29f627cfda2798d7e3a922a9
+Stav Eyal,5928,QM49,FALSE,FALSE,0,0,0,0,Ground,1,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,אחיזה חלשה מאוד בקובייה,2018-03-06 8:18:29,b75507ffe3b736d11524853d2988422f
+ענב בר ניר,5928,QM 53,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,2,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגנו,אין,2018-03-06 8:46:12,6a9c7e06fd2dc5514dff8e5a353548f8
+רני מלצר,5951,QM60,FALSE,FALSE,0,0,0,0,"Pyramid, Ground",4,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,לא עשו כלום באוטונומי,2018-03-06 9:44:50,f3e86264aa1d5c385ecff068d1a3f9c6
+Stav Eyal,5951,PM1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט לא הגיע למשחק,2018-03-05 8:52:09,0fd8540b85acc7223343c5141083650e
+ענב בר ניר,5951,QM 3,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,ניסו לכוון לסקייל אך לא הצליחו לשחרר קובייה,2018-03-05 11:44:30,fc5246782a812049a7bf05744ddeb752
+טל שמר,5951,QM11,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,נתקע באזור המוגן של הברית השנייה הרבה זמן,2018-03-05 13:05:37,ed7f1aa12779ec5f511381706836a85b
+Saar Zelevski ,5951,QM15,TRUE,FALSE,0,0,0,0,Ground,0,2,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"נשרפו לי העיניים, צוות מגרש לא קרא את החוקים בוודאות, השביתו אותם על עבירות חוזרות",2018-03-05 13:49:21,626d52bb38af4befef22fd636e97e839
+ענב בר ניר,5951,QM22,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגנו,,2018-03-05 14:50:49,e87ee829e651d3ebae68d769919fe673
+יובל ויינשטיין,5951,QM24,TRUE,FALSE,0,1,0,0,"Ground, Pyramid",1,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,הצליח להתחמק מהגנה,2018-03-05 15:08:37,1c01f804bf02376cdb4a37dfdf857a37
+יובל ויינשטיין,5951,QM31,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,לא עשה אוטונומי,2018-03-05 16:27:00,3ef225160e47367a9aca37d2994da005
+יובל ויינשטיין,5951,QM37,FALSE,FALSE,0,0,0,0,Ground,4,2,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא עשה אוטונומי
+התקין קוביה בסוויץ' יריב",2018-03-06 6:24:29,2873ee03938a613219774ece80e9625a
+יובל ויינשטיין,5951,QM46,FALSE,FALSE,0,0,0,0,Ground,4,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,"לא עשה אוטונומי
+התקין קוביה בסוויץ' יריב",2018-03-06 7:46:13,6eae693131dc5cd7c6f380dbf3be6265
+ניר,5951,QM49,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:11:14,6995611b45c89318b4f44ff3c46708a5
+טל שמר,5951,QM55,FALSE,FALSE,0,0,0,0,Pyramid,1,3,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נתקע פעמיים במהלך המשחק,2018-03-06 9:04:49,f08310930a2736adac3e48d607338014
+מאיה לוי,5951,Qf 1,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,אין,מפיל קוביות,2018-03-06 12:26:16,1659eb4becc90efe010611d776fc38ab
+Enav ,5990,QM63,TRUE,FALSE,0,0,0,0,Ground,5,2,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 10:19:02,ea559888a168aa4ef657417ed0b6e0d9
+מאיה לוי,5990,Pm5,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"רובוט לא זז, כתוב שאוסף קוביות כי אחרת אי אפשר לשלוח",2018-03-05 10:07:45,dd424f4d04c2b267493505bae447373a
+מאיה לוי,5990,QM17,TRUE,FALSE,0,0,0,0,Ground,3,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,קודם השתלט על סוויץ' יריב,רב על טיפוס עם רובוט אחר ואף אחד לא הצליח ,2018-03-05 14:07:42,3395d0b50e12cf2007a0eb60dc7954f5
+רני מלצר,5990,QM20,TRUE,FALSE,0,0,0,0,"Portal, Ground, Pyramid",2,1,0,0,0,0,TRUE,Successful,Didn't Try,TRUE,לא הגן,עשה 3 tf ,2018-03-05 14:35:28,a3e860183c71d84febfa472282a92d1e
+Saar Zelevski ,5990,QM26,TRUE,FALSE,0,0,0,0,"Ground, Portal",1,2,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-05 15:24:44,7385130fbd0d0c627c00e6a3806c82ae
+Saar Zelevski ,5990,QM3,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,ביצע הגנה מוצלחת על הסוויץ של היריב ומנעו שליטה בו,מתנדנד מאוד,2018-03-05 11:40:21,5f502ef085c52c47d88fc7155c2c7ec3
+ענב בר ניר,5990,QM33,TRUE,FALSE,0,0,0,0,Ground,3,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נתקע מתחת לסקייל (ללא יכולת לזוז) חצי משחק,2018-03-05 16:53:14,b5d6c6a86ccc952d9fcfd810122686b2
+סהר כספי,5990,QM36,TRUE,FALSE,0,0,0,0,Pyramid,1,1,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,עצר באמצע לעשרים שניות,,2018-03-05 17:14:41,89ab0fcb6e87e8bf5cad65c2b7627276
+Stav Eyal,5990,QM9,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,2,1,1,0,TRUE,Failed,Didn't Try,FALSE,,מתקשים עם exchange,2018-03-05 13:03:42,728adb91922299f79972bb83227ab574
+Stav Eyal,5990,QM9,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",2,1,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,ניסו לעשות הגנה אבל לא הצליחו לאסוף בצד של היריב,הדיווח הקודם הוא שגוי,2018-03-05 13:09:55,3a8c1477b3b09b71f543d44200a3ad95
+רני מלצר,5990,QM42,TRUE,FALSE,0,0,0,0,Portal,2,1,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,אין,נהיגה מקרטעת,2018-03-06 7:15:34,86754f2e80ae958ced0a5ad5c154e189
+Stav Eyal,5990,QM49,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,שמה קובייה בswitch של היריב,,2018-03-06 8:21:25,fdf0af9e2433eb632e83689b4018d8c5
+רני מלצר,5990,QM57,TRUE,FALSE,0,0,0,0,Ground,6,1,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,אסטרטגיה תמוהה - שמו קוביות בסוויטץ' היריב למרות שלא היה צורך והסקייל היה של היריבה,2018-03-06 9:20:47,e04466a69b9e54e80d263b806aa5f5f0
+רני מלצר,5990,Qf1,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,מנעו מmiscar להגיע לסקייל במשך 5 שניות,לא אספו אף קוביה,2018-03-06 12:25:33,1a42066394847939b296202ea7b69cd5
+רני מלצר,5990,Qf5,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגנו,נהג אגרסיבי מאוד,2018-03-06 12:56:32,2350cc93269a06d842eff61ea39bdb26
+Stav Eyal,6049,PM4,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Didn’t arrive to the match,2018-03-05 9:52:32,0abd602e5166f260aa06ad993a8e2d50
+טל שמר,6049,QM12,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,עברו לצד של הברית השנייה בזמן האוטונומי,2018-03-05 13:14:12,f1e3ac29d608abc7b9c8d1faaf1bc1c4
+Stav Eyal,6049,QM23,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"באמפר מתפרק
+מתנגש ברובוטים בnull territory",2018-03-05 15:18:29,0af576c4038bc85a150e8d256cecd368
+Saar Zelevski ,6049,QM28,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,זה אמור ליסוע?,2018-03-05 15:50:17,c0f1890fb2158d332b17363850b3db17
+סהר כספי,6049,QM31,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,נכנס ברובוטים ללא סיבה מובנת (לא כדי לחסום אותם) ,"לא יציב, לא אסף קוביות",2018-03-05 16:27:02,1af912a3f217f4e854183853801300f2
+סהר כספי,6049,QM4,FALSE,FALSE,0,0,0,0,Pyramid,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"אין פעולה אוטונומית
+מתנדנד, לא מצליח לאסוף קוביות",2018-03-05 11:53:47,25ef1efa3c34935c0e642a22f9109ed5
+Saar Zelevski ,6049,QM8,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"אין אוטו, נוטה מאוד במהירות מאוד איטית, נשבר להם הבמפר. הרובוט הכי גרוע שראיתי בחיים, אם הם איתנו במשחק צריך לבכות ואז להשאיר אותך בחוץ - יותר נזק מתועלת.",2018-03-05 12:35:40,b547df93856d57fd9792b3d3ae8ed1f1
+רני מלצר,6049,QM38,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"לא הגיעו למשחק, קיבלו כרטיס אדום",2018-03-06 6:39:41,061eee97d4feb0380843f84abd1e7133
+טל שמר,6049,QM40,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,עלה על רובוט אחר כדי לעצור אותו.,התחילו את המשחק עם כרטיס צהוב. מנגנון אסיפת פאור קיובס לא מתפקד,2018-03-06 6:57:23,b664703473e8d8b978b20dfc6dbf0e3d
+מאיה לוי,6049,QM49,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט לא בא,2018-03-06 8:11:05,7accb9490e644480010de46e7775f081
+יובל ויינשטיין,6104,PM6,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,2,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,אין הערות,2018-03-05 10:29:59,04da145596a6fe180eadb90be700a745
+יעל אמיתי,6104,QM 35,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,1,0,6,0,TRUE,Successful,Didn't Try,FALSE,,,2018-03-05 17:02:41,0325801e8d35e177bb478b8a0625a9fd
+Saar Zelevski ,6104,QM11,TRUE,FALSE,1,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,ביצעו הגנה בכל מקום בהצלחה מסויימת,,2018-03-05 13:02:16,17639743ca6ff8940789d7de04b80989
+Saar Zelevski ,6104,QM19,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",5,0,1,0,1,0,TRUE,Successful,Didn't Try,FALSE,,רובוט סבבה,2018-03-05 14:24:55,6f28a58c3a2e807ca08080fee63fd89b
+רני מלצר ,6104,QM25,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,3,4,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן ,מנגנון scale לא מדויק,2018-03-05 15:17:06,2a15972ab6439f639fd0084cdb0e1fc4
+סהר כספי,6104,QM29,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הצליח לזוז,2018-03-05 16:09:55,651b89fffba32fc1b6eb86ff69d68fc9
+טל שמר,6104,QM6,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",0,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,מטפס מהר ומעלה את הפאור קיובס ממש מהר למעלה,2018-03-05 12:17:31,d6121cd8d528e85a2cab5a12eb8dabde
+רני מלצר,6104,QM45,TRUE,FALSE,1,0,0,0,Ground,1,0,4,1,0,0,TRUE,Successful,Didn't Try,FALSE,לא הגן,פאול רגיל אחד,2018-03-06 7:41:54,e4f8de4a20228b48a130020d45749a05
+מאיה לוי,6104,QM51,TRUE,FALSE,1,0,0,0,"Ground, Pyramid",1,0,1,1,7,0,TRUE,Successful,Didn't Try,FALSE,,"בהתחלה היה לא יציב, קיבלו פאול רגיל",2018-03-06 8:26:41,b8ca7bcb17ce789fb8f29195d17541e0
+רני מלצר,6104,QM55,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,הרובוט לא זז,הרובוט לא זז,2018-03-06 9:02:19,243a8cffe6bc0e576fb20f431d190ec4
+סהר כספי,6104,QF2,TRUE,FALSE,0,0,0,1,Pyramid,0,0,0,0,2,0,TRUE,Successful,Didn't Try,FALSE,,"קיבלו פאול כי התנגשו בסקאל בauto
+נשבר חלק ברןבוט מה שרגם להפסקתו למשך 30 שניות",2018-03-06 12:33:06,362c4f7e02bb3f0750fbf50ec6b79692
+סהר כספי,6104,QF9,TRUE,FALSE,1,0,0,0,Pyramid,1,1,1,1,0,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 13:27:29,a8481d618e18d45d51b727e9ed225abc
+טל שמר,6149,QM17,TRUE,FALSE,0,0,0,0,Portal,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:05:53,4331e37cd90026142ace3c1294f7ca51
+יובל ויינשטיין,6149,QM23,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,"לא זז רוב המשחק
+גם כשזז לא ניסה לאסוף קוביות",2018-03-05 14:59:49,9d284733b2a41b2ad78cc691eca8d4cd
+מאיה לוי,6149,QM28,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז חוץ מלחצות את האוטו ליין ולנסוע קצת בטלאופ,2018-03-05 15:48:24,9191e33c8c8ee7fc72440465596ac326
+יובל ויינשטיין,6149,QM34,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז,2018-03-05 16:53:55,cbc806be9482acb5ad5659cb57066129
+Saar Zelevski ,6149,QM37,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,הגנה סופר כושלת על 4590,"נתקעו בפרמידה שוב ושוב, רציתי לבכות",2018-03-06 6:26:05,fcbf84a8433e8ae605e18b1807de4f5c
+רני מלצר,6149,QM8,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיע למשחק,2018-03-05 12:37:17,f012fba3c09820a89d66375b0d2926a6
+יובל ויינשטיין,6149,QM43,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,1,FALSE,Didn't Try,Didn't Try,TRUE,השקיע את כל המשחק חוץ מ20 שניות אחרונות בהגנה וקיבל 2 טכניות,"לא עשה אוטונומי
+קיבל 2 טכניות על זה שנתפס בנאן זון",2018-03-06 7:29:41,abdbcbf6be26ab91fc7cde3dd125125c
+Stav Eyal,6149,QM46,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"הפסיק לזוז אחרי אוטונומי
+נכנסו למגרש בלי משקפי מגן",2018-03-06 7:46:43,58a8b2b5372f39e304fd39c1ca4dcde8
+Saar Zelevski ,6149,QM54,TRUE,FALSE,1,0,0,0,Pyramid,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"גררו את כל הפרמידה של היריב, נגעו ברובוט בנול",2018-03-06 8:51:17,5f4361872f82d0e8706cca228c48e813
+ניר,6168, QM37,TRUE,FALSE,0,0,0,0,Ground,1,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,"חסמו רובוט אחר במעבר ליד ה
+Switch
+של 6168",,2018-03-06 6:25:52,2b577e5eb61708deec0edaddb806e06a
+יובל ויינשטיין,6168,PM4,TRUE,FALSE,1,0,0,0,"Pyramid, Ground",0,0,0,2,1,0,FALSE,Didn't Try,Didn't Try,FALSE,לא עשה הגנה,"לוקח 10-5 שניות לאסוף קוביות
+קוביות מחליקות ונופלות מהרובוט",2018-03-05 9:50:27,c7d1d3c0d28ed8a9348bd80f1e096d82
+ניר,6168,QM32,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,כמעט ולא הצליחו לאסוף מהרצפה,2018-03-05 16:54:57,e547e2bf0cd605a3931867cb376bc6aa
+ענב,6168,QM16,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,2,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,לא הצליח לתפוס קוביות ,2018-03-05 13:57:12,d7a679cb438b3a8611b91e89ef9a15c1
+מאיה לוי,6168,QM2,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,לא הצליח לאסוף מהרצפה אבל ניסה (רק ככה אפשר לשלוח טופס),2018-03-05 11:30:53,601d4845b6ed2dbdef7efe0639a69392
+רני מלצר,6168,QM21,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,בזבז זמן בתפיסת קוביות ,2018-03-05 14:45:28,bcc389d73f3c22435836589173a03af3
+סהר כספי,6168,QM25,TRUE,FALSE,0,0,0,0,Ground,1,2,0,1,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,מתקשה לעזוב קוביות,2018-03-05 15:16:50,3f5b96de69bbb025f3f4f3ce6a38fbc9
+סהר כספי,6168,QM8,TRUE,FALSE,0,0,0,0,Ground,0,0,0,1,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,לא מצליח להרים קוביות,2018-03-05 12:35:59,f2ab79dfeddf6823a474c3237f3e9dbd
+ניר,6168,QM45,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 7:38:13,35d0b1196784a66f14281dc47fc96f24
+Stav Eyal,6168,QM51,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,1,1,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 8:34:21,2e5694dc2d8eac048639636938191973
+סהר כספי,6168,QM57,TRUE,FALSE,0,0,0,0,Pyramid,3,1,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:19:37,0f1a3a75af961981eec26695e6a8b747
+Stav Eyal,6738,PM2,FALSE,FALSE,0,1,0,0,Ground,1,0,0,1,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"Overshoots the plate and hits the scales’ arm
+Very slow collection",2018-03-05 9:18:53,bdfe51a0032db47f664178a132e75065
+Saar Zelevski ,6738,QM10,TRUE,FALSE,0,0,0,0,"Ground, Portal",1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,ביצעו הגנה כושלת על רובוט שלא מתפקד - אליסיום,,2018-03-05 12:54:54,4dc8919c5bef5a9892bc057c294a1fe2
+מאיה לוי,6738,QM14,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,0,1,TRUE,Didn't Try,Didn't Try,FALSE,,"פאול כי עבר קו חצי באוטונומי, קשיים באיסוף ",2018-03-05 13:39:20,7dd8000f3a98e80ed12bd75c096920df
+סהר כספי,6738,QM22,TRUE,FALSE,0,0,0,0,Pyramid,0,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הצליח לחסום ,לא מצליח לאסוף קוביות,2018-03-05 14:51:27,7dfaa6719e40d471df790162e295aaf7
+סהר כספי,6738,QM28,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,מתנדנד,2018-03-05 15:47:12,6efa37715e87d712e4e7b18442eb6045
+Saar Zelevski ,6738,QM30,TRUE,FALSE,0,0,0,0,Ground,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,עשו הגנה לזמן קצר,"נשבר להם האיסוף, רובוט גרוע",2018-03-05 16:18:18,c09307a8b7ee6e7b60b1fca6b8766021
+סהר כספי,6738,QM6,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,ניסיון כושל לחסום רובוט יריב,נוטה הצידה באוטונומי. עשה נקודות רק לקבוצה היריבה (באמצעות פאול) ,2018-03-05 12:19:05,79e1e97afa9b6c0e119eccb0ff1cd53e
+יובל ויינשטיין,6738,QM40,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"לא זז מעבר לקצת נסיעה במעגלים ונסיון להרים את המעלית
+קושי בהרמת מעלית",2018-03-06 6:56:34,ed1a28e488de282fed8a7165c1b7036a
+רני מלצר,6738,QM44,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגנו,מנגנון איסוף לא עבד רוב הזמן,2018-03-06 7:32:39,85f8f479ee126b959330307624954c53
+Nir,6738,QM50,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,נתקעה בתוכם קובייה בתחילת המשחק והם לא יכלו לאסוף עוד,2018-03-06 8:18:23,645be97972a6dd5c61be16aa48d83e46
+Stav Eyal,6738,QM57,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:20:48,cd750c3426b83aaf4e7f153a5489ca44
+ענב בר ניר,6741,QM 51,TRUE,FALSE,0,0,0,0,"Pyramid, Ground",1,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 8:27:30,0c362e5ef591b305c49bfd544a9326e7
+Saar Zelevski ,6741,PM3,TRUE,FALSE,0,0,0,0,"Ground, Pyramid, Portal",6,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,איסוף לא משהו,2018-03-05 9:29:52,a077cad729a1c053aff698f181e62037
+ענב,6741,QM 15,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,3,1,FALSE,Didn't Try,Didn't Try,TRUE,לא הגן,לא הצליח לטפס מעל הפלטפורמה אםילו שנשאר זמן,2018-03-05 13:51:42,74a575ddc790fef0a9e09507c1fc9810
+יובל ויינשטיין,6741,QM17,TRUE,FALSE,0,0,0,0,Ground,3,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"התקין בסוויץ' לא נכון
+התעכב 5 שניות על איסוף קוביות כמה פעמים",2018-03-05 14:26:51,a3ee39adb21242d40420adf2c4522d95
+סהר כספי,6741,QM23,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,4,1,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:59:05,d2cf792ddb443f5f35578d2bce78659a
+יובל ויינשטיין,6741,QM32,TRUE,FALSE,1,0,0,0,"Pyramid, Ground",0,0,0,0,5,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 16:38:16,d5327f6af18a1ac1f84bf54de651d19f
+יובל ויינשטיין,6741,QM36,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,5,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 17:15:47,ddbac16f4a2bcefc5a18ad6d66e7c2a8
+Saar Zelevski ,6741,QM5,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",2,3,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,איסוף לא מוצלח,2018-03-05 12:04:36,37bb85a544a7388b6eb7eb2f13cf626b
+רני מלצר,6741,QM9,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,,2018-03-05 12:46:52,9e40c06ecd3dac99793fe570ef916254
+Saar Zelevski ,6741,QM40,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"רוב הזמן הרובוט לא עבד, ושהוא כן ראיתי שחור בעיניים",2018-03-06 6:55:14,0300d470ff0ddc08c29c7a674e152462
+רני מלצר,6741,QM56,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,4,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,"נהג מזעזע
+
+ ניסו לעלות על הפלטפורמה, 2230 העיפו אותם ואת דיבאג",2018-03-06 9:17:24,0acd9e50fbe344b61861efc1c2d95e0f
+סהר כספי,6741,QM60,TRUE,FALSE,0,0,0,0,Pyramid,3,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-06 9:44:27,91a63367103977d6fbb2e4a6a31f9a43
+Saar Zelevski ,6741,Qf1,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיעו,2018-03-06 12:20:10,79fd68895a7f84f65e03fa0ced5cfdc1
+Saar Zelevski ,6741,Qf5,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,ביצעו הגנה על 5951,,2018-03-06 12:56:15,fca942b20970d32d69203b1ea4f24e09
+רני מלצר,7067,Pm2,TRUE,FALSE,0,0,0,0,Portal,1,1,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נהג לא מנוסה ואגרסיבי,2018-03-05 9:16:47,b4a025949e7064fabd266a1a15c83e3a
+יעל אמיתי,7067,QM 30,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 16:18:36,aab32ebad4c2d4ab6a8801778f8b08c9
+יעל אמתי,7067,QM 8,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,1,1,FALSE,Didn't Try,Didn't Try,FALSE,,דחפו שתי קוביות לexchange  אבל לא הצליחו לתפוס קוביות,2018-03-05 12:36:57,dd0b5ec806a537e2298cc35e97d68b53
+ענב בר ניר,7067,QM17,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,,2018-03-05 14:09:58,6dd7e95633c46afe33f5ef5178946a10
+Stav Eyal,7067,QM19,TRUE,FALSE,1,0,0,0,Ground,0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:52:26,b1b10fcf403b074b440e97c04f336bd5
+סהר כספי,7067,QM26,TRUE,FALSE,0,0,0,0,Pyramid,1,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 15:25:57,a945663aff9ee98ba9485605794be96e
+סהר כספי,7067,QM5,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,הדפו רובוט שחסם אותם,לא עברו את הסוויץ' כל המשחק (חוץ מבauto(,2018-03-05 12:08:26,2bd5140afe397c4683608d66fd635796
+ניר,7067,QM37,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זזו כל המשחק,2018-03-06 6:36:37,e534d8dd98fe5b68c08e35262bdf7cf4
+יובל ויינשטיין,7067,QM41,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,3,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,מסתמך על מנגנונים פאסיביים,2018-03-06 7:06:37,8b10d5b05c4812ec092ebc5f273f0208
+Saar Zelevski ,7067,QM46,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,נהג מעולה,2018-03-06 7:45:52,9cd04fc4b478f2511b66240686d1c286
+ענב,7067,QM 52,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,5,1,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,אין,2018-03-06 8:38:50,6922507923443f91b4591af8f254c38c
+רני מלצר,7067,Qf3,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,לא הגן,הרובוט מסוגל לעשות רק אקסצ'יינג',2018-03-06 12:39:33,bd8ab272a79f39d1acde35791f0187d7
+רני מלצר,7067,Qf7,TRUE,FALSE,0,0,0,0,"Ground, Pyramid",0,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,מסוגלים לעשות רק אקסצ'יינג',2018-03-06 13:11:25,3f0bd9f8a445ae3671bb0ec031712601
+Saar Zelevski ,7112,PM5,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"בעיות תקשורת, לא זז",2018-03-05 10:07:46,a2d99baaef4f031402ded7529e9c01e1
+יעל אמיתי,7112,QM 17,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 14:06:28,cbd3a91df139b433d86bc638e6afb5db
+ענב בר ניר,7112,QM 21,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הרובוט לא זז,2018-03-05 14:45:25,9370aef30466aaba5bd55323f7c57d29
+יעל אמיתי,7112,QM 4,FALSE,FALSE,0,0,0,0,Ground,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,לא זז,לא זז,2018-03-05 11:53:22,da0505128de79ea65c58b00506955765
+סהר כספי,7112,QM24,TRUE,FALSE,0,0,0,0,Pyramid,2,0,0,0,1,1,TRUE,Didn't Try,Didn't Try,FALSE,,,2018-03-05 15:08:09,cf5aff1909879cce995f6072c36b36cc
+מאיה לוי,7112,QM33,TRUE,FALSE,0,0,0,0,Pyramid,0,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,TRUE,,טק פאול באוטונומי,2018-03-05 16:46:10,8798f9f617d62afc6c5bfd14aa435b31
+סהר כספי,7112,QM35,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,נסע יותר מדי בauto,2018-03-05 17:02:28,e73207be81d5838ff92b82664acb6953
+סהר כספי,7112,QM9,FALSE,FALSE,0,0,0,0,Pyramid,2,0,1,0,1,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-05 12:45:49,f99c166ddd79ac29ba68046cfc0eb4a8
+Saar Zelevski ,7112,QM45,FALSE,FALSE,0,0,0,0,Pyramid,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,זה אמור לאסוף,2018-03-06 7:40:06,f833ef1dd798400e19a1b6703b0ceffe
+nir,7112,QM48,FALSE,FALSE,0,0,0,0,Ground,1,0,0,0,1,0,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 8:02:35,c3462a7721ddd6ee19bff9f66e44f016
+ענב ,7112,QM 54,FALSE,FALSE,0,0,0,0,"Ground, Pyramid",1,0,0,0,2,0,TRUE,Failed,Didn't Try,FALSE,אין,אין,2018-03-06 8:54:11,9980fd35bb7bf9646175f47dd2493a99
+Nir,7112,QM60,TRUE,FALSE,0,0,0,0,Ground,0,0,0,0,2,1,TRUE,Failed,Didn't Try,FALSE,,,2018-03-06 9:43:01,72d54462069ae5713e5e13f7554fec75
+רני מלצר,7112,Qf4,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,עשה עבודה טובה בלמנוע מקבוצות יריבות להגיע אל הסקייל,התמקד בהגנה,2018-03-06 12:47:58,25adbafef094383fcacfe10e93323dbe
+רני מלצר,7112,Qf8,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,הגנה מאחורי הסוויטץ' האדום מונעים מעבר לסקייל,עשו רק הגנה,2018-03-06 13:22:17,6c8fe16764a9c9145208a65a18c33d95
+רני מלצר,7112,Qf4,TRUE,FALSE,0,0,0,0,Ground,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,"התמקד בהגנה כרגיל
+עשה TF","TF 1
+F 1
+נתקע ב1657 למשך 20 שניות בערך",2018-03-06 13:37:31,88e46cc353f3c7c5ae9ef934a3957803
