@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C0205D207700DB34CF /* AppDelegate.swift */; };
 		A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C2205D207700DB34CF /* MasterViewController.swift */; };
-		A5FC50C5205D207700DB34CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C4205D207700DB34CF /* DetailViewController.swift */; };
+		A5FC50C5205D207700DB34CF /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C4205D207700DB34CF /* StatsViewController.swift */; };
 		A5FC50C8205D207700DB34CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50C6205D207700DB34CF /* Main.storyboard */; };
 		A5FC50CA205D207700DB34CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50C9205D207700DB34CF /* Assets.xcassets */; };
 		A5FC50CD205D207700DB34CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50CB205D207700DB34CF /* LaunchScreen.storyboard */; };
@@ -21,6 +21,8 @@
 		A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */; };
 		A5FC50ED205D3DF400DB34CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50EC205D3DF400DB34CF /* Extensions.swift */; };
 		A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */; };
+		A5FC50F3205E526E00DB34CF /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */; };
+		A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F4205E542F00DB34CF /* CommentCell.swift */; };
 		A63E0F76A21803DBAAFF710D /* Pods_Kassandra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91594F04707BF9702987272F /* Pods_Kassandra.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +43,7 @@
 		A5FC50BD205D207700DB34CF /* Kassandra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kassandra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC50C0205D207700DB34CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FC50C2205D207700DB34CF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A5FC50C4205D207700DB34CF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5FC50C4205D207700DB34CF /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		A5FC50C7205D207700DB34CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5FC50C9205D207700DB34CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5FC50CC205D207700DB34CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataExt.swift; sourceTree = "<group>"; };
 		A5FC50EC205D3DF400DB34CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataFormatter.swift; sourceTree = "<group>"; };
+		A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		A5FC50F4205E542F00DB34CF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				A5FC50C2205D207700DB34CF /* MasterViewController.swift */,
-				A5FC50C4205D207700DB34CF /* DetailViewController.swift */,
+				A5FC50C4205D207700DB34CF /* StatsViewController.swift */,
+				A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */,
+				A5FC50F4205E542F00DB34CF /* CommentCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -325,14 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FC50C5205D207700DB34CF /* DetailViewController.swift in Sources */,
+				A5FC50C5205D207700DB34CF /* StatsViewController.swift in Sources */,
 				A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */,
 				A5FC50E5205D276400DB34CF /* Config.swift in Sources */,
+				A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */,
 				A5FC50E9205D385900DB34CF /* MatchDataModel.swift in Sources */,
 				A5FC50E3205D243800DB34CF /* TeamManager.swift in Sources */,
 				A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */,
 				A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */,
 				A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */,
+				A5FC50F3205E526E00DB34CF /* CommentsViewController.swift in Sources */,
 				A5FC50ED205D3DF400DB34CF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

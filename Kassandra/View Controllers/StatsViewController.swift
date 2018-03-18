@@ -9,7 +9,7 @@
 import UIKit
 import Charts
 
-class DetailViewController: UIViewController {
+class StatsViewController: UIViewController {
   @IBOutlet weak var lineChart: LineChartView!
   @IBOutlet weak var stackView: UIStackView!
   @IBOutlet weak var scatterChart: ScatterChartView!
@@ -25,7 +25,7 @@ class DetailViewController: UIViewController {
   func configureView() {
     self.loadViewIfNeeded()
 
-    self.title = "Details - Team #\(self.teamNumber!)"
+    self.parent?.title = "Details - Team #\(self.teamNumber!)"
 
     let matches = TeamManager.shared.getMatches(of: self.teamNumber!).sorted { $0.matchKey() < $1.matchKey() }
 
@@ -55,6 +55,10 @@ class DetailViewController: UIViewController {
     let scatterData = ScatterChartData(dataSets: [arsDataSet, arfDataSet])
     scatterData.setDrawValues(false)
     self.scatterChart.data = scatterData
+
+    self.scatterChart.xAxis.setLabelCount(matches.count, force: true)
+    self.scatterChart.xAxis.valueFormatter = ChartDataFormatter(with: matches)
+    self.scatterChart.invalidateIntrinsicContentSize()
   }
 
   func prepareStackView () {
@@ -105,9 +109,9 @@ class DetailViewController: UIViewController {
     self.scatterChart.rightAxis.enabled = false
 
     self.scatterChart.leftAxis.axisMinimum = 0.0
-    self.scatterChart.leftAxis.axisMaximum = 6.0
+    self.scatterChart.leftAxis.axisMaximum = 7.0
     self.scatterChart.leftAxis.granularity = 1.0
-    self.scatterChart.leftAxis.setLabelCount(6, force: true)
+    self.scatterChart.leftAxis.setLabelCount(7, force: true)
   }
 
   override func viewDidLoad() {

@@ -8,7 +8,7 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
-  var detailViewController: DetailViewController? = nil
+  var detailViewController: StatsViewController? = nil
   var objects = [Int]()
   var filtered = [Int]()
 
@@ -19,7 +19,7 @@ class MasterViewController: UITableViewController {
     self.navigationItem.leftBarButtonItem = addButton
     if let split = splitViewController {
         let controllers = split.viewControllers
-        self.detailViewController = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? DetailViewController
+        self.detailViewController = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? StatsViewController
     }
 
     TeamManager.shared.getTeams { (teams) in
@@ -57,10 +57,15 @@ extension MasterViewController {
     if segue.identifier == "showDetail" {
       if let indexPath = self.tableView.indexPathForSelectedRow {
         let object = objects[indexPath.row]
-        let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-        controller.teamNumber = object
-        controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-        controller.navigationItem.leftItemsSupplementBackButton = true
+        let tabVC = (segue.destination as! UINavigationController).topViewController as! UITabBarController
+        tabVC.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+        tabVC.navigationItem.leftItemsSupplementBackButton = true
+
+        let statsVC = tabVC.childViewControllers[0] as! StatsViewController
+        statsVC.teamNumber = object
+
+        let commentsVC = tabVC.childViewControllers[1] as! CommentsViewController
+        commentsVC.teamNumber = object
       }
     }
   }
@@ -71,8 +76,10 @@ extension MasterViewController {
  */
 extension MasterViewController: UISearchResultsUpdating {
   func shouldFilter () -> Bool {
-    let sc = self.navigationItem.searchController!
-    return sc.isActive && !((sc.searchBar.text?.isEmpty) ?? true)
+    if let sc = self.navigationItem.searchController {
+      return sc.isActive && !((sc.searchBar.text?.isEmpty) ?? true)
+    }
+    return false
   }
 
   func filterTeams (by query: String) {

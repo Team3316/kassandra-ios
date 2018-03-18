@@ -46,13 +46,19 @@ class TeamManager {
       "X-TBA-Auth-Key": Config.authKey
     ]
 
-    Alamofire.request(Config.tbaUrl, headers: headers).responseJSON { resp in
-      // Array of teams in ranks 1 to 45
-      let data = resp.result.value! as! [[String: Any]]
-      let participatingTeams = data
-        .filter({ ($0["rank"] as! Int) <= 45 })
-        .map({ Int(($0["team_key"] as! String).replacingOccurrences(of: "frc", with: "")) ?? -1 })
-      callback(participatingTeams)
+    let teamsList = UserDefaults.standard.array(forKey: Config.teamsKey)
+    if teamsList == nil {
+      Alamofire.request(Config.tbaUrl, headers: headers).responseJSON { resp in
+        // Array of teams in ranks 1 to 45
+        let data = resp.result.value! as! [[String: Any]]
+        let participatingTeams = data
+          .filter({ ($0["rank"] as! Int) <= 45 })
+          .map({ Int(($0["team_key"] as! String).replacingOccurrences(of: "frc", with: "")) ?? -1 })
+        UserDefaults.standard.set(participatingTeams, forKey: Config.teamsKey)
+        callback(participatingTeams)
+      }
+    } else {
+      callback(teamsList as! [Int])
     }
   }
 
@@ -62,25 +68,25 @@ class TeamManager {
 
   func autoRunSucc (from matches: [MatchData]) -> ScatterChartDataSet {
     let entries = matches
-      .filter({ $0.autoRun })
       .enumerated()
+      .filter({ $0.1.autoRun })
       .map({ ChartDataEntry(x: Double($0.0), y: 1.0) })
     let dataSet = ScatterChartDataSet(values: entries, label: "[A] Run")
-    dataSet.setScatterShape(.chevronDown)
+    dataSet.setScatterShape(.square)
     dataSet.setColor(Config.successColor)
     return dataSet
   }
 
   func autoRunFail (from matches: [MatchData]) -> ScatterChartDataSet {
     let entries = matches
-      .filter({ !$0.autoRun })
       .enumerated()
+      .filter({ !$0.1.autoRun })
       .map { (i, match) -> ChartDataEntry in
         print(match.matchName())
         return ChartDataEntry(x: Double(i), y: 1.0)
       }
     let dataSet = ScatterChartDataSet(values: entries, label: "[A] Run")
-    dataSet.setScatterShape(.cross)
+    dataSet.setScatterShape(.x)
     dataSet.setColor(Config.failColor)
     return dataSet
   }

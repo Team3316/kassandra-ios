@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,20 +29,20 @@
         <!--Detail-->
         <scene sceneID="yUG-lL-AsK">
             <objects>
-                <viewController title="Detail" id="JEX-9P-axG" customClass="DetailViewController" customModule="Kassandra" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Detail" id="JEX-9P-axG" customClass="StatsViewController" customModule="Kassandra" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
                         <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F1D-mP-Eha">
-                                <rect key="frame" x="9" y="73" width="685.5" height="686"/>
+                                <rect key="frame" x="9" y="73" width="685.5" height="637"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5N-AS-gVS" customClass="LineChartView" customModule="Charts">
                                         <rect key="frame" x="0.0" y="0.0" width="685.5" height="343"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oxx-wt-xJL" customClass="ScatterChartView" customModule="Charts">
-                                        <rect key="frame" x="0.0" y="343" width="685.5" height="343"/>
+                                        <rect key="frame" x="0.0" y="343" width="685.5" height="294"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -56,8 +57,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Statistics" image="graph" id="UVt-6S-zHe"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Details" id="mOI-FS-AaM"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="lineChart" destination="N5N-AS-gVS" id="MeC-ow-UzH"/>
                         <outlet property="scatterChart" destination="Oxx-wt-xJL" id="v1w-uZ-tv9"/>
@@ -66,7 +69,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1361.71875" y="714.84375"/>
+            <point key="canvasLocation" x="746" y="1547"/>
+        </scene>
+        <!--Comments-->
+        <scene sceneID="l7U-AD-3eu">
+            <objects>
+                <viewController id="17i-Ij-tuN" customClass="CommentsViewController" customModule="Kassandra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z4I-od-Xjl">
+                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FAw-YA-nb2">
+                                <rect key="frame" x="0.0" y="64" width="704" height="655"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentCell" rowHeight="150" id="kW3-yh-5tm" customClass="CommentCell" customModule="Kassandra" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="704" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kW3-yh-5tm" id="JQW-Jm-Glc">
+                                            <rect key="frame" x="0.0" y="0.0" width="704" height="149.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QM123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVE-7M-s60">
+                                                    <rect key="frame" x="15" y="11" width="85.5" height="30"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Comment Text" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiO-xk-ZcE">
+                                                    <rect key="frame" x="15" y="49" width="674" height="90"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JVE-7M-s60" secondAttribute="trailingMargin" id="8bX-Sm-5sD"/>
+                                                <constraint firstItem="kiO-xk-ZcE" firstAttribute="top" secondItem="JVE-7M-s60" secondAttribute="bottom" constant="8" id="BVP-NF-Pek"/>
+                                                <constraint firstItem="kiO-xk-ZcE" firstAttribute="bottom" secondItem="JQW-Jm-Glc" secondAttribute="bottomMargin" id="NeR-yJ-WdM"/>
+                                                <constraint firstItem="JVE-7M-s60" firstAttribute="leading" secondItem="JQW-Jm-Glc" secondAttribute="leadingMargin" id="k66-c8-ygi"/>
+                                                <constraint firstItem="kiO-xk-ZcE" firstAttribute="trailing" secondItem="JQW-Jm-Glc" secondAttribute="trailingMargin" id="ka1-FY-BLH"/>
+                                                <constraint firstItem="kiO-xk-ZcE" firstAttribute="leading" secondItem="JQW-Jm-Glc" secondAttribute="leadingMargin" id="mkH-SN-7xU"/>
+                                                <constraint firstItem="JVE-7M-s60" firstAttribute="top" secondItem="JQW-Jm-Glc" secondAttribute="topMargin" id="sgf-1q-gDr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="kiO-xk-ZcE" id="vFE-zA-t3e"/>
+                                            <outlet property="matchIdLabel" destination="JVE-7M-s60" id="P7E-LJ-0WN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FAw-YA-nb2" firstAttribute="leading" secondItem="4Nr-Tw-LiL" secondAttribute="leading" id="H9F-vb-7gS"/>
+                            <constraint firstItem="FAw-YA-nb2" firstAttribute="top" secondItem="4Nr-Tw-LiL" secondAttribute="top" id="ONi-mQ-tIX"/>
+                            <constraint firstAttribute="trailing" secondItem="FAw-YA-nb2" secondAttribute="trailing" id="Os1-AR-kG5"/>
+                            <constraint firstItem="FAw-YA-nb2" firstAttribute="bottom" secondItem="4Nr-Tw-LiL" secondAttribute="bottom" id="ndz-ut-1KF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Nr-Tw-LiL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Comments" image="note" id="Ux2-ef-U6i"/>
+                    <connections>
+                        <outlet property="tableView" destination="FAw-YA-nb2" id="vYr-KA-7Qt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g25-c5-N20" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1423.828125" y="1546.875"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Nki-YV-4Qg">
@@ -134,14 +205,37 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="JEX-9P-axG" kind="relationship" relationship="rootViewController" id="GKi-kA-LjT"/>
+                        <segue destination="q3f-dc-OOt" kind="relationship" relationship="rootViewController" id="GKi-kA-LjT"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLD-UC-DBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="57" y="715"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YPh-fe-IUj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="q3f-dc-OOt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bnN-An-Coi"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DeK-ml-uos">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JEX-9P-axG" kind="relationship" relationship="viewControllers" id="mgB-8E-2VC"/>
+                        <segue destination="17i-Ij-tuN" kind="relationship" relationship="viewControllers" id="TPo-aQ-7ce"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vst-lY-1CV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061.71875" y="714.84375"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="graph" width="25" height="25"/>
+        <image name="note" width="25" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Tll-UG-LXB"/>
     </inferredMetricsTieBreakers>
