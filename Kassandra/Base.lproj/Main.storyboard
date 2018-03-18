@@ -35,14 +35,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F1D-mP-Eha">
-                                <rect key="frame" x="9" y="73" width="685.5" height="637"/>
+                                <rect key="frame" x="0.0" y="73" width="703.5" height="637"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5N-AS-gVS" customClass="LineChartView" customModule="Charts">
-                                        <rect key="frame" x="0.0" y="0.0" width="685.5" height="343"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="343"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oxx-wt-xJL" customClass="ScatterChartView" customModule="Charts">
-                                        <rect key="frame" x="0.0" y="343" width="685.5" height="294"/>
+                                        <rect key="frame" x="0.0" y="343" width="703.5" height="294"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -51,8 +51,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="F1D-mP-Eha" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="9" id="5rZ-kT-ea9"/>
-                            <constraint firstAttribute="trailing" secondItem="F1D-mP-Eha" secondAttribute="trailing" constant="9" id="eiw-6F-P3I"/>
-                            <constraint firstItem="F1D-mP-Eha" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" constant="9" id="g7B-FW-KDt"/>
+                            <constraint firstAttribute="trailing" secondItem="F1D-mP-Eha" secondAttribute="trailing" id="eiw-6F-P3I"/>
+                            <constraint firstItem="F1D-mP-Eha" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" id="g7B-FW-KDt"/>
                             <constraint firstItem="F1D-mP-Eha" firstAttribute="bottom" secondItem="VUw-jc-0yf" secondAttribute="bottom" constant="-9" id="j0F-jA-yMJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>

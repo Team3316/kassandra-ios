@@ -25,7 +25,30 @@ class TeamManager {
       case .scales: return UIColor(red: 76.0/255.0, green: 175.0/255.0, blue: 80.0/255.0, alpha: 1.0)
       case .switches: return UIColor(red: 255.0/255.0, green: 152.0/255.0, blue: 0.0/255.0, alpha: 1.0)
       case .exchanges: return UIColor(red: 3.0/255.0, green: 169.0/255.0, blue: 244.0/255.0, alpha: 1.0)
-      default: return UIColor(red: 103.0/255.0, green: 58.0/255.0, blue: 183.0/255.0, alpha: 1.0)
+      }
+    }
+  }
+
+  enum ClimbType {
+    case success
+    case fail
+    case didntTry
+    case platform
+
+    func color () -> UIColor {
+      switch self {
+      case .success: return Config.successColor
+      case .fail: return Config.failColor
+      case .platform: return Config.platformColor
+      default: return UIColor.clear
+      }
+    }
+
+    func scatterIcon () -> ScatterChartDataSet.Shape {
+      switch self {
+      case .success: return ScatterChartDataSet.Shape.square
+      case .platform: return ScatterChartDataSet.Shape.triangle
+      default: return ScatterChartDataSet.Shape.x
       }
     }
   }
@@ -66,29 +89,93 @@ class TeamManager {
     return self.matches.filter({ $0.teamNumber == team })
   }
 
+  func scatterDataSet (type: ClimbType, from data: [(Int, MatchData)], level: Double) -> ScatterChartDataSet {
+    let entries = data.map({ ChartDataEntry(x: Double($0.0), y: level) })
+    let dataSet = ScatterChartDataSet(values: entries)
+    dataSet.setScatterShape(type.scatterIcon())
+    dataSet.setColor(type.color())
+    return dataSet
+  }
+
+  func scatterDataSet (type: ClimbType, from data: [(Int, MatchData)], level: Int) -> ScatterChartDataSet {
+    return self.scatterDataSet(type: type, from: data, level: Double(level))
+  }
+
   func autoRunSucc (from matches: [MatchData]) -> ScatterChartDataSet {
     let entries = matches
       .enumerated()
       .filter({ $0.1.autoRun })
-      .map({ ChartDataEntry(x: Double($0.0), y: 1.0) })
-    let dataSet = ScatterChartDataSet(values: entries, label: "[A] Run")
-    dataSet.setScatterShape(.square)
-    dataSet.setColor(Config.successColor)
-    return dataSet
+    return self.scatterDataSet(type: .success, from: entries, level: 1.15)
   }
 
   func autoRunFail (from matches: [MatchData]) -> ScatterChartDataSet {
     let entries = matches
       .enumerated()
       .filter({ !$0.1.autoRun })
-      .map { (i, match) -> ChartDataEntry in
-        print(match.matchName())
-        return ChartDataEntry(x: Double(i), y: 1.0)
-      }
-    let dataSet = ScatterChartDataSet(values: entries, label: "[A] Run")
-    dataSet.setScatterShape(.x)
-    dataSet.setColor(Config.failColor)
-    return dataSet
+    return self.scatterDataSet(type: .fail, from: entries, level: 1.15)
+  }
+
+  func autoSwitchSucc (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.autoSwitch > 0 })
+    return self.scatterDataSet(type: .success, from: entries, level: 2.3)
+  }
+
+  func autoSwitchFail (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.autoSwitchFail > 0 })
+    return self.scatterDataSet(type: .fail, from: entries, level: 2.3)
+  }
+
+  func autoScaleSucc (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.autoScale > 0 })
+    return self.scatterDataSet(type: .success, from: entries, level: 3.44)
+  }
+
+  func autoScaleFail (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.autoScaleFail > 0 })
+    return self.scatterDataSet(type: .fail, from: entries, level: 3.44)
+  }
+
+  func partnerSucc (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.partnerClimb == Config.success })
+    return self.scatterDataSet(type: .success, from: entries, level: 4.59)
+  }
+
+  func partnerFail (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.partnerClimb == Config.fail })
+    return self.scatterDataSet(type: .fail, from: entries, level: 4.59)
+  }
+
+  func climbSucc (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.climb == Config.success })
+    return self.scatterDataSet(type: .success, from: entries, level: 5.74)
+  }
+
+  func climbFail (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.climb == Config.fail })
+    return self.scatterDataSet(type: .fail, from: entries, level: 5.74)
+  }
+
+  func platform (from matches: [MatchData]) -> ScatterChartDataSet {
+    let entries = matches
+      .enumerated()
+      .filter({ $0.1.platform })
+    return self.scatterDataSet(type: .platform, from: entries, level: 6.88)
   }
 
   /*
@@ -99,6 +186,10 @@ class TeamManager {
     let input = InputStream(fileAtPath: filePath!)
     return try! CSV(stream: input!, hasHeaderRow: true)
   }
+
+//  static func getDataFromBackend () -> CSV {
+//
+//  }
 
   static func parseMatchData (from text: String) -> (String, Int) {
     let regex = try! NSRegularExpression(pattern: Config.matchRegex)

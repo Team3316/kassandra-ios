@@ -43,31 +43,32 @@ class MatchData {
   let comments: String
 
   init (data: [String]) {
-    self.fullName = data[0]
-    self.teamNumber = Int(data[1])!
-    self.matchId = TeamManager.parseMatchData(from: data[2].uppercased())
+    let dataArr = data.count < 1 ? Config.emptyDataArr : data
+    self.fullName = dataArr[0]
+    self.teamNumber = Int(dataArr[1]) ?? -1
+    self.matchId = TeamManager.parseMatchData(from: dataArr[2])
 
-    self.autoRun = data[3] == Config.trueString
-    self.autoExchange = data[4] == Config.trueString
-    self.autoSwitch = Int(data[5]) ?? 0
-    self.autoSwitchFail = Int(data[6]) ?? 0
-    self.autoScale = Int(data[7]) ?? 0
-    self.autoScaleFail = Int(data[8]) ?? 0
+    self.autoRun = dataArr[3] == Config.trueString
+    self.autoExchange = dataArr[4] == Config.trueString
+    self.autoSwitch = Int(dataArr[5]) ?? 0
+    self.autoSwitchFail = Int(dataArr[6]) ?? 0
+    self.autoScale = Int(dataArr[7]) ?? 0
+    self.autoScaleFail = Int(dataArr[8]) ?? 0
 
-    self.collection = data[9]
-    self.teleSwitch = Int(data[10]) ?? 0
-    self.teleSwitchFail = Int(data[11]) ?? 0
-    self.teleScale = Int(data[12]) ?? 0
-    self.teleScaleFail = Int(data[13]) ?? 0
-    self.teleExchange = Int(data[14]) ?? 0
-    self.teleExchangeFail = Int(data[15]) ?? 0
+    self.collection = dataArr[9]
+    self.teleSwitch = Int(dataArr[10]) ?? 0
+    self.teleSwitchFail = Int(dataArr[11]) ?? 0
+    self.teleScale = Int(dataArr[12]) ?? 0
+    self.teleScaleFail = Int(dataArr[13]) ?? 0
+    self.teleExchange = Int(dataArr[14]) ?? 0
+    self.teleExchangeFail = Int(dataArr[15]) ?? 0
 
-    self.platform = data[16] == Config.trueString
-    self.climb = data[17]
-    self.partnerClimb = data[18]
+    self.platform = dataArr[16] == Config.trueString
+    self.climb = dataArr[17]
+    self.partnerClimb = dataArr[18]
 
-    self.techFoul = data[19] == Config.trueString
-    self.defenseComments = data[20]
-    self.comments = data[21]
+    self.techFoul = dataArr[19] == Config.trueString
+    self.defenseComments = dataArr[20]
+    self.comments = dataArr[21]
   }
 }

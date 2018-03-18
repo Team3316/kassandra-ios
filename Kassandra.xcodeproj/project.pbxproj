@@ -23,6 +23,7 @@
 		A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */; };
 		A5FC50F3205E526E00DB34CF /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */; };
 		A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F4205E542F00DB34CF /* CommentCell.swift */; };
+		A5FC50F7205E807C00DB34CF /* ScatterLeftAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50F6205E807C00DB34CF /* ScatterLeftAxis.swift */; };
 		A63E0F76A21803DBAAFF710D /* Pods_Kassandra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91594F04707BF9702987272F /* Pods_Kassandra.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataFormatter.swift; sourceTree = "<group>"; };
 		A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		A5FC50F4205E542F00DB34CF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		A5FC50F6205E807C00DB34CF /* ScatterLeftAxis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterLeftAxis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				A5FC50E8205D385900DB34CF /* MatchDataModel.swift */,
 				A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */,
 				A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */,
+				A5FC50F6205E807C00DB34CF /* ScatterLeftAxis.swift */,
 			);
 			path = "Data Handling";
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */,
 				A5FC50E9205D385900DB34CF /* MatchDataModel.swift in Sources */,
 				A5FC50E3205D243800DB34CF /* TeamManager.swift in Sources */,
+				A5FC50F7205E807C00DB34CF /* ScatterLeftAxis.swift in Sources */,
 				A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */,
 				A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */,
 				A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */,

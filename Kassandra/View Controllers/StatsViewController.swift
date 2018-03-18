@@ -52,11 +52,38 @@ class StatsViewController: UIViewController {
     // Scatter chart
     let arsDataSet = TeamManager.shared.autoRunSucc(from: matches)
     let arfDataSet = TeamManager.shared.autoRunFail(from: matches)
-    let scatterData = ScatterChartData(dataSets: [arsDataSet, arfDataSet])
+
+    let ass1DataSet = TeamManager.shared.autoSwitchSucc(from: matches)
+    let asf1DataSet = TeamManager.shared.autoRunSucc(from: matches)
+
+    let ass2DataSet = TeamManager.shared.autoScaleSucc(from: matches)
+    let asf2DataSet = TeamManager.shared.autoScaleFail(from: matches)
+
+    let platDataSet = TeamManager.shared.platform(from: matches)
+
+    let psDataSet = TeamManager.shared.partnerSucc(from: matches)
+    let pfDataSet = TeamManager.shared.partnerFail(from: matches)
+
+    let csDataSet = TeamManager.shared.climbSucc(from: matches)
+    let cfDataSet = TeamManager.shared.climbFail(from: matches)
+
+    let scatterData = ScatterChartData(dataSets: [
+      arsDataSet,
+      arfDataSet,
+      ass1DataSet,
+      asf1DataSet,
+      ass2DataSet,
+      asf2DataSet,
+      psDataSet,
+      pfDataSet,
+      csDataSet,
+      cfDataSet,
+      platDataSet
+    ])
     scatterData.setDrawValues(false)
     self.scatterChart.data = scatterData
 
-    self.scatterChart.xAxis.setLabelCount(matches.count, force: true)
+    self.scatterChart.xAxis.setLabelCount(matches.count, force: false)
     self.scatterChart.xAxis.valueFormatter = ChartDataFormatter(with: matches)
     self.scatterChart.invalidateIntrinsicContentSize()
   }
@@ -105,13 +132,20 @@ class StatsViewController: UIViewController {
     self.scatterChart.legend.enabled = false
 
     self.scatterChart.legend.enabled = false
-    self.scatterChart.xAxis.enabled = false
     self.scatterChart.rightAxis.enabled = false
 
+    self.scatterChart.xAxis.labelPosition = .bottom
+    self.scatterChart.xAxis.drawGridLinesEnabled = true
+    self.scatterChart.xAxis.avoidFirstLastClippingEnabled = true
+    self.scatterChart.xAxis.labelRotationAngle = -90
+    self.scatterChart.xAxis.granularityEnabled = true
+    self.scatterChart.xAxis.granularity = 1.0
+
     self.scatterChart.leftAxis.axisMinimum = 0.0
-    self.scatterChart.leftAxis.axisMaximum = 7.0
+    self.scatterChart.leftAxis.axisMaximum = 8.0
     self.scatterChart.leftAxis.granularity = 1.0
-    self.scatterChart.leftAxis.setLabelCount(7, force: true)
+    self.scatterChart.leftAxis.setLabelCount(8, force: true)
+    self.scatterChart.leftAxis.valueFormatter = ScatterLeftAxis()
   }
 
   override func viewDidLoad() {
