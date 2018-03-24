@@ -5,4 +5,5 @@ target 'Kassandra' do
   pod 'CSV.swift', '~> 2.1.0'
   pod 'Charts'
   pod 'Alamofire'
+  pod 'MBProgressHUD', '~> 1.1.0'
 end

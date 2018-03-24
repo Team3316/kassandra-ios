@@ -15,19 +15,18 @@ class MasterViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let addButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(refresh(_:)))
-    self.navigationItem.leftBarButtonItem = addButton
-    if let split = splitViewController {
-        let controllers = split.viewControllers
-        self.detailViewController = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? StatsViewController
+    if let split = self.splitViewController {
+      let controllers = split.viewControllers
+      self.detailViewController = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? StatsViewController
     }
 
-    TeamManager.shared.getTeams { (teams) in
+    TeamManager.getTeams { (teams) in
       self.objects = teams
       self.tableView.reloadData()
     }
 
     let searchController = UISearchController(searchResultsController: nil)
+    searchController.searchBar.keyboardType = .numberPad
     searchController.searchResultsUpdater = self
     searchController.obscuresBackgroundDuringPresentation = false
     searchController.searchBar.placeholder = "Search Teams"
@@ -35,17 +34,12 @@ class MasterViewController: UITableViewController {
   }
 
   override func viewWillAppear(_ animated: Bool) {
-    self.clearsSelectionOnViewWillAppear = splitViewController!.isCollapsed
+    self.clearsSelectionOnViewWillAppear = self.splitViewController!.isCollapsed
     super.viewWillAppear(animated)
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-  }
-
-  @objc
-  func refresh(_ sender: Any) {
-    print("refresh")
   }
 }
 
@@ -56,16 +50,26 @@ extension MasterViewController {
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "showDetail" {
       if let indexPath = self.tableView.indexPathForSelectedRow {
-        let object = objects[indexPath.row]
+        let datas = self.shouldFilter() ? self.filtered : self.objects
+        let object = datas[indexPath.row]
         let tabVC = (segue.destination as! UINavigationController).topViewController as! UITabBarController
         tabVC.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
         tabVC.navigationItem.leftItemsSupplementBackButton = true
 
+        let events = TeamManager.shared
+          .getEvents(of: object)
+          .filter({ $0.1 })
+        let lastEvent = events[events.count - 1]
+
         let statsVC = tabVC.childViewControllers[0] as! StatsViewController
+        statsVC.teamManager = TeamManager.shared
         statsVC.teamNumber = object
+        statsVC.teamManager(didChooseEvent: lastEvent.2)
 
         let commentsVC = tabVC.childViewControllers[1] as! CommentsViewController
+        commentsVC.teamManager = TeamManager.shared
         commentsVC.teamNumber = object
+        commentsVC.teamManager(didChooseEvent: lastEvent.2)
       }
     }
   }
@@ -112,4 +116,3 @@ extension MasterViewController {
     return cell
   }
 }
-

@@ -31,18 +31,18 @@
             <objects>
                 <viewController title="Detail" id="JEX-9P-axG" customClass="StatsViewController" customModule="Kassandra" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
-                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F1D-mP-Eha">
-                                <rect key="frame" x="0.0" y="73" width="703.5" height="637"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UzD-bT-YM3">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="646"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5N-AS-gVS" customClass="LineChartView" customModule="Charts">
-                                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="343"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yDL-U9-5vs" customClass="LineChartView" customModule="Charts">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="646"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oxx-wt-xJL" customClass="ScatterChartView" customModule="Charts">
-                                        <rect key="frame" x="0.0" y="343" width="703.5" height="294"/>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyM-Rs-Z6L" customClass="ScatterChartView" customModule="Charts">
+                                        <rect key="frame" x="0.0" y="646" width="1024" height="0.0"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -50,10 +50,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="F1D-mP-Eha" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="9" id="5rZ-kT-ea9"/>
-                            <constraint firstAttribute="trailing" secondItem="F1D-mP-Eha" secondAttribute="trailing" id="eiw-6F-P3I"/>
-                            <constraint firstItem="F1D-mP-Eha" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" id="g7B-FW-KDt"/>
-                            <constraint firstItem="F1D-mP-Eha" firstAttribute="bottom" secondItem="VUw-jc-0yf" secondAttribute="bottom" constant="-9" id="j0F-jA-yMJ"/>
+                            <constraint firstItem="UzD-bT-YM3" firstAttribute="trailing" secondItem="VUw-jc-0yf" secondAttribute="trailing" id="3ty-TQ-KWH"/>
+                            <constraint firstItem="UzD-bT-YM3" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" id="5fd-n8-tcH"/>
+                            <constraint firstItem="UzD-bT-YM3" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" id="AJj-3C-yaR"/>
+                            <constraint firstItem="UzD-bT-YM3" firstAttribute="bottom" secondItem="VUw-jc-0yf" secondAttribute="bottom" constant="-9" id="TaO-ad-btQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
@@ -62,14 +62,14 @@
                     <navigationItem key="navigationItem" title="Details" id="mOI-FS-AaM"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="lineChart" destination="N5N-AS-gVS" id="MeC-ow-UzH"/>
-                        <outlet property="scatterChart" destination="Oxx-wt-xJL" id="v1w-uZ-tv9"/>
-                        <outlet property="stackView" destination="F1D-mP-Eha" id="z07-JF-bbP"/>
+                        <outlet property="lineChart" destination="yDL-U9-5vs" id="Yiz-LY-BwO"/>
+                        <outlet property="scatterChart" destination="fyM-Rs-Z6L" id="FAN-9V-Xz1"/>
+                        <outlet property="stackView" destination="UzD-bT-YM3" id="sDJ-wx-0tl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746" y="1547"/>
+            <point key="canvasLocation" x="-492.18749999999994" y="2693.75"/>
         </scene>
         <!--Comments-->
         <scene sceneID="l7U-AD-3eu">
@@ -80,14 +80,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FAw-YA-nb2">
-                                <rect key="frame" x="0.0" y="64" width="704" height="655"/>
+                                <rect key="frame" x="0.0" y="64" width="703.5" height="655"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentCell" rowHeight="150" id="kW3-yh-5tm" customClass="CommentCell" customModule="Kassandra" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="704" height="150"/>
+                                        <rect key="frame" x="0.0" y="28" width="703.5" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kW3-yh-5tm" id="JQW-Jm-Glc">
-                                            <rect key="frame" x="0.0" y="0.0" width="704" height="149.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="703.5" height="149.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QM123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVE-7M-s60">
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g25-c5-N20" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1423.828125" y="1546.875"/>
+            <point key="canvasLocation" x="616" y="2694"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Nki-YV-4Qg">
@@ -151,7 +151,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZU-Oi-B1e" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1436" y="75"/>
+            <point key="canvasLocation" x="-879" y="-505"/>
         </scene>
         <!--Master-->
         <scene sceneID="smW-Zh-WAh">
@@ -194,7 +194,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1362" y="-505"/>
+            <point key="canvasLocation" x="993" y="-505"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
@@ -219,6 +219,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="bnN-An-Coi"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DeK-ml-uos">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -229,7 +230,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vst-lY-1CV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1061.71875" y="714.84375"/>
+            <point key="canvasLocation" x="57" y="1659"/>
         </scene>
     </scenes>
     <resources>
@@ -237,6 +238,6 @@
         <image name="note" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tll-UG-LXB"/>
+        <segue reference="6S0-TO-JiA"/>
     </inferredMetricsTieBreakers>
 </document>

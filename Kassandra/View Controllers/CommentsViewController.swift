@@ -8,9 +8,10 @@
 
 import UIKit
 
-class CommentsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class CommentsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, TeamManagerDelegate {
   @IBOutlet weak var tableView: UITableView!
 
+  var teamManager: TeamManager? = nil
   var teamNumber: Int? {
     didSet {
       configureView()
@@ -20,7 +21,7 @@ class CommentsViewController: UIViewController, UITableViewDelegate, UITableView
 
   func configureView () {
     self.loadViewIfNeeded()
-    let comments = TeamManager.shared.getMatches(of: self.teamNumber!).map { ($0.matchName(), $0.comments) }
+    let comments = self.teamManager!.getMatches(of: self.teamNumber!).map { ($0.matchName(), $0.comments) }
     self.comments = comments
     self.tableView.reloadData()
   }
@@ -29,6 +30,7 @@ class CommentsViewController: UIViewController, UITableViewDelegate, UITableView
     super.viewDidLoad()
     self.tableView.delegate = self
     self.tableView.dataSource = self
+    self.teamManager?.commentsDelegate = self
   }
 
   override func didReceiveMemoryWarning() {
@@ -57,5 +59,25 @@ class CommentsViewController: UIViewController, UITableViewDelegate, UITableView
 
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 150.0
+  }
+}
+
+/*
+ * TeamManager delegation
+ */
+extension CommentsViewController {
+  func teamManager(didSetMatches matches: [MatchData]) {
+    self.configureView()
+  }
+
+  func teamManager(didChooseEvent event: TeamManager.Event) {
+    var matches: [MatchData] = []
+    switch event {
+      case .isde1: matches = TeamManager.isde1.getMatches(of: self.teamNumber!)
+      case .isde3: matches = TeamManager.isde3.getMatches(of: self.teamNumber!)
+      case .isde4: matches = TeamManager.isde4.getMatches(of: self.teamNumber!)
+      default: matches = []
+    }
+    self.teamManager?.set(matches: matches)
   }
 }

@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A532501B2066714A00F34357 /* TeamManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532501A2066714A00F34357 /* TeamManagerDelegate.swift */; };
+		A532502220667ECE00F34357 /* Preparations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502120667ECE00F34357 /* Preparations.swift */; };
+		A532502420667F1900F34357 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502320667F1900F34357 /* Popover.swift */; };
+		A532502620667F3900F34357 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502520667F3900F34357 /* Chart.swift */; };
+		A53250282066824600F34357 /* StackedAreaFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53250272066824500F34357 /* StackedAreaFormatter.swift */; };
+		A532502A20669E9700F34357 /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502920669E9700F34357 /* Refresh.swift */; };
+		A5A2FDE120654C170013D477 /* DatasetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */; };
+		A5A2FDE220654C170013D477 /* DatasetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2FDE020654C170013D477 /* DatasetsViewController.xib */; };
+		A5CF093D2065A40500B9F244 /* isde3.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CF093C2065A40500B9F244 /* isde3.csv */; };
+		A5CF093F2065A43000B9F244 /* isde4.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CF093E2065A43000B9F244 /* isde4.csv */; };
 		A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C0205D207700DB34CF /* AppDelegate.swift */; };
 		A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C2205D207700DB34CF /* MasterViewController.swift */; };
-		A5FC50C5205D207700DB34CF /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C4205D207700DB34CF /* StatsViewController.swift */; };
+		A5FC50C5205D207700DB34CF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C4205D207700DB34CF /* Main.swift */; };
 		A5FC50C8205D207700DB34CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50C6205D207700DB34CF /* Main.storyboard */; };
 		A5FC50CA205D207700DB34CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50C9205D207700DB34CF /* Assets.xcassets */; };
 		A5FC50CD205D207700DB34CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50CB205D207700DB34CF /* LaunchScreen.storyboard */; };
 		A5FC50D8205D207800DB34CF /* KassandraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50D7205D207800DB34CF /* KassandraTests.swift */; };
 		A5FC50E3205D243800DB34CF /* TeamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50E2205D243800DB34CF /* TeamManager.swift */; };
 		A5FC50E5205D276400DB34CF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50E4205D276400DB34CF /* Config.swift */; };
-		A5FC50E7205D354300DB34CF /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50E6205D354300DB34CF /* data.csv */; };
+		A5FC50E7205D354300DB34CF /* isde1.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5FC50E6205D354300DB34CF /* isde1.csv */; };
 		A5FC50E9205D385900DB34CF /* MatchDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50E8205D385900DB34CF /* MatchDataModel.swift */; };
 		A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */; };
 		A5FC50ED205D3DF400DB34CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50EC205D3DF400DB34CF /* Extensions.swift */; };
@@ -41,10 +51,20 @@
 		02502B74C48FC70831CAF609 /* Pods-Kassandra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kassandra.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kassandra/Pods-Kassandra.release.xcconfig"; sourceTree = "<group>"; };
 		8FF4AC7E7613180F4751163C /* Pods-Kassandra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kassandra.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kassandra/Pods-Kassandra.debug.xcconfig"; sourceTree = "<group>"; };
 		91594F04707BF9702987272F /* Pods_Kassandra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kassandra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A532501A2066714A00F34357 /* TeamManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManagerDelegate.swift; sourceTree = "<group>"; };
+		A532502120667ECE00F34357 /* Preparations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preparations.swift; sourceTree = "<group>"; };
+		A532502320667F1900F34357 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		A532502520667F3900F34357 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		A53250272066824500F34357 /* StackedAreaFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedAreaFormatter.swift; sourceTree = "<group>"; };
+		A532502920669E9700F34357 /* Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
+		A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetsViewController.swift; sourceTree = "<group>"; };
+		A5A2FDE020654C170013D477 /* DatasetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatasetsViewController.xib; sourceTree = "<group>"; };
+		A5CF093C2065A40500B9F244 /* isde3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde3.csv; sourceTree = "<group>"; };
+		A5CF093E2065A43000B9F244 /* isde4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde4.csv; sourceTree = "<group>"; };
 		A5FC50BD205D207700DB34CF /* Kassandra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kassandra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC50C0205D207700DB34CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FC50C2205D207700DB34CF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A5FC50C4205D207700DB34CF /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		A5FC50C4205D207700DB34CF /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		A5FC50C7205D207700DB34CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5FC50C9205D207700DB34CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5FC50CC205D207700DB34CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +74,7 @@
 		A5FC50D9205D207800DB34CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5FC50E2205D243800DB34CF /* TeamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamManager.swift; sourceTree = "<group>"; };
 		A5FC50E4205D276400DB34CF /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		A5FC50E6205D354300DB34CF /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		A5FC50E6205D354300DB34CF /* isde1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde1.csv; sourceTree = "<group>"; };
 		A5FC50E8205D385900DB34CF /* MatchDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataModel.swift; sourceTree = "<group>"; };
 		A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDataExt.swift; sourceTree = "<group>"; };
 		A5FC50EC205D3DF400DB34CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -83,6 +103,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A532501C2066718E00F34357 /* TeamManager */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC50E2205D243800DB34CF /* TeamManager.swift */,
+				A532501A2066714A00F34357 /* TeamManagerDelegate.swift */,
+			);
+			path = TeamManager;
+			sourceTree = "<group>";
+		};
+		A532501D206671AD00F34357 /* MatchData */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC50E8205D385900DB34CF /* MatchDataModel.swift */,
+				A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */,
+			);
+			path = MatchData;
+			sourceTree = "<group>";
+		};
+		A532502020667EBB00F34357 /* StatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC50C4205D207700DB34CF /* Main.swift */,
+				A532502120667ECE00F34357 /* Preparations.swift */,
+				A532502520667F3900F34357 /* Chart.swift */,
+				A532502320667F1900F34357 /* Popover.swift */,
+				A532502920669E9700F34357 /* Refresh.swift */,
+			);
+			path = StatsViewController;
+			sourceTree = "<group>";
+		};
 		A5FC50B4205D207700DB34CF = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +156,17 @@
 		A5FC50BF205D207700DB34CF /* Kassandra */ = {
 			isa = PBXGroup;
 			children = (
-				A5FC50E6205D354300DB34CF /* data.csv */,
+				A5FC50E6205D354300DB34CF /* isde1.csv */,
+				A5CF093C2065A40500B9F244 /* isde3.csv */,
+				A5CF093E2065A43000B9F244 /* isde4.csv */,
 				A5FC50C0205D207700DB34CF /* AppDelegate.swift */,
+				A5FC50E4205D276400DB34CF /* Config.swift */,
 				A5FC50EC205D3DF400DB34CF /* Extensions.swift */,
+				A532502020667EBB00F34357 /* StatsViewController */,
+				A532501D206671AD00F34357 /* MatchData */,
+				A532501C2066718E00F34357 /* TeamManager */,
 				A5FC50EF205D40B900DB34CF /* View Controllers */,
-				A5FC50EE205D40A400DB34CF /* Data Handling */,
+				A5FC50EE205D40A400DB34CF /* Chart Formatters */,
 				A5FC50C6205D207700DB34CF /* Main.storyboard */,
 				A5FC50C9205D207700DB34CF /* Assets.xcassets */,
 				A5FC50CB205D207700DB34CF /* LaunchScreen.storyboard */,
@@ -128,24 +184,22 @@
 			path = KassandraTests;
 			sourceTree = "<group>";
 		};
-		A5FC50EE205D40A400DB34CF /* Data Handling */ = {
+		A5FC50EE205D40A400DB34CF /* Chart Formatters */ = {
 			isa = PBXGroup;
 			children = (
-				A5FC50E4205D276400DB34CF /* Config.swift */,
-				A5FC50E2205D243800DB34CF /* TeamManager.swift */,
-				A5FC50E8205D385900DB34CF /* MatchDataModel.swift */,
-				A5FC50EA205D3A0100DB34CF /* MatchDataExt.swift */,
 				A5FC50F0205D854200DB34CF /* ChartDataFormatter.swift */,
 				A5FC50F6205E807C00DB34CF /* ScatterLeftAxis.swift */,
+				A53250272066824500F34357 /* StackedAreaFormatter.swift */,
 			);
-			path = "Data Handling";
+			path = "Chart Formatters";
 			sourceTree = "<group>";
 		};
 		A5FC50EF205D40B900DB34CF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */,
+				A5A2FDE020654C170013D477 /* DatasetsViewController.xib */,
 				A5FC50C2205D207700DB34CF /* MasterViewController.swift */,
-				A5FC50C4205D207700DB34CF /* StatsViewController.swift */,
 				A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */,
 				A5FC50F4205E542F00DB34CF /* CommentCell.swift */,
 			);
@@ -258,7 +312,10 @@
 				A5FC50CD205D207700DB34CF /* LaunchScreen.storyboard in Resources */,
 				A5FC50CA205D207700DB34CF /* Assets.xcassets in Resources */,
 				A5FC50C8205D207700DB34CF /* Main.storyboard in Resources */,
-				A5FC50E7205D354300DB34CF /* data.csv in Resources */,
+				A5CF093F2065A43000B9F244 /* isde4.csv in Resources */,
+				A5FC50E7205D354300DB34CF /* isde1.csv in Resources */,
+				A5A2FDE220654C170013D477 /* DatasetsViewController.xib in Resources */,
+				A5CF093D2065A40500B9F244 /* isde3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +339,14 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,15 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FC50C5205D207700DB34CF /* StatsViewController.swift in Sources */,
+				A5FC50C5205D207700DB34CF /* Main.swift in Sources */,
 				A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */,
 				A5FC50E5205D276400DB34CF /* Config.swift in Sources */,
+				A532501B2066714A00F34357 /* TeamManagerDelegate.swift in Sources */,
 				A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */,
+				A532502420667F1900F34357 /* Popover.swift in Sources */,
 				A5FC50E9205D385900DB34CF /* MatchDataModel.swift in Sources */,
 				A5FC50E3205D243800DB34CF /* TeamManager.swift in Sources */,
+				A5A2FDE120654C170013D477 /* DatasetsViewController.swift in Sources */,
+				A53250282066824600F34357 /* StackedAreaFormatter.swift in Sources */,
+				A532502220667ECE00F34357 /* Preparations.swift in Sources */,
+				A532502A20669E9700F34357 /* Refresh.swift in Sources */,
 				A5FC50F7205E807C00DB34CF /* ScatterLeftAxis.swift in Sources */,
 				A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */,
 				A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */,
+				A532502620667F3900F34357 /* Chart.swift in Sources */,
 				A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */,
 				A5FC50F3205E526E00DB34CF /* CommentsViewController.swift in Sources */,
 				A5FC50ED205D3DF400DB34CF /* Extensions.swift in Sources */,
