@@ -30,7 +30,12 @@ class MasterViewController: UITableViewController {
     searchController.searchResultsUpdater = self
     searchController.obscuresBackgroundDuringPresentation = false
     searchController.searchBar.placeholder = "Search Teams"
+    searchController.searchBar.tintColor = UIColor.white
     self.navigationItem.searchController = searchController
+
+    self.navigationController?.navigationBar.prefersLargeTitles = true
+    self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+    self.navigationItem.searchController?.isActive = true
   }
 
   override func viewWillAppear(_ animated: Bool) {

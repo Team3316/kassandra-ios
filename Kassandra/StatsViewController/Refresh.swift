@@ -11,10 +11,8 @@ import MBProgressHUD
 
 extension StatsViewController {
   @objc func refreshData () {
-    MBProgressHUD.showAdded(to: self.view, animated: true)
-    self.teamManager?.getRemoteData(of: self.teamNumber!) {
-      let matches = self.teamManager?.matches
-      self.teamManager?.set(matches: matches!)
-    }
+    let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+    hud.label.text = "Loading matches..."
+    self.teamManager?.getRemoteData(of: self.teamNumber!)
   }
 }

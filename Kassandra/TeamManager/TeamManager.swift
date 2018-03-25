@@ -137,14 +137,16 @@ class TeamManager {
     }
   }
 
-  func getRemoteData (of team: Int, then: @escaping () -> ()) {
+  func getRemoteData (of team: Int, then: (() -> ())? = nil) {
     Alamofire.request("\(Config.backendUrl)/\(team)").responseJSON { resp in
       let data = (resp.result.value! as! [[Any]])
         .map({ a in
           return a.map({ String(describing: $0) })
         }).map({ MatchData(data: $0) })
       self.set(matches: data)
-      then()
+      if let then = then {
+        then()
+      }
     }
   }
 
@@ -281,6 +283,7 @@ class TeamManager {
     })
     let dataSet = LineChartDataSet(values: values, label: nil)
     dataSet.setColor(type.color())
+    dataSet.valueTextColor = UIColor.white
     dataSet.fill = Fill.fillWithColor(type.color())
     dataSet.drawFilledEnabled = true
     dataSet.drawCirclesEnabled = false

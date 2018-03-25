@@ -27,12 +27,6 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
   func configureView() {
     self.loadViewIfNeeded()
 
-    let settingsButton = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(self.popover(_:)))
-    self.parent?.navigationItem.rightBarButtonItem = settingsButton
-
-    let refreshButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(self.refreshData))
-    self.parent?.navigationItem.leftBarButtonItem = refreshButton
-
     MBProgressHUD.hide(for: self.view, animated: true)
 
     let matches = self.teamManager!.matches.sorted { $0.matchKey() < $1.matchKey() }
@@ -44,6 +38,14 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     self.teamManager?.graphsDelegate = self
+
+    let settingsButton = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(self.popover(_:)))
+    settingsButton.tintColor = Config.teamColor
+    self.parent?.navigationItem.rightBarButtonItem = settingsButton
+
+    let refreshButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(self.refreshData))
+    refreshButton.tintColor = Config.teamColor
+    self.parent?.navigationItem.leftBarButtonItem = refreshButton
 
     self.prepareStackView()
     self.prepareLineChart()
@@ -69,12 +71,11 @@ extension StatsViewController {
         case .isde4: matches = TeamManager.isde4.getMatches(of: self.teamNumber!)
         default: matches = []
       }
-      self.parent?.title = "Details - Team #\(self.teamNumber!) in \(event.name())"
       self.teamManager?.set(matches: matches)
     } else {
       self.refreshData()
-      self.parent?.title = "Details - Team #\(self.teamNumber!) in \(event.name())"
     }
+    self.parent?.title = "Details - Team #\(self.teamNumber!) in \(event.name())"
   }
 
   func teamManager(didSetMatches matches: [MatchData]) {
