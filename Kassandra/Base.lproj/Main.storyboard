@@ -75,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-492.18749999999994" y="2693.75"/>
+            <point key="canvasLocation" x="-635" y="2694"/>
         </scene>
         <!--Comments-->
         <scene sceneID="l7U-AD-3eu">
@@ -91,7 +91,7 @@
                                 <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentCell" rowHeight="150" id="kW3-yh-5tm" customClass="CommentCell" customModule="Kassandra" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="commentCell" rowHeight="150" id="kW3-yh-5tm" customClass="CommentCell" customModule="Kassandra" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="703.5" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kW3-yh-5tm" id="JQW-Jm-Glc">
@@ -105,7 +105,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Comment Text" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kiO-xk-ZcE">
-                                                    <rect key="frame" x="15" y="49" width="673.5" height="90"/>
+                                                    <rect key="frame" x="15" y="49" width="353" height="90"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -146,7 +146,86 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g25-c5-N20" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616" y="2694"/>
+            <point key="canvasLocation" x="57" y="2694"/>
+        </scene>
+        <!--Rankings-->
+        <scene sceneID="Zb2-46-lLZ">
+            <objects>
+                <viewController id="dXA-4I-x6U" customClass="RankingsViewController" customModule="Kassandra" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hym-KD-1Od">
+                        <rect key="frame" x="0.0" y="0.0" width="703.5" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b34-SL-c3v">
+                                <rect key="frame" x="0.0" y="64" width="704" height="655"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="teamCell" id="q3z-MW-BUx" customClass="TeamCell" customModule="Kassandra" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="704" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q3z-MW-BUx" id="Vha-Qg-wVw">
+                                            <rect key="frame" x="0.0" y="0.0" width="704" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qV9-5X-ae9">
+                                                    <rect key="frame" x="16" y="0.0" width="30" height="43"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1577" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYS-vW-yLc">
+                                                    <rect key="frame" x="54" y="0.0" width="634" height="43"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1st" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COV-UO-yNk">
+                                                    <rect key="frame" x="661" y="0.0" width="27" height="43"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qV9-5X-ae9" firstAttribute="top" secondItem="Vha-Qg-wVw" secondAttribute="top" id="1Wv-0I-6EH"/>
+                                                <constraint firstAttribute="trailing" secondItem="tYS-vW-yLc" secondAttribute="trailing" constant="16" id="3ws-EY-0ri"/>
+                                                <constraint firstItem="COV-UO-yNk" firstAttribute="top" secondItem="Vha-Qg-wVw" secondAttribute="top" id="5lT-Ba-gN1"/>
+                                                <constraint firstItem="tYS-vW-yLc" firstAttribute="top" secondItem="Vha-Qg-wVw" secondAttribute="top" id="6Lu-Bl-gib"/>
+                                                <constraint firstItem="qV9-5X-ae9" firstAttribute="leading" secondItem="Vha-Qg-wVw" secondAttribute="leading" constant="16" id="BNe-js-Awa"/>
+                                                <constraint firstAttribute="bottom" secondItem="qV9-5X-ae9" secondAttribute="bottom" id="BbU-fm-DAF"/>
+                                                <constraint firstItem="tYS-vW-yLc" firstAttribute="leading" secondItem="qV9-5X-ae9" secondAttribute="trailing" constant="8" id="Fj6-eZ-fba"/>
+                                                <constraint firstAttribute="trailing" secondItem="COV-UO-yNk" secondAttribute="trailing" constant="16" id="K7E-O5-mGZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="COV-UO-yNk" secondAttribute="bottom" id="oFJ-pl-fLg"/>
+                                                <constraint firstAttribute="bottom" secondItem="tYS-vW-yLc" secondAttribute="bottom" id="w0X-tp-cJU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="pickLabel" destination="COV-UO-yNk" id="bs3-9i-naC"/>
+                                            <outlet property="rankLabel" destination="qV9-5X-ae9" id="C4C-jo-9hF"/>
+                                            <outlet property="teamLabel" destination="tYS-vW-yLc" id="tWY-fe-hpA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34901960780000002" green="0.34901960780000002" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b34-SL-c3v" firstAttribute="bottom" secondItem="0gy-Me-hi1" secondAttribute="bottom" id="Bix-QQ-GZl"/>
+                            <constraint firstItem="b34-SL-c3v" firstAttribute="top" secondItem="0gy-Me-hi1" secondAttribute="top" id="jNW-6L-hRR"/>
+                            <constraint firstAttribute="trailing" secondItem="b34-SL-c3v" secondAttribute="trailing" id="k8g-ob-vmv"/>
+                            <constraint firstItem="b34-SL-c3v" firstAttribute="leading" secondItem="0gy-Me-hi1" secondAttribute="leading" id="npj-F0-nhb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0gy-Me-hi1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rankings" image="trophy" id="L0t-bH-QOq"/>
+                    <connections>
+                        <outlet property="tableView" destination="b34-SL-c3v" id="XMi-QR-jTl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MR4-Xj-gje" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809.765625" y="2693.75"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Nki-YV-4Qg">
@@ -244,6 +323,7 @@
                     <connections>
                         <segue destination="JEX-9P-axG" kind="relationship" relationship="viewControllers" id="mgB-8E-2VC"/>
                         <segue destination="17i-Ij-tuN" kind="relationship" relationship="viewControllers" id="TPo-aQ-7ce"/>
+                        <segue destination="dXA-4I-x6U" kind="relationship" relationship="viewControllers" id="vKE-SB-okH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vst-lY-1CV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -254,6 +334,7 @@
     <resources>
         <image name="graph" width="25" height="25"/>
         <image name="note" width="25" height="25"/>
+        <image name="trophy" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>

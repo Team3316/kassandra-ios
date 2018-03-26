@@ -13,10 +13,12 @@
 		A532502620667F3900F34357 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502520667F3900F34357 /* Chart.swift */; };
 		A53250282066824600F34357 /* StackedAreaFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53250272066824500F34357 /* StackedAreaFormatter.swift */; };
 		A532502A20669E9700F34357 /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532502920669E9700F34357 /* Refresh.swift */; };
+		A55076B620695A5F001F0978 /* isde4.csv in Resources */ = {isa = PBXBuildFile; fileRef = A55076B520695A5F001F0978 /* isde4.csv */; };
+		A58E9DA42067E09F001EF783 /* RankingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E9DA32067E09F001EF783 /* RankingsViewController.swift */; };
+		A58E9DA62067E159001EF783 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E9DA52067E159001EF783 /* TeamCell.swift */; };
 		A5A2FDE120654C170013D477 /* DatasetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */; };
 		A5A2FDE220654C170013D477 /* DatasetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2FDE020654C170013D477 /* DatasetsViewController.xib */; };
 		A5CF093D2065A40500B9F244 /* isde3.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CF093C2065A40500B9F244 /* isde3.csv */; };
-		A5CF093F2065A43000B9F244 /* isde4.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CF093E2065A43000B9F244 /* isde4.csv */; };
 		A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C0205D207700DB34CF /* AppDelegate.swift */; };
 		A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C2205D207700DB34CF /* MasterViewController.swift */; };
 		A5FC50C5205D207700DB34CF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C4205D207700DB34CF /* Main.swift */; };
@@ -57,10 +59,12 @@
 		A532502520667F3900F34357 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 		A53250272066824500F34357 /* StackedAreaFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedAreaFormatter.swift; sourceTree = "<group>"; };
 		A532502920669E9700F34357 /* Refresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
+		A55076B520695A5F001F0978 /* isde4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde4.csv; sourceTree = "<group>"; };
+		A58E9DA32067E09F001EF783 /* RankingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingsViewController.swift; sourceTree = "<group>"; };
+		A58E9DA52067E159001EF783 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetsViewController.swift; sourceTree = "<group>"; };
 		A5A2FDE020654C170013D477 /* DatasetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatasetsViewController.xib; sourceTree = "<group>"; };
 		A5CF093C2065A40500B9F244 /* isde3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde3.csv; sourceTree = "<group>"; };
-		A5CF093E2065A43000B9F244 /* isde4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde4.csv; sourceTree = "<group>"; };
 		A5FC50BD205D207700DB34CF /* Kassandra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kassandra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC50C0205D207700DB34CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FC50C2205D207700DB34CF /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -103,13 +107,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A532501C2066718E00F34357 /* TeamManager */ = {
+		A532501C2066718E00F34357 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				A5FC50E2205D243800DB34CF /* TeamManager.swift */,
 				A532501A2066714A00F34357 /* TeamManagerDelegate.swift */,
 			);
-			path = TeamManager;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		A532501D206671AD00F34357 /* MatchData */ = {
@@ -158,13 +162,13 @@
 			children = (
 				A5FC50E6205D354300DB34CF /* isde1.csv */,
 				A5CF093C2065A40500B9F244 /* isde3.csv */,
-				A5CF093E2065A43000B9F244 /* isde4.csv */,
+				A55076B520695A5F001F0978 /* isde4.csv */,
 				A5FC50C0205D207700DB34CF /* AppDelegate.swift */,
 				A5FC50E4205D276400DB34CF /* Config.swift */,
 				A5FC50EC205D3DF400DB34CF /* Extensions.swift */,
 				A532502020667EBB00F34357 /* StatsViewController */,
 				A532501D206671AD00F34357 /* MatchData */,
-				A532501C2066718E00F34357 /* TeamManager */,
+				A532501C2066718E00F34357 /* Managers */,
 				A5FC50EF205D40B900DB34CF /* View Controllers */,
 				A5FC50EE205D40A400DB34CF /* Chart Formatters */,
 				A5FC50C6205D207700DB34CF /* Main.storyboard */,
@@ -202,6 +206,8 @@
 				A5FC50C2205D207700DB34CF /* MasterViewController.swift */,
 				A5FC50F2205E526E00DB34CF /* CommentsViewController.swift */,
 				A5FC50F4205E542F00DB34CF /* CommentCell.swift */,
+				A58E9DA32067E09F001EF783 /* RankingsViewController.swift */,
+				A58E9DA52067E159001EF783 /* TeamCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -312,7 +318,7 @@
 				A5FC50CD205D207700DB34CF /* LaunchScreen.storyboard in Resources */,
 				A5FC50CA205D207700DB34CF /* Assets.xcassets in Resources */,
 				A5FC50C8205D207700DB34CF /* Main.storyboard in Resources */,
-				A5CF093F2065A43000B9F244 /* isde4.csv in Resources */,
+				A55076B620695A5F001F0978 /* isde4.csv in Resources */,
 				A5FC50E7205D354300DB34CF /* isde1.csv in Resources */,
 				A5A2FDE220654C170013D477 /* DatasetsViewController.xib in Resources */,
 				A5CF093D2065A40500B9F244 /* isde3.csv in Resources */,
@@ -400,6 +406,7 @@
 				A5FC50F5205E542F00DB34CF /* CommentCell.swift in Sources */,
 				A532502420667F1900F34357 /* Popover.swift in Sources */,
 				A5FC50E9205D385900DB34CF /* MatchDataModel.swift in Sources */,
+				A58E9DA42067E09F001EF783 /* RankingsViewController.swift in Sources */,
 				A5FC50E3205D243800DB34CF /* TeamManager.swift in Sources */,
 				A5A2FDE120654C170013D477 /* DatasetsViewController.swift in Sources */,
 				A53250282066824600F34357 /* StackedAreaFormatter.swift in Sources */,
@@ -409,6 +416,7 @@
 				A5FC50EB205D3A0100DB34CF /* MatchDataExt.swift in Sources */,
 				A5FC50F1205D854200DB34CF /* ChartDataFormatter.swift in Sources */,
 				A532502620667F3900F34357 /* Chart.swift in Sources */,
+				A58E9DA62067E159001EF783 /* TeamCell.swift in Sources */,
 				A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */,
 				A5FC50F3205E526E00DB34CF /* CommentsViewController.swift in Sources */,
 				A5FC50ED205D3DF400DB34CF /* Extensions.swift in Sources */,

@@ -39,6 +39,12 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
     super.viewDidLoad()
     self.teamManager?.graphsDelegate = self
 
+    self.prepareStackView()
+    self.prepareLineChart()
+    self.prepareScatterChart()
+  }
+
+  override func viewDidAppear(_ animated: Bool) {
     let settingsButton = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(self.popover(_:)))
     settingsButton.tintColor = Config.teamColor
     self.parent?.navigationItem.rightBarButtonItem = settingsButton
@@ -46,10 +52,6 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
     let refreshButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(self.refreshData))
     refreshButton.tintColor = Config.teamColor
     self.parent?.navigationItem.leftBarButtonItem = refreshButton
-
-    self.prepareStackView()
-    self.prepareLineChart()
-    self.prepareScatterChart()
   }
 
   override func didReceiveMemoryWarning() {
