@@ -67,9 +67,9 @@ class RankingsViewController: UIViewController, UITableViewDelegate, UITableView
     cell.teamLabel.text = "\(team)"
     if team == Config.teamNumber {
       cell.pickLabel.text = "Our team"
-    } else if indexPath.row <= 7 {
+    } else if indexPath.row <= 8 {
       cell.pickLabel.text = "1st pick"
-    } else if indexPath.row <= 15 {
+    } else if indexPath.row <= 16 {
       cell.pickLabel.text = "2nd pick"
     } else {
       cell.pickLabel.text = "3rd pick"
