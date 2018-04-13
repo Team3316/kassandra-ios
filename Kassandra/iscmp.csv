@@ -1,0 +1,587 @@
+Full Name,Team Number,Match ID,Crossed Auto Line?,Auto Installed in the Exchange?,Successful Auto Switch Installs,Failed Auto Switch Installs,Successful Auto Scale Installs,Failed Auto Scale Installs,Collects Cubes From,Succcessful Switch Installs,Failed Switch Installs,Successful Scale Installs,Failed Scale Installs,Successful Exchange Installs,Failed Exchange Installs,Drove on the Platform,Climbing,Let other robots climb on it,Tech Foul?,Defense comments,Comments,Submitted At,Token
+,5987,PM1,TRUE,FALSE,0,0,1,0,,2,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3034,PM1,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,1580,PM2,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Didn't Show Up
+,1577,PM2,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,4586,PM2,FALSE,FALSE,0,0,0,0,,1,0,3,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2231,PM2,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,הפיל המון קופסאות בדרך לסוויץ׳
+,5554,PM2,TRUE,FALSE,0,0,1,0,,2,0,1,0,0,0,TRUE,Didn't Try,Successful,TRUE,,Launching Foul
+,5715,PM2,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,6740,PM3,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5635,PM3,TRUE,FALSE,1,0,0,0,,3,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3083,PM3,TRUE,FALSE,0,0,0,0,,5,0,1,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6104,PM3,TRUE,FALSE,1,0,0,0,,1,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,Slow Collection
+,1574,PM3,TRUE,FALSE,0,0,0,0,,1,0,3,0,1,0,TRUE,Successful,Successful,TRUE,,
+,7039,PM3,TRUE,FALSE,0,0,0,0,,0,0,4,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,Not stable
+,7039,PM3,TRUE,FALSE,0,0,0,0,,1,0,4,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3211,PM4,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3835,PM4,TRUE,FALSE,0,0,0,0,,6,0,2,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4320,PM4,FALSE,FALSE,0,0,0,0,,9,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,3075,PM4,TRUE,FALSE,0,0,0,0,,1,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1657,PM4,TRUE,FALSE,0,0,1,0,,4,0,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,,"בטיפוס נפלו ונשבר להם חלק מהרובוט, בשלב האוטונומי שמו בסקייל הלא נכון"
+,3075,PM4,TRUE,FALSE,0,0,0,0,,1,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,התקין בסקייל של היריב
+,3339,PM5,TRUE,FALSE,0,0,2,0,,5,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7067,PM5,TRUE,FALSE,0,0,0,0,,2,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Exchange
+,2212,PM5,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4744,PM5,FALSE,FALSE,0,0,0,0,,3,0,1,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,"Slow Collection, Bad Driver"
+,5990,PM4,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,PM5,TRUE,FALSE,0,0,0,0,,2,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2230,PM5,TRUE,FALSE,0,0,0,0,,0,0,0,0,1,0,TRUE,Successful,Didn't Try,FALSE,,
+,5291,PM6,TRUE,FALSE,1,0,0,0,,2,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7079,PM6,TRUE,FALSE,1,0,0,0,,0,0,0,0,9,0,TRUE,Failed,Didn't Try,FALSE,,
+,4590,PM6,TRUE,FALSE,0,0,0,0,,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,4416,PM6,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,6736,PM6,TRUE,FALSE,0,0,0,0,,0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6230,PM6,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,1690,PM7,TRUE,FALSE,1,0,0,0,,0,0,3,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3316,PM7,TRUE,FALSE,0,0,0,0,,0,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5038,PM7,TRUE,FALSE,0,0,0,0,,0,0,0,0,2,0,TRUE,Failed,Didn't Try,FALSE,,Bad Driver
+,2630,PM7,TRUE,FALSE,0,0,1,0,,0,0,5,0,0,0,TRUE,Successful,Successful,FALSE,,
+,5951,PM6,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,PM7,TRUE,FALSE,0,0,0,0,,1,0,4,0,0,0,TRUE,Successful,Didn't Try,TRUE,,
+,5951,PM7,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,פספסו יחסית הרבה
+,1942,PM8,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא נכנס למגרש
+,1657,PM8,TRUE,FALSE,1,0,0,0,,1,0,0,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,2096,PM8,TRUE,FALSE,0,0,0,0,,0,0,6,0,1,0,TRUE,Didn't Try,Didn't Try,TRUE,,
+,2231,PM8,TRUE,FALSE,2,0,0,0,,0,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5654,PM8,TRUE,FALSE,0,0,0,0,,3,0,0,0,6,0,TRUE,Successful,Didn't Try,FALSE,,
+,2679,PM8,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6230,PM9,FALSE,FALSE,0,0,0,0,,1,0,1,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,3034,PM9,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5715,PM9,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3339,PM9,TRUE,FALSE,0,0,1,0,,1,0,5,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4320,PM9,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,עשה סוויץ' אחד והפסיק לזוז
+,5635,PM9,TRUE,FALSE,0,0,1,0,,1,0,1,0,2,0,TRUE,Failed,Didn't Try,FALSE,,
+,1574,PM10,TRUE,FALSE,0,0,0,0,,5,0,2,0,1,0,TRUE,Successful,Successful,TRUE,,Launching Foul
+,3075,PM10,TRUE,FALSE,0,0,1,0,,4,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,Null Zone Foul
+,7079,PM10,TRUE,FALSE,0,0,0,0,,4,0,0,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,2212,PM10,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,פעמיים סוויץ׳ כושל
+,2630,PM10,TRUE,FALSE,0,0,0,0,,0,0,5,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3065,PM10,TRUE,FALSE,1,0,0,0,,0,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,ירו קובייה מחוץ למגרש
+,3835,PM11,TRUE,FALSE,0,0,0,0,,1,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5291,PM11,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,7177,PM11,FALSE,FALSE,0,0,0,0,,4,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,"Slow Collection, Null Zone Foul"
+,1580,PM11,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,הפסיק לפעול ל30 שניות
+,4744,PM11,TRUE,FALSE,0,0,0,0,,2,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5951,PM11,FALSE,FALSE,0,0,0,0,,2,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5554,PM12,TRUE,FALSE,0,0,1,0,,6,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2096,PM12,TRUE,FALSE,1,0,0,0,,4,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6736,PM12,TRUE,FALSE,0,0,0,0,,0,0,1,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,5038,PM12,FALSE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5987,PM12,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7112,PM13,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2679,PM13,TRUE,FALSE,1,0,0,0,,2,0,0,0,6,0,TRUE,Successful,Didn't Try,FALSE,,
+,1577,PM13,TRUE,FALSE,0,0,0,0,,2,0,6,0,0,0,TRUE,Successful,Failed,FALSE,,
+,3316,PM13,TRUE,FALSE,0,0,1,0,,0,0,3,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6740,PM13,TRUE,FALSE,0,0,0,0,,4,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,חסימה ל5 שניות
+,1690,PM14,TRUE,FALSE,0,0,1,0,,0,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4586,PM14,TRUE,FALSE,0,0,0,0,,0,0,1,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7039,PM14,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1942,PM14,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"Bad Driver, Slow Collection"
+,4416,PM14,TRUE,FALSE,0,0,0,0,,0,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1942,PM15,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיעו
+,7067,PM15,TRUE,FALSE,1,0,0,0,,0,0,0,0,7,0,FALSE,Failed,Didn't Try,FALSE,,
+,3211,PM15,TRUE,FALSE,1,0,0,0,,4,0,1,0,0,0,TRUE,Failed,Failed,FALSE,,
+,5614,PM15,TRUE,FALSE,1,0,0,0,,0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,הרבה כישלונות סקייל
+,2230,PM14,TRUE,FALSE,1,0,0,0,,0,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6104,PM15,TRUE,FALSE,0,0,0,0,,2,0,3,0,0,0,TRUE,Successful,Didn't Try,TRUE,,Commited 2 auto fouls
+,5614,PM15,FALSE,FALSE,1,0,0,0,,0,0,3,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3083,PM12,FALSE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Successful,Failed,FALSE,,לא זז בדקה הראשונה אחרי האוטונומי
+,5990,PM13,TRUE,FALSE,1,0,0,0,,1,0,0,0,9,0,FALSE,Successful,Didn't Try,FALSE,,
+,4416,QM1,TRUE,FALSE,0,0,0,0,,0,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3339,QM1,TRUE,FALSE,1,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,2212,QM1,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3316,QM1,TRUE,FALSE,0,0,1,0,,0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5614,QM1,TRUE,FALSE,1,0,0,0,,0,0,2,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM1,TRUE,FALSE,0,0,0,0,,4,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM2,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM2,TRUE,FALSE,2,0,0,0,,3,0,3,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5987,QM2,TRUE,FALSE,0,0,1,0,,1,0,4,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM2,FALSE,FALSE,0,0,0,0,,1,0,0,0,5,0,FALSE,Successful,Didn't Try,FALSE,,לא עשה אוטונומי
+,4586,QM2,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM2,TRUE,FALSE,0,0,1,0,,3,0,4,0,0,0,TRUE,Successful,Successful,FALSE,,
+,1690,QM3,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא זז במשך כל המשחק
+,7079,QM3,TRUE,FALSE,0,0,0,0,,1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3034,QM3,TRUE,FALSE,0,0,0,0,,2,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7067,QM3,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM3,TRUE,FALSE,0,0,0,0,,2,0,7,0,0,0,TRUE,Successful,Didn't Try,TRUE,,
+,3065,QM3,TRUE,FALSE,0,0,0,0,,0,0,2,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,6741,QM4,TRUE,FALSE,0,0,0,0,,4,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6740,QM4,TRUE,FALSE,0,0,0,0,,5,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM4,TRUE,FALSE,0,0,0,0,,4,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM4,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,Slow Collection
+,5951,QM4,FALSE,FALSE,0,0,0,0,,1,0,2,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3211,QM4,TRUE,FALSE,1,0,0,0,,3,0,2,0,0,0,TRUE,Failed,Failed,FALSE,,
+,5554,QM5,TRUE,FALSE,0,0,1,0,,0,0,0,0,8,0,TRUE,Successful,Didn't Try,FALSE,,
+,1574,QM5,TRUE,FALSE,0,0,0,0,,2,0,6,0,0,0,TRUE,Successful,Successful,FALSE,,
+,6736,QM5,TRUE,FALSE,0,0,0,0,,1,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5291,QM5,TRUE,FALSE,0,0,0,0,,1,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5715,QM5,TRUE,FALSE,1,0,0,0,,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5635,QM5,TRUE,FALSE,2,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2630,QM6,FALSE,FALSE,0,0,0,0,,2,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6104,QM6,TRUE,FALSE,0,0,1,0,,2,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM6,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM6,TRUE,FALSE,0,0,0,0,,3,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM6,TRUE,FALSE,1,0,0,0,,1,0,0,0,8,0,TRUE,Successful,Didn't Try,FALSE,,
+,4590,QM7,TRUE,FALSE,1,0,0,0,,0,0,0,0,6,0,TRUE,Successful,Didn't Try,FALSE,,
+,5990,QM7,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,1580,QM7,TRUE,FALSE,1,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4744,QM7,FALSE,FALSE,0,0,0,0,,1,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow movement
+,3083,QM7,TRUE,FALSE,0,0,0,0,,2,0,1,0,1,0,TRUE,Successful,Successful,FALSE,,
+,2096,QM7,TRUE,FALSE,1,0,0,0,,2,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,2212,QM8,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM8,TRUE,FALSE,1,0,0,0,,0,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM8,TRUE,FALSE,1,0,0,0,,2,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7177,QM8,TRUE,FALSE,0,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM8,FALSE,FALSE,0,0,0,0,,1,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,TF- auto switch while not touching it
+,6740,QM8,TRUE,FALSE,0,0,0,0,,2,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,"מערכת איסוף מחליאה, לא עובדת. התנגשו בחברי ברית במהלך המשחק"
+,5038,QM8,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,
+,2630,QM9,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,4416,QM9,TRUE,FALSE,0,0,0,0,,0,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3065,QM9,TRUE,FALSE,1,0,0,0,,1,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5987,QM9,TRUE,FALSE,0,0,0,0,,0,0,6,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7039,QM9,FALSE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,עבר את קו החצי באוטונומי
+,5291,QM9,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,1580,QM10,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,קיבלו disable
+,1574,QM10,TRUE,FALSE,0,0,1,0,,4,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7112,QM10,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,3083,QM10,TRUE,FALSE,0,0,0,0,,1,0,0,0,2,0,TRUE,Failed,Failed,FALSE,,
+,5614,QM10,TRUE,FALSE,1,0,0,0,,3,0,1,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM10,FALSE,FALSE,0,0,0,0,,0,0,3,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,הצמדה באזור איסוף ועוד שני פאולים אחרים
+,6741,QM11,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,4744,QM11,TRUE,FALSE,0,0,0,0,,7,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6736,QM11,TRUE,FALSE,0,0,0,0,,0,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM11,TRUE,FALSE,1,0,0,0,,4,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7067,QM11,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"Bad Driver, Slow Collection"
+,4586,QM11,TRUE,FALSE,1,0,0,0,,2,0,2,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,מפיל קוביות הרבה
+,6104,QM12,FALSE,FALSE,0,0,0,0,,5,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3339,QM12,TRUE,FALSE,0,0,2,0,,5,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3034,QM12,TRUE,FALSE,0,0,0,0,,4,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM12,TRUE,FALSE,1,0,0,0,,6,0,0,0,4,0,TRUE,Successful,Didn't Try,FALSE,,
+,2230,QM12,TRUE,FALSE,0,0,1,0,,4,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM12,TRUE,FALSE,1,0,0,0,,3,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,7079,QM13,TRUE,FALSE,0,0,0,0,,0,0,0,0,5,0,TRUE,Failed,Didn't Try,FALSE,,
+,5554,QM13,TRUE,FALSE,0,0,2,0,,3,0,3,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM13,TRUE,FALSE,0,0,0,0,,0,0,0,0,7,0,TRUE,Successful,Didn't Try,FALSE,,
+,1657,QM13,TRUE,FALSE,0,0,0,0,,6,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM13,TRUE,FALSE,1,0,0,0,,5,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5990,QM13,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5635,QM14,TRUE,FALSE,0,0,0,0,,1,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,1942,QM14,TRUE,FALSE,0,0,0,0,,2,0,1,0,2,0,TRUE,Successful,Didn't Try,FALSE,,Slow Collection
+,4320,QM14,TRUE,FALSE,0,0,0,0,,2,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3316,QM14,TRUE,FALSE,1,0,0,0,,1,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5951,QM14,TRUE,FALSE,0,0,0,0,,3,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4590,QM14,TRUE,FALSE,0,0,0,0,,5,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad at collecting
+,7177,QM15,TRUE,FALSE,0,0,0,0,,0,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,5038,QM15,TRUE,FALSE,0,0,1,0,,0,0,3,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM15,TRUE,FALSE,2,0,0,0,,3,0,2,0,0,0,TRUE,Failed,Failed,FALSE,,התפרק חלק בניסיון טיפוס
+,3211,QM15,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM15,TRUE,FALSE,0,0,0,0,,1,0,0,0,4,0,FALSE,Failed,Didn't Try,FALSE,,
+,1690,QM15,TRUE,FALSE,1,0,1,0,,0,0,5,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5554,QM16,TRUE,FALSE,0,0,0,0,,0,0,2,0,5,0,TRUE,Failed,Didn't Try,FALSE,,
+,6741,QM16,TRUE,FALSE,0,0,0,0,,8,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM16,TRUE,FALSE,0,0,0,0,,1,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM16,TRUE,FALSE,1,0,0,0,,6,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM17,TRUE,FALSE,1,0,0,0,,2,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6104,QM17,TRUE,FALSE,0,0,0,0,,2,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2230,QM17,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,4590,QM17,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"Did defenses, general blocking"
+,3065,QM17,TRUE,FALSE,0,0,0,0,,3,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,"HP ב Vault גרוע
+הפעיל בוסט כשלא היה להם לא סוויטץ ולא סקייל
+ולא הספיק להפעיל levitate"
+,5715,QM17,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,6740,QM18,TRUE,FALSE,0,0,0,0,,0,0,3,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,4416,QM18,TRUE,FALSE,0,0,0,0,,4,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM18,FALSE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3835,QM18,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6230,QM18,TRUE,FALSE,1,0,0,0,,1,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,רובוט לא יציב
+,3316,QM18,TRUE,FALSE,0,0,1,0,,0,0,7,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM19,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1690,QM19,TRUE,FALSE,0,0,0,0,,0,0,8,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3211,QM19,TRUE,FALSE,0,0,0,0,,0,0,2,0,2,0,FALSE,Didn't Try,Didn't Try,TRUE,,
+,5990,QM19,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3339,QM19,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6736,QM19,TRUE,FALSE,1,0,0,0,,0,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,"Slow Collection, Stopped Working"
+,7079,QM20,TRUE,FALSE,0,0,0,0,,3,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM20,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5987,QM20,TRUE,FALSE,1,0,0,0,,4,0,2,0,1,0,FALSE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,3034,QM20,TRUE,FALSE,1,0,0,0,,3,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7177,QM20,TRUE,FALSE,0,0,0,0,,3,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3083,QM20,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,הדף רובוטים אחרים ל Null Zone
+,1580,QM21,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM21,TRUE,FALSE,1,0,0,0,,5,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM21,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,"נתקע מתחת ל, Null Zone אבל אף אחד לא עשה לו פאול"
+,2630,QM21,TRUE,FALSE,0,0,1,0,,2,0,1,0,2,0,TRUE,Successful,Successful,FALSE,,זרק 3 קוביות לתוך המנגנון של הסוויץ
+,4744,QM21,TRUE,FALSE,0,0,0,0,,6,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM21,FALSE,FALSE,0,0,0,0,,2,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,4586,QM22,TRUE,FALSE,0,0,0,0,,0,0,6,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5291,QM22,TRUE,FALSE,0,0,0,0,,3,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1574,QM22,TRUE,FALSE,0,0,2,0,,1,0,4,0,0,0,TRUE,Successful,Failed,FALSE,,
+,5951,QM22,TRUE,FALSE,0,0,0,0,,0,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2212,QM22,TRUE,FALSE,1,0,0,0,,2,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,הקוביה כל הזמן מחליקה להם מהמנגנון
+,1657,QM22,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5654,QM23,TRUE,FALSE,0,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5635,QM23,TRUE,FALSE,0,0,0,0,,0,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,2679,QM23,TRUE,FALSE,0,0,0,0,,1,0,0,0,7,0,TRUE,Successful,Successful,FALSE,,
+,3339,QM23,TRUE,FALSE,0,0,2,0,,1,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1577,QM23,TRUE,FALSE,2,0,0,0,,0,0,5,0,0,0,TRUE,Successful,Successful,FALSE,,
+,4416,QM23,TRUE,FALSE,1,0,0,0,,1,0,1,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM24,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM24,TRUE,FALSE,1,0,0,0,,4,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,4744,QM24,TRUE,FALSE,0,0,0,0,,2,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5554,QM24,TRUE,FALSE,0,0,1,0,,3,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,2096,QM24,TRUE,FALSE,1,0,0,0,,2,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7067,QM24,TRUE,FALSE,1,0,0,0,,1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,2630,QM25,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5951,QM25,TRUE,FALSE,0,0,0,0,,0,0,2,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM25,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,מאוד מיומנים בהתקנה על סקייל
+,5990,QM25,TRUE,FALSE,1,0,0,0,,4,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3316,QM25,TRUE,FALSE,0,0,1,0,,2,0,2,0,1,0,TRUE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,5038,QM25,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4590,QM26,TRUE,FALSE,1,0,0,0,,2,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM26,TRUE,FALSE,0,0,0,0,,1,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5987,QM26,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1574,QM26,TRUE,FALSE,0,0,1,0,,0,0,8,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,6741,QM26,TRUE,FALSE,0,0,0,0,,1,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM26,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,"השתחרר חבל, הרבה מאוד פאולים ופאולים טכניים"
+,3835,QM27,TRUE,FALSE,1,0,0,0,,2,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1580,QM27,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,3211,QM27,TRUE,FALSE,1,0,0,0,,0,0,2,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7079,QM27,TRUE,FALSE,1,0,0,0,,1,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5635,QM27,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,נראה כאילו הקובייה נתקעה בתוך המחזיק של הרובוט
+,5291,QM27,TRUE,FALSE,0,0,1,0,,4,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1690,QM28,TRUE,FALSE,0,0,1,0,,0,0,5,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM28,TRUE,FALSE,1,0,0,0,,2,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM28,TRUE,FALSE,1,0,0,0,,4,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,ניסה לשים הרבה קוביות בסקייל אך הן נפלו
+,3034,QM28,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6740,QM28,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,5654,QM28,TRUE,FALSE,1,0,0,0,,1,0,0,0,9,0,TRUE,Successful,Didn't Try,FALSE,,
+,1942,QM29,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא הגיעו
+,3075,QM29,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,Slow Collection
+,6104,QM29,TRUE,FALSE,0,0,0,0,,4,0,2,0,0,0,FALSE,Failed,Didn't Try,FALSE,,
+,7039,QM29,TRUE,FALSE,1,0,0,0,,0,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,6736,QM29,TRUE,FALSE,1,0,0,0,,0,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2212,QM29,TRUE,FALSE,1,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM30,TRUE,FALSE,1,0,0,0,,0,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4586,QM30,TRUE,FALSE,1,0,0,0,,1,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM30,TRUE,FALSE,0,0,0,0,,2,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3065,QM30,TRUE,FALSE,1,0,0,0,,0,0,0,0,9,0,TRUE,Didn't Try,Failed,FALSE,,
+,3083,QM30,TRUE,FALSE,0,0,0,0,,1,0,1,0,0,0,TRUE,Successful,Failed,FALSE,,
+,5654,QM31,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1580,QM31,TRUE,FALSE,1,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM31,TRUE,FALSE,0,0,0,0,,0,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7079,QM31,TRUE,FALSE,0,0,0,0,,0,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4416,QM31,FALSE,FALSE,0,0,0,0,,4,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM32,TRUE,FALSE,1,0,0,0,,1,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM32,TRUE,FALSE,0,0,1,0,,0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3211,QM32,TRUE,FALSE,0,0,1,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,4590,QM32,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6736,QM32,TRUE,FALSE,0,0,0,0,,0,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM33,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Didn't show up
+,5987,QM33,TRUE,FALSE,0,0,1,0,,1,0,6,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM33,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM33,TRUE,FALSE,1,0,0,0,,6,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM33,TRUE,FALSE,0,0,0,0,,1,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM33,TRUE,FALSE,1,0,0,0,,8,0,0,0,0,0,TRUE,Successful,Didn't Try,TRUE,,
+,5291,QM34,TRUE,FALSE,0,0,1,0,,2,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,4744,QM34,TRUE,FALSE,0,0,0,0,,4,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3034,QM34,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3316,QM34,TRUE,FALSE,1,0,0,0,,3,0,1,0,1,0,TRUE,Successful,Didn't Try,FALSE,,"היו קצת איטיים, Slow Collection"
+,6230,QM34,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM34,TRUE,FALSE,0,0,0,0,,0,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,TRUE,,"מתרכזים בלהגן, Slow Collection"
+,1577,QM35,TRUE,FALSE,2,0,0,0,,1,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,3339,QM35,TRUE,FALSE,0,0,1,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,1690,QM35,TRUE,FALSE,1,0,0,0,,3,0,6,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6104,QM35,TRUE,FALSE,1,0,0,0,,1,0,0,0,9,0,TRUE,Successful,Didn't Try,FALSE,,
+,5951,QM35,TRUE,FALSE,1,0,0,0,,0,0,0,0,3,0,TRUE,Didn't Try,Successful,FALSE,,
+,5554,QM35,TRUE,FALSE,0,0,1,0,,1,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6741,QM36,TRUE,FALSE,0,0,0,0,,2,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM36,TRUE,FALSE,0,0,0,0,,1,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3083,QM36,TRUE,FALSE,0,0,0,0,,1,0,0,0,3,0,TRUE,Successful,Successful,TRUE,,"Bad Driver, Null Zone Foul*2, Launching Foul, Slow Climb"
+,2212,QM36,TRUE,FALSE,1,0,0,0,,1,0,3,0,2,0,TRUE,Didn't Try,Successful,FALSE,,
+,5635,QM36,FALSE,FALSE,0,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3065,QM36,TRUE,FALSE,1,0,0,0,,4,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM37,TRUE,FALSE,1,0,0,0,,0,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7177,QM37,TRUE,FALSE,0,0,0,0,,1,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,4586,QM37,TRUE,FALSE,1,0,0,0,,4,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,2230,QM37,TRUE,FALSE,0,0,1,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2630,QM37,TRUE,FALSE,1,0,1,0,,0,0,4,0,0,0,TRUE,Successful,Failed,FALSE,,
+,5990,QM37,TRUE,FALSE,0,0,0,0,,7,0,0,0,3,0,TRUE,Failed,Didn't Try,FALSE,,
+,5554,QM38,TRUE,FALSE,0,0,1,0,,1,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,7039,QM38,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,4320,QM38,TRUE,FALSE,0,0,0,0,,3,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM38,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM38,TRUE,FALSE,1,0,0,0,,1,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6740,QM38,TRUE,FALSE,0,0,0,0,,5,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,התקינו לצד הלא נכון של הסוויטץ׳ באוטונומי
+,1577,QM39,TRUE,FALSE,1,0,0,0,,0,0,6,0,0,0,TRUE,Successful,Successful,FALSE,,
+,3316,QM39,TRUE,FALSE,1,0,0,0,,0,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2212,QM39,TRUE,FALSE,0,0,0,0,,0,0,1,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM39,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7079,QM39,TRUE,FALSE,0,0,0,0,,4,0,2,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM40,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM40,TRUE,FALSE,0,0,1,0,,3,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM40,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,אוטוראן גרוע
+,1657,QM40,TRUE,FALSE,0,0,0,0,,4,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3083,QM40,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,עברו חצי באוטונומי
+,2630,QM40,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6736,QM41,TRUE,FALSE,0,0,0,0,,1,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5635,QM41,TRUE,FALSE,0,0,0,0,,2,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,1580,QM41,TRUE,FALSE,0,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM41,TRUE,FALSE,1,0,0,0,,1,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,7039,QM41,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3034,QM41,TRUE,FALSE,0,0,0,0,,1,0,3,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,Human player did not put 2 cubes in the vault
+,3211,QM39,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,TRUE,Didn't Try,Successful,FALSE,,
+,7067,QM42,TRUE,FALSE,0,0,0,0,,1,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM42,TRUE,FALSE,0,0,1,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5951,QM42,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,6230,QM42,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Climbing system fell in the middle
+,4416,QM42,TRUE,FALSE,1,0,0,0,,5,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5990,QM42,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5654,QM43,TRUE,FALSE,1,0,0,0,,2,0,0,0,4,0,TRUE,Successful,Didn't Try,FALSE,,
+,1690,QM43,TRUE,FALSE,0,0,1,0,,0,0,5,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,4590,QM43,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,4586,QM43,TRUE,FALSE,1,0,0,0,,2,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM43,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Many failed switch and scale
+,5987,QM43,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"הרובוט לא יציב נפל על הגב ארבעים שניות לפני סיום המשחק, Bad Driver"
+,6104,QM44,TRUE,FALSE,0,0,0,0,,1,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,7177,QM44,TRUE,FALSE,0,0,0,0,,1,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM44,TRUE,FALSE,0,0,1,0,,0,0,4,0,0,0,TRUE,Didn't Try,Successful,FALSE,,
+,1574,QM44,TRUE,FALSE,2,0,0,0,,0,0,7,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6740,QM44,TRUE,FALSE,0,0,0,0,,0,0,0,0,1,0,TRUE,Didn't Try,Didn't Try,FALSE,,"Null Zone Foul, defensive"
+,4744,QM44,TRUE,FALSE,0,0,0,0,,1,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6741,QM45,TRUE,FALSE,0,0,0,0,,2,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM45,TRUE,FALSE,0,0,0,0,,6,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3065,QM45,TRUE,FALSE,0,0,0,0,,2,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3339,QM45,TRUE,FALSE,2,0,0,0,,3,0,2,0,0,0,TRUE,Successful,Successful,FALSE,,טיפוס השאיר מקום לעוד רובוט לטפס
+,5614,QM45,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5291,QM45,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Didn't Try,Successful,FALSE,,
+,3083,QM46,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,3316,QM46,TRUE,FALSE,1,0,0,0,,0,0,2,0,5,0,TRUE,Failed,Didn't Try,FALSE,,
+,6736,QM46,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM46,TRUE,FALSE,0,0,0,0,,3,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3034,QM46,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,FALSE,Failed,Didn't Try,FALSE,,
+,2679,QM46,TRUE,FALSE,0,0,0,0,,1,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,Null Zone Foul
+,2212,QM47,TRUE,FALSE,1,0,0,0,,1,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5951,QM47,TRUE,FALSE,0,0,0,0,,1,0,1,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2630,QM47,TRUE,FALSE,0,0,1,0,,1,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,7112,QM47,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM47,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5554,QM48,TRUE,FALSE,0,0,1,0,,3,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7067,QM48,TRUE,FALSE,1,0,0,0,,0,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM48,TRUE,FALSE,1,0,0,0,,3,0,1,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM48,TRUE,FALSE,1,0,0,0,,7,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM48,TRUE,FALSE,0,0,0,0,,3,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM48,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,TF-pinned scale
+,5291,QM49,TRUE,FALSE,0,0,0,0,,5,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1574,QM49,TRUE,FALSE,0,0,2,0,,1,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,5990,QM49,TRUE,FALSE,0,0,0,0,,3,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7039,QM49,TRUE,FALSE,0,0,0,0,,1,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,4590,QM49,TRUE,FALSE,1,0,0,0,,7,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM49,TRUE,FALSE,1,0,0,0,,4,0,0,0,5,0,TRUE,Didn't Try,Successful,FALSE,,
+,4744,QM50,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,6741,QM50,TRUE,FALSE,0,0,0,0,,6,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4416,QM50,FALSE,FALSE,0,0,0,0,,4,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7079,QM50,TRUE,FALSE,0,0,0,0,,1,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1690,QM50,TRUE,FALSE,0,0,1,0,,6,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6104,QM50,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נתקעו מתחת לסקייל
+,5635,QM51,TRUE,FALSE,0,0,1,0,,0,0,4,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,4586,QM51,TRUE,FALSE,1,0,0,0,,1,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7177,QM51,TRUE,FALSE,0,0,0,0,,1,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM51,TRUE,FALSE,1,0,0,0,,0,0,1,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working for 30 seconds
+,6740,QM51,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,הוציאו קוביה מחוץ למגרש באוטו והפסיקו לעבוד מאוחר יותר
+,1580,QM51,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3075,QM52,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5654,QM52,TRUE,FALSE,1,0,0,0,,2,0,0,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,5715,QM52,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,3211,QM52,TRUE,FALSE,0,0,0,0,,2,0,2,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,3065,QM52,TRUE,FALSE,0,0,0,0,,1,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM52,TRUE,FALSE,0,0,0,0,,7,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM53,TRUE,FALSE,0,0,0,0,,3,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5990,QM53,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5987,QM53,TRUE,FALSE,1,0,0,0,,0,0,6,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3339,QM53,TRUE,FALSE,0,0,1,0,,2,0,4,0,0,0,TRUE,Successful,Failed,FALSE,,
+,6230,QM53,TRUE,FALSE,0,0,0,0,,2,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM53,TRUE,FALSE,0,0,0,0,,2,0,0,0,7,0,FALSE,Failed,Didn't Try,FALSE,,
+,2212,QM54,TRUE,FALSE,0,0,0,0,,2,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM54,TRUE,FALSE,1,0,0,0,,0,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM54,TRUE,FALSE,1,0,0,0,,1,0,5,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2231,QM54,TRUE,FALSE,2,0,0,0,,3,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,הפילו 3 קוביות מהסקייל שלהם
+,2096,QM54,TRUE,FALSE,0,0,0,0,,0,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,,"טיפוס מהיר
+לא זז חצי משחק"
+,5291,QM54,TRUE,FALSE,0,0,1,0,,0,0,6,0,0,0,TRUE,Failed,Failed,FALSE,,
+,4416,QM55,TRUE,FALSE,0,0,0,0,,3,0,1,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4586,QM55,FALSE,FALSE,0,0,0,0,,1,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,לא זזו 20 שניות
+,6104,QM55,TRUE,FALSE,1,0,0,0,,0,0,7,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5554,QM55,TRUE,FALSE,0,0,0,0,,2,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3083,QM55,TRUE,FALSE,0,0,0,0,,2,0,0,0,4,0,TRUE,Successful,Failed,FALSE,,
+,1942,QM56,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,לא עבד במשך כל המשחק
+,3075,QM56,TRUE,FALSE,0,0,0,0,,4,0,2,0,0,0,FALSE,Failed,Didn't Try,FALSE,,
+,2230,QM56,TRUE,FALSE,1,0,0,0,,5,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1690,QM56,FALSE,FALSE,0,0,0,0,,0,0,3,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,6230,QM56,TRUE,FALSE,0,0,0,0,,4,0,0,0,5,0,FALSE,Failed,Didn't Try,FALSE,,התהפך בניסיון טיפוס
+,5635,QM56,TRUE,FALSE,1,0,0,0,,7,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6740,QM57,TRUE,FALSE,0,0,0,0,,3,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5987,QM57,TRUE,FALSE,1,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7177,QM57,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5951,QM57,TRUE,FALSE,1,0,0,0,,1,0,6,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6736,QM57,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul x3
+,7039,QM58,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"התהפכו באזור נל של הברית השנייה, Null Zone Foul, Stopped Working"
+,3211,QM58,TRUE,FALSE,0,0,1,0,,2,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3339,QM58,TRUE,FALSE,2,0,0,0,,0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,1574,QM58,TRUE,FALSE,1,0,0,0,,0,0,4,0,3,0,TRUE,Successful,Failed,FALSE,,
+,5038,QM58,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,FALSE,Failed,Didn't Try,TRUE,,
+,3065,QM58,TRUE,FALSE,1,0,0,0,,0,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM58,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,2 Null Zone Foul
+,3316,QM59,TRUE,FALSE,0,0,0,0,,4,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2630,QM59,TRUE,FALSE,0,0,0,0,,1,0,5,0,0,0,TRUE,Successful,Successful,FALSE,,
+,7079,QM59,TRUE,FALSE,1,0,0,0,,0,0,0,0,1,0,TRUE,Successful,Didn't Try,FALSE,,
+,7112,QM59,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM59,TRUE,FALSE,2,0,0,0,,0,0,0,0,8,0,TRUE,Successful,Successful,FALSE,,
+,6741,QM59,TRUE,FALSE,0,0,0,0,,2,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM60,TRUE,FALSE,0,0,1,0,,3,0,2,0,2,0,TRUE,Successful,Failed,FALSE,,
+,1580,QM60,TRUE,FALSE,1,0,0,0,,1,0,0,0,0,0,FALSE,Failed,Didn't Try,FALSE,,
+,4590,QM60,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4320,QM60,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM60,TRUE,FALSE,1,0,0,0,,3,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM60,TRUE,FALSE,1,0,0,0,,0,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,1942,QM61,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,2679,QM61,TRUE,FALSE,0,0,0,0,,1,0,0,0,9,0,TRUE,Failed,Didn't Try,FALSE,,
+,4744,QM61,FALSE,FALSE,0,0,0,0,,3,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM61,TRUE,FALSE,1,0,0,0,,0,0,6,0,0,0,TRUE,Didn't Try,Failed,FALSE,,
+,3211,QM61,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,TRUE,,Launching Foul
+,3083,QM61,TRUE,FALSE,0,0,0,0,,2,0,0,0,4,0,TRUE,Successful,Failed,FALSE,,
+,4744,QM57,TRUE,FALSE,0,0,0,0,,1,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7039,QM62,TRUE,FALSE,1,0,0,0,,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5990,QM62,TRUE,FALSE,1,0,0,0,,2,0,0,0,7,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2212,QM62,TRUE,FALSE,1,0,0,0,,2,0,3,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM62,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,2096,QM62,TRUE,FALSE,0,0,0,0,,2,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1690,QM62,TRUE,FALSE,0,0,1,0,,2,0,2,0,1,0,TRUE,Failed,Didn't Try,FALSE,,
+,4320,QM63,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4416,QM63,FALSE,FALSE,0,0,0,0,,5,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1574,QM63,TRUE,FALSE,0,0,1,0,,0,0,1,0,9,0,TRUE,Successful,Failed,FALSE,,
+,2231,QM63,TRUE,FALSE,0,0,0,0,,10,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,7177,QM63,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,7112,QM63,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,"Slow Climb, Slow Collection, Bad Driver"
+,1580,QM64,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM64,TRUE,FALSE,2,0,0,0,,0,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,3065,QM64,TRUE,FALSE,1,0,0,0,,0,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2630,QM64,TRUE,FALSE,1,0,0,0,,0,0,9,0,0,0,TRUE,Successful,Failed,FALSE,,
+,5554,QM64,TRUE,FALSE,0,0,0,0,,1,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"Stopped Working, Bad Driver"
+,5554,QM64,TRUE,FALSE,0,0,0,0,,1,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,TRUE,,"Stopped Working, Bad Driver, Null Zone Foul"
+,6736,QM64,TRUE,FALSE,0,0,0,0,,1,0,0,0,8,0,TRUE,Successful,Didn't Try,FALSE,,טיפסו על סטימספאנק
+,6104,QM65,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,התהפך ונתקע בשלב האוטונומי
+,5635,QM65,TRUE,FALSE,0,0,0,0,,1,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,5987,QM65,TRUE,FALSE,1,0,0,0,,0,0,3,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM65,TRUE,FALSE,1,0,0,0,,1,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1657,QM65,TRUE,FALSE,0,0,0,0,,2,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3316,QM65,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3835,QM66,TRUE,FALSE,0,0,0,0,,1,0,0,0,5,0,TRUE,Successful,Didn't Try,FALSE,,
+,3075,QM66,TRUE,FALSE,1,0,0,0,,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5038,QM66,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5715,QM66,TRUE,FALSE,1,0,0,0,,2,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5951,QM66,TRUE,FALSE,0,0,1,0,,0,0,0,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,3034,QM66,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,TRUE,Failed,Didn't Try,FALSE,,נפל מוט הטיפוס לאחר כמה נסיונות
+,3339,QM67,TRUE,FALSE,2,0,0,0,,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7079,QM67,TRUE,FALSE,0,0,0,0,,3,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM67,TRUE,FALSE,1,0,0,0,,0,0,1,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4590,QM67,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,Null Zone Foul
+,6740,QM67,TRUE,FALSE,0,0,0,0,,3,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4586,QM67,TRUE,FALSE,1,0,0,0,,0,0,7,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5990,QM68,TRUE,FALSE,1,0,0,0,,2,0,0,0,7,0,TRUE,Failed,Didn't Try,FALSE,,
+,1942,QM68,TRUE,FALSE,0,0,0,0,,5,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM68,TRUE,FALSE,1,0,0,0,,7,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,5291,QM68,TRUE,FALSE,0,0,1,0,,5,0,0,0,0,0,TRUE,Failed,Failed,FALSE,,
+,7177,QM68,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,6741,QM68,TRUE,FALSE,0,0,0,0,,2,0,0,0,9,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,1574,QM69,TRUE,FALSE,0,0,1,0,,0,0,4,0,0,0,TRUE,Successful,Successful,FALSE,,
+,4320,QM69,TRUE,FALSE,0,0,0,0,,7,0,0,0,2,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2630,QM69,TRUE,FALSE,1,0,0,0,,2,0,1,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,3316,QM69,TRUE,FALSE,1,0,0,0,,0,0,3,0,1,0,TRUE,Successful,Didn't Try,FALSE,,
+,3835,QM69,TRUE,FALSE,0,0,0,0,,6,0,0,0,1,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1690,QM69,TRUE,FALSE,0,0,1,0,,0,0,6,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,כמעט התהפכו מספר פעמים
+,5614,QM70,TRUE,FALSE,0,0,0,0,,2,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5635,QM70,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4586,QM70,TRUE,FALSE,1,0,0,0,,3,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,7039,QM70,TRUE,FALSE,1,0,0,0,,0,0,3,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,3211,QM70,TRUE,FALSE,0,0,0,0,,0,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,"Bad Driver, Launching Foul, Null Zone Foul"
+,5987,QM70,TRUE,FALSE,0,0,1,0,,0,0,6,0,1,0,FALSE,Didn't Try,Didn't Try,TRUE,,
+,3083,QM71,TRUE,FALSE,0,0,0,0,,3,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM71,TRUE,FALSE,1,0,0,0,,0,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1577,QM71,TRUE,FALSE,1,0,0,0,,1,0,4,0,0,0,TRUE,Successful,Failed,FALSE,,הרובוט שניסה לטפס עליהם נפל על הצד
+,5291,QM71,TRUE,FALSE,0,0,0,0,,2,0,1,0,0,0,FALSE,Didn't Try,Failed,TRUE,,"Null Zone Foul,התהפך כשניסה לטפס על רובוט אחר"
+,6740,QM71,TRUE,FALSE,0,0,0,0,,1,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,איסוף לא טוב
+,3075,QM71,TRUE,FALSE,1,0,0,0,,0,0,5,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,2231,QM72,TRUE,FALSE,1,0,0,0,,7,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM72,TRUE,FALSE,0,0,0,0,,3,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,5951,QM72,TRUE,FALSE,0,0,0,0,,0,0,1,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,"כמות פאולים בלתי נספרת, עשו רק נזק"
+,3065,QM72,TRUE,FALSE,0,0,0,0,,3,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM72,TRUE,FALSE,0,0,0,0,,4,0,0,0,6,0,TRUE,Successful,Didn't Try,FALSE,,
+,7079,QM72,TRUE,FALSE,0,0,0,0,,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2212,QM73,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4744,QM73,TRUE,FALSE,0,0,0,0,,2,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM73,TRUE,FALSE,1,0,0,0,,6,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1657,QM73,TRUE,FALSE,1,0,0,0,,7,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM73,TRUE,FALSE,0,0,0,0,,0,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5554,QM73,TRUE,FALSE,0,0,1,0,,1,0,4,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,4590,QM74,TRUE,FALSE,1,0,0,0,,1,0,0,0,7,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM74,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,6736,QM74,TRUE,FALSE,0,0,0,0,,0,0,0,0,4,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,4416,QM74,TRUE,FALSE,0,0,0,0,,3,0,1,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5038,QM74,TRUE,FALSE,0,0,1,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,ביצעו הגנה מוצלחת אך מיותרת על 6104. לא הצליחו לאסוף
+,6104,QM74,TRUE,FALSE,0,0,0,0,,1,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2230,QM75,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,התהפכו באוטו
+,1580,QM75,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,3339,QM75,TRUE,FALSE,0,0,1,0,,1,0,5,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3034,QM75,TRUE,FALSE,0,0,0,0,,1,0,0,0,3,0,TRUE,Successful,Successful,FALSE,,
+,5715,QM75,TRUE,FALSE,1,0,0,0,,1,0,0,0,5,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6741,QM75,FALSE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Didn't work the whole game
+,5635,QM76,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Stopped Working
+,3316,QM76,TRUE,FALSE,0,0,0,0,,2,0,4,0,1,0,TRUE,Successful,Didn't Try,FALSE,,
+,3065,QM76,TRUE,FALSE,0,0,0,0,,2,0,0,0,8,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,5654,QM76,TRUE,FALSE,0,0,0,0,,4,0,0,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2231,QM76,TRUE,FALSE,1,0,0,0,,0,0,7,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4744,QM76,TRUE,FALSE,0,0,0,0,,3,0,0,0,3,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3835,QM77,TRUE,FALSE,0,0,0,0,,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,7039,QM77,TRUE,FALSE,1,0,0,0,,1,0,3,0,3,0,TRUE,Successful,Didn't Try,FALSE,,
+,7177,QM77,TRUE,FALSE,0,0,0,0,,0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5614,QM77,TRUE,FALSE,0,0,0,0,,0,0,5,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4590,QM77,TRUE,FALSE,1,0,0,0,,4,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,שחקן אנושי נתן קוביה לקבוצה מהברית השנייה
+,1657,QM77,TRUE,FALSE,1,0,0,0,,3,0,1,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,הגנה חזקה מאוד
+,1580,QM78,TRUE,FALSE,1,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"Bad Driver, Stopped Working"
+,2212,QM78,TRUE,FALSE,1,0,0,0,,0,0,0,0,3,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5554,QM78,TRUE,FALSE,0,0,0,0,,2,0,4,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,"נפלו בחמישים שניות לסיום המשחק, Slow Climb"
+,3211,QM78,TRUE,FALSE,1,0,0,0,,2,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,6104,QM78,FALSE,FALSE,0,0,0,0,,1,0,1,0,2,0,TRUE,Successful,Didn't Try,FALSE,,
+,5987,QM78,TRUE,FALSE,0,0,1,0,,2,0,4,0,4,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM79,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,נפלו
+,4320,QM79,TRUE,FALSE,1,0,0,0,,2,0,0,0,9,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6736,QM79,TRUE,FALSE,0,0,0,0,,2,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,6230,QM79,TRUE,FALSE,0,0,0,0,,0,0,3,0,0,0,TRUE,Successful,Successful,FALSE,,
+,5038,QM79,TRUE,FALSE,0,0,0,0,,5,0,1,0,0,0,TRUE,Failed,Didn't Try,FALSE,,
+,7079,QM79,TRUE,FALSE,0,0,0,0,,6,0,1,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,1574,QM80,TRUE,FALSE,0,0,0,0,,5,0,1,0,0,0,TRUE,Successful,Failed,FALSE,,
+,5990,QM80,FALSE,FALSE,0,0,0,0,,2,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2679,QM80,TRUE,FALSE,0,0,0,0,,1,0,0,0,5,0,TRUE,Didn't Try,Didn't Try,FALSE,,Null Zone Foul x2
+,1577,QM80,TRUE,FALSE,1,0,0,0,,0,0,3,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,1942,QM80,TRUE,FALSE,0,0,0,0,,0,0,0,0,0,0,TRUE,Didn't Try,Didn't Try,TRUE,,יותר נזק מתועלת
+,3034,QM80,TRUE,FALSE,0,0,0,0,,2,0,0,0,4,0,TRUE,Successful,Didn't Try,FALSE,,
+,4586,QM81,TRUE,FALSE,1,0,0,0,,0,0,7,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,6741,QM81,TRUE,FALSE,0,0,0,0,,1,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2096,QM81,TRUE,FALSE,1,0,0,0,,2,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,TRUE,,Launching Foul
+,3075,QM81,TRUE,FALSE,0,0,1,0,,0,0,6,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7112,QM81,TRUE,FALSE,0,0,0,0,,1,0,0,0,2,0,FALSE,Didn't Try,Didn't Try,FALSE,,"Bad Collection, blocked a robot for 10sec"
+,5951,QM81,TRUE,FALSE,0,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,7067,QM82,TRUE,FALSE,0,0,0,0,,0,0,0,0,6,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,3083,QM82,TRUE,FALSE,0,0,0,0,,3,0,0,0,4,0,TRUE,Successful,Didn't Try,FALSE,,
+,2630,QM82,TRUE,FALSE,0,0,0,0,,0,0,4,0,0,0,TRUE,Successful,Successful,FALSE,,
+,5715,QM82,TRUE,FALSE,1,0,0,0,,0,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,Slow Collection
+,1690,QM82,TRUE,FALSE,0,0,1,0,,0,0,6,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,3339,QM82,TRUE,FALSE,2,0,0,0,,2,0,2,0,0,0,FALSE,Failed,Didn't Try,FALSE,,נפל מוט טיפוס לקראת סוף המשחק לפני הטיפוס
+,6740,QM83,TRUE,FALSE,0,0,0,0,,1,0,0,0,8,0,FALSE,Didn't Try,Didn't Try,FALSE,,Bad Driver
+,5291,QM83,TRUE,FALSE,1,0,0,0,,3,0,3,0,0,0,TRUE,Successful,Didn't Try,FALSE,,
+,2679,QM83,FALSE,FALSE,0,0,0,0,,1,0,0,0,6,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,4416,QM83,TRUE,FALSE,0,0,0,0,,4,0,2,0,0,0,FALSE,Didn't Try,Didn't Try,FALSE,,
+,5554,QM83,TRUE,FALSE,1,0,0,0,,2,0,3,0,0,0,TRUE,Didn't Try,Didn't Try,FALSE,,
+,2230,QM83,FALSE,FALSE,0,0,0,0,,0,0,1,0,0,0,FALSE,Failed,Didn't Try,FALSE,,"Stopped Working
+(אתה לא יכול ליפול אם אתה לא זז)"

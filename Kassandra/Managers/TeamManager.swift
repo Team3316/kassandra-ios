@@ -12,18 +12,21 @@ import Alamofire
 import Charts
 
 class TeamManager {
-  static let isde1: TeamManager = TeamManager(event: "isde1")
-  static let isde3: TeamManager = TeamManager(event: "isde3")
-  static let isde4: TeamManager = TeamManager(event: "isde4")
-  static let iscmp: TeamManager = TeamManager()
+  static let isde1: TeamManager = TeamManager(event: Event.isde1)
+  static let isde3: TeamManager = TeamManager(event: Event.isde3)
+  static let isde4: TeamManager = TeamManager(event: Event.isde4)
+  static let iscmp: TeamManager = TeamManager(event: Event.iscmp)
+  static let preRoebling: TeamManager = TeamManager(event: Event.preRoebling)
 
   static let shared: TeamManager = TeamManager()
+  static var chosenEvent: Event = Event.roebling
 
   var matches: [MatchData]
-  var event: String
+  var event: Event
 
   var graphsDelegate: TeamManagerDelegate?
   var commentsDelegate: TeamManagerDelegate?
+  var searchDelegate: TeamManagerDelegate?
 
   enum RecordType {
     case scales
@@ -68,6 +71,8 @@ class TeamManager {
     case isde3
     case isde4
     case iscmp
+    case preRoebling
+    case roebling
 
     func name () -> String {
       switch self {
@@ -75,6 +80,27 @@ class TeamManager {
         case .isde3: return "ISDE 3"
         case .isde4: return "ISDE 4"
         case .iscmp: return "ISCMP"
+        case .roebling: return "Roebling Division"
+        case .preRoebling: return "Pre-Champs"
+      }
+    }
+
+    func filename () -> String {
+      switch self {
+        case .isde1: return "isde1"
+        case .isde3: return "isde3"
+        case .isde4: return "isde4"
+        case .iscmp: return "iscmp"
+        case .preRoebling: return "preroebling"
+        case .roebling: return "roebling"
+      }
+    }
+
+    func isChamps () -> Bool {
+      switch self {
+        case .roebling: return true
+        case .preRoebling: return true
+        default: return false
       }
     }
   }
@@ -82,8 +108,8 @@ class TeamManager {
   /*
    * Instance Methods
    */
-  init (event: String) {
-    let data = TeamManager.getLocalData(in: event)
+  init (event: Event) {
+    let data = TeamManager.getLocalData(in: event.filename())
     var m = [MatchData]()
     while let row = data.next() {
       m.append(MatchData(data: row))
@@ -94,7 +120,7 @@ class TeamManager {
 
   init () {
     self.matches = []
-    self.event = "ISCMP"
+    self.event = Event.roebling
   }
 
   func set (matches: [MatchData]) {
@@ -110,7 +136,8 @@ class TeamManager {
   }
 
   func set (event: Event) {
-    self.event = event.name()
+    self.event = event
+    TeamManager.chosenEvent = event
 
     if let gDelegate = self.graphsDelegate {
       gDelegate.teamManager(didChooseEvent: event)
@@ -119,16 +146,22 @@ class TeamManager {
     if let cDelegate = self.commentsDelegate {
       cDelegate.teamManager(didChooseEvent: event)
     }
+
+    if let sDelegate = self.searchDelegate {
+      sDelegate.teamManager(didChooseEvent: event)
+    }
   }
 
   func set (rankings: [Int], with callback: @escaping () -> ()) {
     let body: [String: [Int]] = [
       "ranks": rankings
     ]
+    let configKey = self.event.isChamps() ? Config.champsRankingsKey : Config.isrRankingsKey
+
     Alamofire
       .request("\(Config.backendUrl)/rankings", method: .put, parameters: body, encoding: JSONEncoding.default, headers: nil)
       .responseJSON { (resp) in
-        UserDefaults.standard.set(rankings, forKey: Config.rankingsKey)
+        UserDefaults.standard.set(rankings, forKey: configKey)
         callback()
       }
   }
@@ -163,11 +196,19 @@ class TeamManager {
   }
 
   func getEvents (of team: Int) -> [(String, Bool, Event)] {
+    let isInIsde1 = TeamManager.isde1.isInEvent(team: team)
+    let isInIsde3 = TeamManager.isde3.isInEvent(team: team)
+    let isInIsde4 = TeamManager.isde4.isInEvent(team: team)
+    let isInIscmp = TeamManager.iscmp.isInEvent(team: team)
+    let isInRoebling = team == 3316 || (!isInIsde1 && !isInIsde3 && !isInIsde4 && !isInIscmp)
+
     return [
-      ("District #1", TeamManager.isde1.isInEvent(team: team), Event.isde1),
-      ("District #3", TeamManager.isde3.isInEvent(team: team), Event.isde3),
-      ("District #4", TeamManager.isde4.isInEvent(team: team), Event.isde4),
-      ("District Championship", true, Event.iscmp)
+      ("ISR District #1", isInIsde1, Event.isde1),
+      ("ISR District #3", isInIsde3, Event.isde3),
+      ("ISR District #4", isInIsde4, Event.isde4),
+      ("ISR District Championship", isInIscmp, Event.iscmp),
+      ("Pre-Roebling", TeamManager.preRoebling.isInEvent(team: team), Event.preRoebling),
+      ("Roebling Division", isInRoebling, Event.roebling)
     ]
   }
 
@@ -324,20 +365,20 @@ class TeamManager {
     return average(data: scales + switches + exchanges, keep: Double(data.count))
   }
 
-  static func getTeams (with callback: @escaping ([Int]) -> ()) {
+  static func getIsrTeams (with callback: @escaping ([Int]) -> ()) {
     let headers: HTTPHeaders = [
       "X-TBA-Auth-Key": Config.authKey
     ]
 
-    let teamsList = UserDefaults.standard.array(forKey: Config.teamsKey)
+    let teamsList = UserDefaults.standard.array(forKey: Config.isrTeamsKey)
     if teamsList == nil {
-      Alamofire.request(Config.tbaUrl, headers: headers).responseJSON { resp in
+      Alamofire.request(Config.tbaIsrUrl, headers: headers).responseJSON { resp in
         // Array of teams in ranks 1 to 45
         let data = resp.result.value! as! [[String: Any]]
         let participatingTeams = data
           .filter({ ($0["rank"] as! Int) <= 45 })
           .map({ Int(($0["team_key"] as! String).replacingOccurrences(of: "frc", with: "")) ?? -1 })
-        UserDefaults.standard.set(participatingTeams, forKey: Config.teamsKey)
+        UserDefaults.standard.set(participatingTeams, forKey: Config.isrTeamsKey)
         callback(participatingTeams)
       }
     } else {
@@ -345,11 +386,40 @@ class TeamManager {
     }
   }
 
+  static func getChampsTeams (with callback: @escaping ([Int]) -> ()) {
+    let headers: HTTPHeaders = [
+      "X-TBA-Auth-Key": Config.authKey
+    ]
+
+    let teamsList = UserDefaults.standard.array(forKey: Config.champsTeamsKey)
+    if teamsList == nil {
+      Alamofire.request(Config.tbaChampsUrl, headers: headers).responseJSON { resp in
+        let data = resp.result.value! as! [[String: Any]]
+        let participatingTeams = data
+          .map({ Int(($0["key"] as! String).replacingOccurrences(of: "frc", with: "")) ?? -1 })
+        UserDefaults.standard.set(participatingTeams, forKey: Config.champsTeamsKey)
+        callback(participatingTeams)
+      }
+    } else {
+      callback(teamsList as! [Int])
+    }
+  }
+
+  static func getTeams (with callback: @escaping ([Int]) -> ()) {
+    if self.chosenEvent.isChamps() {
+      self.getChampsTeams(with: callback)
+    } else {
+      self.getIsrTeams(with: callback)
+    }
+  }
+
   static func getRankings (with callback: @escaping ([Int]) -> ()) {
-    let rankings = UserDefaults.standard.array(forKey: Config.rankingsKey)
+    let configKey = self.chosenEvent.isChamps() ? Config.champsTeamsKey : Config.isrRankingsKey
+    let rankings = UserDefaults.standard.array(forKey: configKey)
+
     if rankings == nil {
       TeamManager.getTeams() { (teams) in
-        UserDefaults.standard.set(teams, forKey: Config.rankingsKey)
+        UserDefaults.standard.set(teams, forKey: configKey)
         callback(teams)
       }
     } else {

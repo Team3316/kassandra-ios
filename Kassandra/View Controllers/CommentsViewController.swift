@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class CommentsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, TeamManagerDelegate {
   @IBOutlet weak var tableView: UITableView!
@@ -21,6 +22,8 @@ class CommentsViewController: UIViewController, UITableViewDelegate, UITableView
 
   func configureView () {
     self.loadViewIfNeeded()
+    MBProgressHUD.hide(for: self.view, animated: true)
+
     let comments = self.teamManager!.getMatches(of: self.teamNumber!).map { ($0.matchName(), $0.comments) }
     self.comments = comments
     self.tableView.reloadData()
@@ -71,13 +74,27 @@ extension CommentsViewController {
   }
 
   func teamManager(didChooseEvent event: TeamManager.Event) {
-    var matches: [MatchData] = []
-    switch event {
-      case .isde1: matches = TeamManager.isde1.getMatches(of: self.teamNumber!)
-      case .isde3: matches = TeamManager.isde3.getMatches(of: self.teamNumber!)
-      case .isde4: matches = TeamManager.isde4.getMatches(of: self.teamNumber!)
-      default: matches = []
+    self.teamManager?.set(matches: [])
+    if event != TeamManager.Event.roebling {
+      var matches: [MatchData] = []
+      switch event {
+        case .isde1: matches = TeamManager.isde1.getMatches(of: self.teamNumber!)
+        case .isde3: matches = TeamManager.isde3.getMatches(of: self.teamNumber!)
+        case .isde4: matches = TeamManager.isde4.getMatches(of: self.teamNumber!)
+        case .iscmp: matches = TeamManager.iscmp.getMatches(of: self.teamNumber!)
+        case .preRoebling: matches = TeamManager.preRoebling.getMatches(of: self.teamNumber!)
+        default: matches = []
+      }
+      self.teamManager?.set(matches: matches)
+    } else {
+      self.refreshData()
     }
-    self.teamManager?.set(matches: matches)
+    self.parent?.title = "Comments - Team #\(self.teamNumber!) in \(event.name())"
+  }
+
+  func refreshData () {
+    let hud = MBProgressHUD.showAdded(to: self.view, animated: true)
+    hud.label.text = "Loading matches..."
+    self.teamManager?.getRemoteData(of: self.teamNumber!)
   }
 }

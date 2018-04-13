@@ -20,7 +20,9 @@ class DatasetsViewController: UIViewController, UITableViewDelegate, UITableView
     self.tableView.dataSource = self
     self.tableView.delegate = self
 
-    self.events = self.teamManager!.getEvents(of: self.teamNumber)
+    if let manager = self.teamManager {
+      self.events = manager.getEvents(of: self.teamNumber)
+    }
   }
 
   override func didReceiveMemoryWarning() {

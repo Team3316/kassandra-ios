@@ -65,12 +65,14 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
 extension StatsViewController {
   func teamManager (didChooseEvent event: TeamManager.Event) {
     self.teamManager?.set(matches: [])
-    if event != TeamManager.Event.iscmp {
+    if event != TeamManager.Event.roebling {
       var matches: [MatchData] = []
       switch event {
         case .isde1: matches = TeamManager.isde1.getMatches(of: self.teamNumber!)
         case .isde3: matches = TeamManager.isde3.getMatches(of: self.teamNumber!)
         case .isde4: matches = TeamManager.isde4.getMatches(of: self.teamNumber!)
+        case .iscmp: matches = TeamManager.iscmp.getMatches(of: self.teamNumber!)
+        case .preRoebling: matches = TeamManager.preRoebling.getMatches(of: self.teamNumber!)
         default: matches = []
       }
       self.teamManager?.set(matches: matches)

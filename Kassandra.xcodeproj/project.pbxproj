@@ -18,6 +18,8 @@
 		A58E9DA62067E159001EF783 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E9DA52067E159001EF783 /* TeamCell.swift */; };
 		A5A2FDE120654C170013D477 /* DatasetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */; };
 		A5A2FDE220654C170013D477 /* DatasetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A2FDE020654C170013D477 /* DatasetsViewController.xib */; };
+		A5A47CC0208149350099F2B6 /* preroebling.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5A47CBF208149340099F2B6 /* preroebling.csv */; };
+		A5A47CC220814C6F0099F2B6 /* iscmp.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5A47CC120814C6F0099F2B6 /* iscmp.csv */; };
 		A5CF093D2065A40500B9F244 /* isde3.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5CF093C2065A40500B9F244 /* isde3.csv */; };
 		A5FC50C1205D207700DB34CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C0205D207700DB34CF /* AppDelegate.swift */; };
 		A5FC50C3205D207700DB34CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC50C2205D207700DB34CF /* MasterViewController.swift */; };
@@ -64,6 +66,8 @@
 		A58E9DA52067E159001EF783 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
 		A5A2FDDF20654C170013D477 /* DatasetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasetsViewController.swift; sourceTree = "<group>"; };
 		A5A2FDE020654C170013D477 /* DatasetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatasetsViewController.xib; sourceTree = "<group>"; };
+		A5A47CBF208149340099F2B6 /* preroebling.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = preroebling.csv; sourceTree = "<group>"; };
+		A5A47CC120814C6F0099F2B6 /* iscmp.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iscmp.csv; sourceTree = "<group>"; };
 		A5CF093C2065A40500B9F244 /* isde3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isde3.csv; sourceTree = "<group>"; };
 		A5FC50BD205D207700DB34CF /* Kassandra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kassandra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC50C0205D207700DB34CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				A5FC50E6205D354300DB34CF /* isde1.csv */,
 				A5CF093C2065A40500B9F244 /* isde3.csv */,
 				A55076B520695A5F001F0978 /* isde4.csv */,
+				A5A47CC120814C6F0099F2B6 /* iscmp.csv */,
+				A5A47CBF208149340099F2B6 /* preroebling.csv */,
 				A5FC50C0205D207700DB34CF /* AppDelegate.swift */,
 				A5FC50E4205D276400DB34CF /* Config.swift */,
 				A5FC50EC205D3DF400DB34CF /* Extensions.swift */,
@@ -317,6 +323,8 @@
 			files = (
 				A5FC50CD205D207700DB34CF /* LaunchScreen.storyboard in Resources */,
 				A5FC50CA205D207700DB34CF /* Assets.xcassets in Resources */,
+				A5A47CC220814C6F0099F2B6 /* iscmp.csv in Resources */,
+				A5A47CC0208149350099F2B6 /* preroebling.csv in Resources */,
 				A5FC50C8205D207700DB34CF /* Main.storyboard in Resources */,
 				A55076B620695A5F001F0978 /* isde4.csv in Resources */,
 				A5FC50E7205D354300DB34CF /* isde1.csv in Resources */,

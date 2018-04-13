@@ -36,6 +36,8 @@ class MasterViewController: UITableViewController {
     self.navigationController?.navigationBar.prefersLargeTitles = true
     self.navigationController?.navigationItem.largeTitleDisplayMode = .always
     self.navigationItem.searchController?.isActive = true
+
+    TeamManager.shared.searchDelegate = self
   }
 
   override func viewWillAppear(_ animated: Bool) {
@@ -119,5 +121,21 @@ extension MasterViewController {
     let object = arr[indexPath.row]
     cell.textLabel!.text = "\(object)"
     return cell
+  }
+}
+
+/*
+ * TeamManager delegate
+ */
+extension MasterViewController: TeamManagerDelegate {
+  func teamManager(didSetMatches matches: [MatchData]) {
+    // Don't care 'bout dat
+  }
+
+  func teamManager(didChooseEvent event: TeamManager.Event) {
+    TeamManager.getTeams { (teams) in
+      self.objects = teams
+      self.tableView.reloadData()
+    }
   }
 }
