@@ -9,10 +9,18 @@
 import UIKit
 
 struct Config {
-  static let tbaUrl: String = "https://www.thebluealliance.com/api/v3/district/2018isr/rankings"
-  static let backendUrl: String = "https://powerful-oasis-78904.herokuapp.com/get_csv"
+  static let tbaIsrUrl: String = "https://www.thebluealliance.com/api/v3/district/2018isr/rankings"
+  static let tbaChampsUrl: String = "https://www.thebluealliance.com/api/v3/event/2018roe/teams"
+
+  static let backendUrl: String = "https://powerful-oasis-78904.herokuapp.com"
   static let authKey: String = "2AaKZlZHDHpdYxMNN6Qj6nNGpXMA1JAYqsnRXmva3Cau6GMqB9nSHIPbCElKsxwO"
-  static let teamsKey: String = "com.jonathano.Kassandra.teamList"
+  static let teamNumber: Int = 3316
+
+  static let isrTeamsKey: String = "com.jonathano.Kassandra.isrTeamsList"
+  static let isrRankingsKey: String = "com.jonathano.Kassandra.isrRankingsList"
+
+  static let champsTeamsKey: String = "com.jonathano.Kassandra.champsTeamsList"
+  static let champsRankingsKey: String = "com.jonathano.Kassandra.champsRankingsList"
 
   static let matchRegex: String = "(PM|QM|QF|SF|F)[ -]?([0-9]+)"
   static let trueString: String = "TRUE"

@@ -182,15 +182,23 @@ class TeamManager {
     }
   }
 
+  func dedupeData (then: @escaping () -> ()) {
+    Alamofire.request("\(Config.backendUrl)/hide_duplicates").responseJSON { resp in
+      then()
+    }
+  }
+
   func getRemoteData (of team: Int, then: (() -> ())? = nil) {
-    Alamofire.request("\(Config.backendUrl)/get_csv/\(team)").responseJSON { resp in
-      let data = (resp.result.value! as! [[Any]])
-        .map({ a in
-          return a.map({ String(describing: $0) })
-        }).map({ MatchData(data: $0) })
-      self.set(matches: data)
-      if let then = then {
-        then()
+    self.dedupeData {
+      Alamofire.request("\(Config.backendUrl)/get_csv/\(team)").responseJSON { resp in
+        let data = (resp.result.value! as! [[Any]])
+          .map({ a in
+            return a.map({ String(describing: $0) })
+          }).map({ MatchData(data: $0) })
+        self.set(matches: data)
+        if let then = then {
+          then()
+        }
       }
     }
   }

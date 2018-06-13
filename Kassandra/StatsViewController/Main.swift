@@ -47,7 +47,7 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
   override func viewDidAppear(_ animated: Bool) {
     let settingsButton = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(self.popover(_:)))
     settingsButton.tintColor = Config.teamColor
-    self.parent?.navigationItem.rightBarButtonItem = settingsButton
+    self.parent?.navigationItem.rightBarButtonItems = [settingsButton]
 
     let refreshButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(self.refreshData))
     refreshButton.tintColor = Config.teamColor
@@ -56,6 +56,10 @@ class StatsViewController: UIViewController, TeamManagerDelegate {
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
+  }
+
+  @objc func dedupe () {
+
   }
 }
 
